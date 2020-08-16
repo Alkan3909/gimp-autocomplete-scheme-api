@@ -1,0 +1,5585 @@
+// Author ... civAnimal ... 2020
+
+{
+  "scope": "source.lisp",
+  "completions": [
+    {
+      "trigger": "cnSF-IMAGE",
+      "contents": "SF-IMAGE"
+    },
+    {
+      "trigger": "cnSF-DRAWABLE",
+      "contents": "SF-DRAWABLE"
+    },
+    {
+      "trigger": "cnSF-LAYER",
+      "contents": "SF-LAYER"
+    },
+    {
+      "trigger": "cnSF-CHANNEL",
+      "contents": "SF-CHANNEL"
+    },
+    {
+      "trigger": "cnSF-VECTORS",
+      "contents": "SF-VECTORS"
+    },
+    {
+      "trigger": "cnSF-COLOR",
+      "contents": "SF-COLOR"
+    },
+    {
+      "trigger": "cnSF-TOGGLE",
+      "contents": "SF-TOGGLE"
+    },
+    {
+      "trigger": "cnSF-VALUE",
+      "contents": "SF-VALUE"
+    },
+    {
+      "trigger": "cnSF-STRING",
+      "contents": "SF-STRING"
+    },
+    {
+      "trigger": "cnSF-ADJUSTMENT",
+      "contents": "SF-ADJUSTMENT"
+    },
+    {
+      "trigger": "cnSF-FONT",
+      "contents": "SF-FONT"
+    },
+    {
+      "trigger": "cnSF-PATTERN",
+      "contents": "SF-PATTERN"
+    },
+    {
+      "trigger": "cnSF-BRUSH",
+      "contents": "SF-BRUSH"
+    },
+    {
+      "trigger": "cnSF-GRADIENT",
+      "contents": "SF-GRADIENT"
+    },
+    {
+      "trigger": "cnSF-FILENAME",
+      "contents": "SF-FILENAME"
+    },
+    {
+      "trigger": "cnSF-DIRNAME",
+      "contents": "SF-DIRNAME"
+    },
+    {
+      "trigger": "cnSF-OPTION",
+      "contents": "SF-OPTION"
+    },
+    {
+      "trigger": "cnSF-PALETTE",
+      "contents": "SF-PALETTE"
+    },
+    {
+      "trigger": "cnSF-TEXT",
+      "contents": "SF-TEXT"
+    },
+    {
+      "trigger": "cnSF-ENUM",
+      "contents": "SF-ENUM"
+    },
+    {
+      "trigger": "cnSF-DISPLAY",
+      "contents": "SF-DISPLAY"
+    },
+    {
+      "trigger": "cnSF-SLIDER",
+      "contents": "SF-SLIDER"
+    },
+    {
+      "trigger": "cnSF-SPINNER",
+      "contents": "SF-SPINNER"
+    },
+    {
+      "trigger": "cnLAYER-MODE-NORMAL-LEGACY",
+      "contents": "LAYER-MODE-NORMAL-LEGACY"
+    },
+    {
+      "trigger": "cnLAYER-MODE-DISSOLVE",
+      "contents": "LAYER-MODE-DISSOLVE"
+    },
+    {
+      "trigger": "cnLAYER-MODE-BEHIND-LEGACY",
+      "contents": "LAYER-MODE-BEHIND-LEGACY"
+    },
+    {
+      "trigger": "cnLAYER-MODE-MULTIPLY-LEGACY",
+      "contents": "LAYER-MODE-MULTIPLY-LEGACY"
+    },
+    {
+      "trigger": "cnLAYER-MODE-SCREEN-LEGACY",
+      "contents": "LAYER-MODE-SCREEN-LEGACY"
+    },
+    {
+      "trigger": "cnLAYER-MODE-OVERLAY-LEGACY",
+      "contents": "LAYER-MODE-OVERLAY-LEGACY"
+    },
+    {
+      "trigger": "cnLAYER-MODE-DIFFERENCE-LEGACY",
+      "contents": "LAYER-MODE-DIFFERENCE-LEGACY"
+    },
+    {
+      "trigger": "cnLAYER-MODE-ADDITION-LEGACY",
+      "contents": "LAYER-MODE-ADDITION-LEGACY"
+    },
+    {
+      "trigger": "cnLAYER-MODE-SUBTRACT-LEGACY",
+      "contents": "LAYER-MODE-SUBTRACT-LEGACY"
+    },
+    {
+      "trigger": "cnLAYER-MODE-DARKEN-ONLY-LEGACY",
+      "contents": "LAYER-MODE-DARKEN-ONLY-LEGACY"
+    },
+    {
+      "trigger": "cnLAYER-MODE-LIGHTEN-ONLY-LEGACY",
+      "contents": "LAYER-MODE-LIGHTEN-ONLY-LEGACY"
+    },
+    {
+      "trigger": "cnLAYER-MODE-HSV-HUE-LEGACY",
+      "contents": "LAYER-MODE-HSV-HUE-LEGACY"
+    },
+    {
+      "trigger": "cnLAYER-MODE-HSV-SATURATION-LEGACY",
+      "contents": "LAYER-MODE-HSV-SATURATION-LEGACY"
+    },
+    {
+      "trigger": "cnLAYER-MODE-HSL-COLOR-LEGACY",
+      "contents": "LAYER-MODE-HSL-COLOR-LEGACY"
+    },
+    {
+      "trigger": "cnLAYER-MODE-HSV-VALUE-LEGACY",
+      "contents": "LAYER-MODE-HSV-VALUE-LEGACY"
+    },
+    {
+      "trigger": "cnLAYER-MODE-DIVIDE-LEGACY",
+      "contents": "LAYER-MODE-DIVIDE-LEGACY"
+    },
+    {
+      "trigger": "cnLAYER-MODE-DODGE-LEGACY",
+      "contents": "LAYER-MODE-DODGE-LEGACY"
+    },
+    {
+      "trigger": "cnLAYER-MODE-BURN-LEGACY",
+      "contents": "LAYER-MODE-BURN-LEGACY"
+    },
+    {
+      "trigger": "cnLAYER-MODE-HARDLIGHT-LEGACY",
+      "contents": "LAYER-MODE-HARDLIGHT-LEGACY"
+    },
+    {
+      "trigger": "cnLAYER-MODE-SOFTLIGHT-LEGACY",
+      "contents": "LAYER-MODE-SOFTLIGHT-LEGACY"
+    },
+    {
+      "trigger": "cnLAYER-MODE-GRAIN-EXTRACT-LEGACY",
+      "contents": "LAYER-MODE-GRAIN-EXTRACT-LEGACY"
+    },
+    {
+      "trigger": "cnLAYER-MODE-GRAIN-MERGE-LEGACY",
+      "contents": "LAYER-MODE-GRAIN-MERGE-LEGACY"
+    },
+    {
+      "trigger": "cnLAYER-MODE-COLOR-ERASE-LEGACY",
+      "contents": "LAYER-MODE-COLOR-ERASE-LEGACY"
+    },
+    {
+      "trigger": "cnLAYER-MODE-OVERLAY",
+      "contents": "LAYER-MODE-OVERLAY"
+    },
+    {
+      "trigger": "cnLAYER-MODE-LCH-HUE",
+      "contents": "LAYER-MODE-LCH-HUE"
+    },
+    {
+      "trigger": "cnLAYER-MODE-LCH-CHROMA",
+      "contents": "LAYER-MODE-LCH-CHROMA"
+    },
+    {
+      "trigger": "cnLAYER-MODE-LCH-COLOR",
+      "contents": "LAYER-MODE-LCH-COLOR"
+    },
+    {
+      "trigger": "cnLAYER-MODE-LCH-LIGHTNESS",
+      "contents": "LAYER-MODE-LCH-LIGHTNESS"
+    },
+    {
+      "trigger": "cnLAYER-MODE-NORMAL",
+      "contents": "LAYER-MODE-NORMAL"
+    },
+    {
+      "trigger": "cnLAYER-MODE-BEHIND",
+      "contents": "LAYER-MODE-BEHIND"
+    },
+    {
+      "trigger": "cnLAYER-MODE-MULTIPLY",
+      "contents": "LAYER-MODE-MULTIPLY"
+    },
+    {
+      "trigger": "cnLAYER-MODE-SCREEN",
+      "contents": "LAYER-MODE-SCREEN"
+    },
+    {
+      "trigger": "cnLAYER-MODE-DIFFERENCE",
+      "contents": "LAYER-MODE-DIFFERENCE"
+    },
+    {
+      "trigger": "cnLAYER-MODE-ADDITION",
+      "contents": "LAYER-MODE-ADDITION"
+    },
+    {
+      "trigger": "cnLAYER-MODE-SUBTRACT",
+      "contents": "LAYER-MODE-SUBTRACT"
+    },
+    {
+      "trigger": "cnLAYER-MODE-DARKEN-ONLY",
+      "contents": "LAYER-MODE-DARKEN-ONLY"
+    },
+    {
+      "trigger": "cnLAYER-MODE-LIGHTEN-ONLY",
+      "contents": "LAYER-MODE-LIGHTEN-ONLY"
+    },
+    {
+      "trigger": "cnLAYER-MODE-HSV-HUE",
+      "contents": "LAYER-MODE-HSV-HUE"
+    },
+    {
+      "trigger": "cnLAYER-MODE-HSV-SATURATION",
+      "contents": "LAYER-MODE-HSV-SATURATION"
+    },
+    {
+      "trigger": "cnLAYER-MODE-HSL-COLOR",
+      "contents": "LAYER-MODE-HSL-COLOR"
+    },
+    {
+      "trigger": "cnLAYER-MODE-HSV-VALUE",
+      "contents": "LAYER-MODE-HSV-VALUE"
+    },
+    {
+      "trigger": "cnLAYER-MODE-DIVIDE",
+      "contents": "LAYER-MODE-DIVIDE"
+    },
+    {
+      "trigger": "cnLAYER-MODE-DODGE",
+      "contents": "LAYER-MODE-DODGE"
+    },
+    {
+      "trigger": "cnLAYER-MODE-BURN",
+      "contents": "LAYER-MODE-BURN"
+    },
+    {
+      "trigger": "cnLAYER-MODE-HARDLIGHT",
+      "contents": "LAYER-MODE-HARDLIGHT"
+    },
+    {
+      "trigger": "cnLAYER-MODE-SOFTLIGHT",
+      "contents": "LAYER-MODE-SOFTLIGHT"
+    },
+    {
+      "trigger": "cnLAYER-MODE-GRAIN-EXTRACT",
+      "contents": "LAYER-MODE-GRAIN-EXTRACT"
+    },
+    {
+      "trigger": "cnLAYER-MODE-GRAIN-MERGE",
+      "contents": "LAYER-MODE-GRAIN-MERGE"
+    },
+    {
+      "trigger": "cnLAYER-MODE-VIVID-LIGHT",
+      "contents": "LAYER-MODE-VIVID-LIGHT"
+    },
+    {
+      "trigger": "cnLAYER-MODE-PIN-LIGHT",
+      "contents": "LAYER-MODE-PIN-LIGHT"
+    },
+    {
+      "trigger": "cnLAYER-MODE-LINEAR-LIGHT",
+      "contents": "LAYER-MODE-LINEAR-LIGHT"
+    },
+    {
+      "trigger": "cnLAYER-MODE-HARD-MIX",
+      "contents": "LAYER-MODE-HARD-MIX"
+    },
+    {
+      "trigger": "cnLAYER-MODE-EXCLUSION",
+      "contents": "LAYER-MODE-EXCLUSION"
+    },
+    {
+      "trigger": "cnLAYER-MODE-LINEAR-BURN",
+      "contents": "LAYER-MODE-LINEAR-BURN"
+    },
+    {
+      "trigger": "cnLAYER-MODE-LUMA-DARKEN-ONLY",
+      "contents": "LAYER-MODE-LUMA-DARKEN-ONLY"
+    },
+    {
+      "trigger": "cnLAYER-MODE-LUMA-LIGHTEN-ONLY",
+      "contents": "LAYER-MODE-LUMA-LIGHTEN-ONLY"
+    },
+    {
+      "trigger": "cnLAYER-MODE-LUMINANCE",
+      "contents": "LAYER-MODE-LUMINANCE"
+    },
+    {
+      "trigger": "cnLAYER-MODE-COLOR-ERASE",
+      "contents": "LAYER-MODE-COLOR-ERASE"
+    },
+    {
+      "trigger": "cnLAYER-MODE-ERASE",
+      "contents": "LAYER-MODE-ERASE"
+    },
+    {
+      "trigger": "cnLAYER-MODE-MERGE",
+      "contents": "LAYER-MODE-MERGE"
+    },
+    {
+      "trigger": "cnLAYER-MODE-SPLIT",
+      "contents": "LAYER-MODE-SPLIT"
+    },
+    {
+      "trigger": "cnLAYER-MODE-PASS-THROUGH",
+      "contents": "LAYER-MODE-PASS-THROUGH"
+    },
+    {
+      "trigger": "cnTRANSFORM-FORWARD",
+      "contents": "TRANSFORM-FORWARD"
+    },
+    {
+      "trigger": "cnTRANSFORM-BACKWARD",
+      "contents": "TRANSFORM-BACKWARD"
+    },
+    {
+      "trigger": "cnRUN-INTERACTIVE",
+      "contents": "RUN-INTERACTIVE"
+    },
+    {
+      "trigger": "cnRUN-NONINTERACTIVE",
+      "contents": "RUN-NONINTERACTIVE"
+    },
+    {
+      "trigger": "cnORIENTATION-HORIZONTAL",
+      "contents": "ORIENTATION-HORIZONTAL"
+    },
+    {
+      "trigger": "cnORIENTATION-VERTICAL",
+      "contents": "ORIENTATION-VERTICAL"
+    },
+    {
+      "trigger": "cnINTERPOLATION-NONE",
+      "contents": "INTERPOLATION-NONE"
+    },
+    {
+      "trigger": "cnINTERPOLATION-LINEAR",
+      "contents": "INTERPOLATION-LINEAR"
+    },
+    {
+      "trigger": "cnINTERPOLATION-CUBIC",
+      "contents": "INTERPOLATION-CUBIC"
+    },
+    {
+      "trigger": "cnINTERPOLATION-NOHALO",
+      "contents": "INTERPOLATION-NOHALO"
+    },
+    {
+      "trigger": "cnINTERPOLATION-LOHALO",
+      "contents": "INTERPOLATION-LOHALO"
+    },
+    {
+      "trigger": "cnGRADIENT-BLEND-RGB-PERCEPTUAL",
+      "contents": "GRADIENT-BLEND-RGB-PERCEPTUAL"
+    },
+    {
+      "trigger": "cnGRADIENT-BLEND-RGB-LINEAR",
+      "contents": "GRADIENT-BLEND-RGB-LINEAR"
+    },
+    {
+      "trigger": "cnGRADIENT-BLEND-CIE-LAB",
+      "contents": "GRADIENT-BLEND-CIE-LAB"
+    },
+    {
+      "trigger": "cnTRANSFORM-RESIZE-ADJUST",
+      "contents": "TRANSFORM-RESIZE-ADJUST"
+    },
+    {
+      "trigger": "cnTRANSFORM-RESIZE-CLIP",
+      "contents": "TRANSFORM-RESIZE-CLIP"
+    },
+    {
+      "trigger": "cnTRANSFORM-RESIZE-CROP",
+      "contents": "TRANSFORM-RESIZE-CROP"
+    },
+    {
+      "trigger": "cnTRANSFORM-RESIZE-CROP-WITH-ASPECT",
+      "contents": "TRANSFORM-RESIZE-CROP-WITH-ASPECT"
+    },
+    {
+      "trigger": "cnLAYER-COMPOSITE-AUTO",
+      "contents": "LAYER-COMPOSITE-AUTO"
+    },
+    {
+      "trigger": "cnLAYER-COMPOSITE-UNION",
+      "contents": "LAYER-COMPOSITE-UNION"
+    },
+    {
+      "trigger": "cnLAYER-COMPOSITE-CLIP-TO-BACKDROP",
+      "contents": "LAYER-COMPOSITE-CLIP-TO-BACKDROP"
+    },
+    {
+      "trigger": "cnLAYER-COMPOSITE-CLIP-TO-LAYER",
+      "contents": "LAYER-COMPOSITE-CLIP-TO-LAYER"
+    },
+    {
+      "trigger": "cnLAYER-COMPOSITE-INTERSECTION",
+      "contents": "LAYER-COMPOSITE-INTERSECTION"
+    },
+    {
+      "trigger": "cnRUN-WITH-LAST-VALS",
+      "contents": "RUN-WITH-LAST-VALS"
+    },
+    {
+      "trigger": "cnCHANNEL-RED",
+      "contents": "CHANNEL-RED"
+    },
+    {
+      "trigger": "cnCHANNEL-GREEN",
+      "contents": "CHANNEL-GREEN"
+    },
+    {
+      "trigger": "cnCHANNEL-BLUE",
+      "contents": "CHANNEL-BLUE"
+    },
+    {
+      "trigger": "cnCHANNEL-GRAY",
+      "contents": "CHANNEL-GRAY"
+    },
+    {
+      "trigger": "cnCHANNEL-INDEXED",
+      "contents": "CHANNEL-INDEXED"
+    },
+    {
+      "trigger": "cnCHANNEL-ALPHA",
+      "contents": "CHANNEL-ALPHA"
+    },
+    {
+      "trigger": "cnGRADIENT-SEGMENT-LINEAR",
+      "contents": "GRADIENT-SEGMENT-LINEAR"
+    },
+    {
+      "trigger": "cnGRADIENT-SEGMENT-CURVED",
+      "contents": "GRADIENT-SEGMENT-CURVED"
+    },
+    {
+      "trigger": "cnGRADIENT-SEGMENT-SINE",
+      "contents": "GRADIENT-SEGMENT-SINE"
+    },
+    {
+      "trigger": "cnGRADIENT-SEGMENT-SPHERE-INCREASING",
+      "contents": "GRADIENT-SEGMENT-SPHERE-INCREASING"
+    },
+    {
+      "trigger": "cnGRADIENT-SEGMENT-SPHERE-DECREASING",
+      "contents": "GRADIENT-SEGMENT-SPHERE-DECREASING"
+    },
+    {
+      "trigger": "cnGRADIENT-SEGMENT-STEP",
+      "contents": "GRADIENT-SEGMENT-STEP"
+    },
+    {
+      "trigger": "cnCHANNEL-OP-ADD",
+      "contents": "CHANNEL-OP-ADD"
+    },
+    {
+      "trigger": "cnCHANNEL-OP-SUBTRACT",
+      "contents": "CHANNEL-OP-SUBTRACT"
+    },
+    {
+      "trigger": "cnCHANNEL-OP-REPLACE",
+      "contents": "CHANNEL-OP-REPLACE"
+    },
+    {
+      "trigger": "cnCHANNEL-OP-INTERSECT",
+      "contents": "CHANNEL-OP-INTERSECT"
+    },
+    {
+      "trigger": "cnRGB-IMAGE",
+      "contents": "RGB-IMAGE"
+    },
+    {
+      "trigger": "cnRGBA-IMAGE",
+      "contents": "RGBA-IMAGE"
+    },
+    {
+      "trigger": "cnGRAY-IMAGE",
+      "contents": "GRAY-IMAGE"
+    },
+    {
+      "trigger": "cnGRAYA-IMAGE",
+      "contents": "GRAYA-IMAGE"
+    },
+    {
+      "trigger": "cnINDEXED-IMAGE",
+      "contents": "INDEXED-IMAGE"
+    },
+    {
+      "trigger": "cnINDEXEDA-IMAGE",
+      "contents": "INDEXEDA-IMAGE"
+    },
+    {
+      "trigger": "cnJOIN-MITER",
+      "contents": "JOIN-MITER"
+    },
+    {
+      "trigger": "cnJOIN-ROUND",
+      "contents": "JOIN-ROUND"
+    },
+    {
+      "trigger": "cnJOIN-BEVEL",
+      "contents": "JOIN-BEVEL"
+    },
+    {
+      "trigger": "cnTEXT-JUSTIFY-LEFT",
+      "contents": "TEXT-JUSTIFY-LEFT"
+    },
+    {
+      "trigger": "cnTEXT-JUSTIFY-RIGHT",
+      "contents": "TEXT-JUSTIFY-RIGHT"
+    },
+    {
+      "trigger": "cnTEXT-JUSTIFY-CENTER",
+      "contents": "TEXT-JUSTIFY-CENTER"
+    },
+    {
+      "trigger": "cnTEXT-JUSTIFY-FILL",
+      "contents": "TEXT-JUSTIFY-FILL"
+    },
+    {
+      "trigger": "cnROTATE-90",
+      "contents": "ROTATE-90"
+    },
+    {
+      "trigger": "cnROTATE-180",
+      "contents": "ROTATE-180"
+    },
+    {
+      "trigger": "cnROTATE-270",
+      "contents": "ROTATE-270"
+    },
+    {
+      "trigger": "cnCOLOR-RENDERING-INTENT-PERCEPTUAL",
+      "contents": "COLOR-RENDERING-INTENT-PERCEPTUAL"
+    },
+    {
+      "trigger": "cnCOLOR-RENDERING-INTENT-RELATIVE-COLORIMETRIC",
+      "contents": "COLOR-RENDERING-INTENT-RELATIVE-COLORIMETRIC"
+    },
+    {
+      "trigger": "cnCOLOR-RENDERING-INTENT-SATURATION",
+      "contents": "COLOR-RENDERING-INTENT-SATURATION"
+    },
+    {
+      "trigger": "cnCOLOR-RENDERING-INTENT-ABSOLUTE-COLORIMETRIC",
+      "contents": "COLOR-RENDERING-INTENT-ABSOLUTE-COLORIMETRIC"
+    },
+    {
+      "trigger": "cnSTROKE-LINE",
+      "contents": "STROKE-LINE"
+    },
+    {
+      "trigger": "cnSTROKE-PAINT-METHOD",
+      "contents": "STROKE-PAINT-METHOD"
+    },
+    {
+      "trigger": "cnCOLOR-TAG-NONE",
+      "contents": "COLOR-TAG-NONE"
+    },
+    {
+      "trigger": "cnCOLOR-TAG-BLUE",
+      "contents": "COLOR-TAG-BLUE"
+    },
+    {
+      "trigger": "cnCOLOR-TAG-GREEN",
+      "contents": "COLOR-TAG-GREEN"
+    },
+    {
+      "trigger": "cnCOLOR-TAG-YELLOW",
+      "contents": "COLOR-TAG-YELLOW"
+    },
+    {
+      "trigger": "cnCOLOR-TAG-ORANGE",
+      "contents": "COLOR-TAG-ORANGE"
+    },
+    {
+      "trigger": "cnCOLOR-TAG-BROWN",
+      "contents": "COLOR-TAG-BROWN"
+    },
+    {
+      "trigger": "cnCOLOR-TAG-RED",
+      "contents": "COLOR-TAG-RED"
+    },
+    {
+      "trigger": "cnCOLOR-TAG-VIOLET",
+      "contents": "COLOR-TAG-VIOLET"
+    },
+    {
+      "trigger": "cnCOLOR-TAG-GRAY",
+      "contents": "COLOR-TAG-GRAY"
+    },
+    {
+      "trigger": "cnSELECT-CRITERION-COMPOSITE",
+      "contents": "SELECT-CRITERION-COMPOSITE"
+    },
+    {
+      "trigger": "cnSELECT-CRITERION-R",
+      "contents": "SELECT-CRITERION-R"
+    },
+    {
+      "trigger": "cnSELECT-CRITERION-G",
+      "contents": "SELECT-CRITERION-G"
+    },
+    {
+      "trigger": "cnSELECT-CRITERION-B",
+      "contents": "SELECT-CRITERION-B"
+    },
+    {
+      "trigger": "cnSELECT-CRITERION-H",
+      "contents": "SELECT-CRITERION-H"
+    },
+    {
+      "trigger": "cnSELECT-CRITERION-S",
+      "contents": "SELECT-CRITERION-S"
+    },
+    {
+      "trigger": "cnSELECT-CRITERION-V",
+      "contents": "SELECT-CRITERION-V"
+    },
+    {
+      "trigger": "cnSELECT-CRITERION-A",
+      "contents": "SELECT-CRITERION-A"
+    },
+    {
+      "trigger": "cnSELECT-CRITERION-LCH-L",
+      "contents": "SELECT-CRITERION-LCH-L"
+    },
+    {
+      "trigger": "cnSELECT-CRITERION-LCH-C",
+      "contents": "SELECT-CRITERION-LCH-C"
+    },
+    {
+      "trigger": "cnSELECT-CRITERION-LCH-H",
+      "contents": "SELECT-CRITERION-LCH-H"
+    },
+    {
+      "trigger": "cnRGB",
+      "contents": "RGB"
+    },
+    {
+      "trigger": "cnGRAY",
+      "contents": "GRAY"
+    },
+    {
+      "trigger": "cnINDEXED",
+      "contents": "INDEXED"
+    },
+    {
+      "trigger": "cnPRECISION-U8-LINEAR",
+      "contents": "PRECISION-U8-LINEAR"
+    },
+    {
+      "trigger": "cnPRECISION-U8-GAMMA",
+      "contents": "PRECISION-U8-GAMMA"
+    },
+    {
+      "trigger": "cnPRECISION-U16-LINEAR",
+      "contents": "PRECISION-U16-LINEAR"
+    },
+    {
+      "trigger": "cnPRECISION-U16-GAMMA",
+      "contents": "PRECISION-U16-GAMMA"
+    },
+    {
+      "trigger": "cnPRECISION-U32-LINEAR",
+      "contents": "PRECISION-U32-LINEAR"
+    },
+    {
+      "trigger": "cnPRECISION-U32-GAMMA",
+      "contents": "PRECISION-U32-GAMMA"
+    },
+    {
+      "trigger": "cnPRECISION-HALF-LINEAR",
+      "contents": "PRECISION-HALF-LINEAR"
+    },
+    {
+      "trigger": "cnPRECISION-HALF-GAMMA",
+      "contents": "PRECISION-HALF-GAMMA"
+    },
+    {
+      "trigger": "cnPRECISION-FLOAT-LINEAR",
+      "contents": "PRECISION-FLOAT-LINEAR"
+    },
+    {
+      "trigger": "cnPRECISION-FLOAT-GAMMA",
+      "contents": "PRECISION-FLOAT-GAMMA"
+    },
+    {
+      "trigger": "cnPRECISION-DOUBLE-LINEAR",
+      "contents": "PRECISION-DOUBLE-LINEAR"
+    },
+    {
+      "trigger": "cnPRECISION-DOUBLE-GAMMA",
+      "contents": "PRECISION-DOUBLE-GAMMA"
+    },
+    {
+      "trigger": "cnHISTOGRAM-VALUE",
+      "contents": "HISTOGRAM-VALUE"
+    },
+    {
+      "trigger": "cnHISTOGRAM-RED",
+      "contents": "HISTOGRAM-RED"
+    },
+    {
+      "trigger": "cnHISTOGRAM-GREEN",
+      "contents": "HISTOGRAM-GREEN"
+    },
+    {
+      "trigger": "cnHISTOGRAM-BLUE",
+      "contents": "HISTOGRAM-BLUE"
+    },
+    {
+      "trigger": "cnHISTOGRAM-ALPHA",
+      "contents": "HISTOGRAM-ALPHA"
+    },
+    {
+      "trigger": "cnHISTOGRAM-LUMINANCE",
+      "contents": "HISTOGRAM-LUMINANCE"
+    },
+    {
+      "trigger": "cnGRADIENT-LINEAR",
+      "contents": "GRADIENT-LINEAR"
+    },
+    {
+      "trigger": "cnGRADIENT-BILINEAR",
+      "contents": "GRADIENT-BILINEAR"
+    },
+    {
+      "trigger": "cnGRADIENT-RADIAL",
+      "contents": "GRADIENT-RADIAL"
+    },
+    {
+      "trigger": "cnGRADIENT-SQUARE",
+      "contents": "GRADIENT-SQUARE"
+    },
+    {
+      "trigger": "cnGRADIENT-CONICAL-SYMMETRIC",
+      "contents": "GRADIENT-CONICAL-SYMMETRIC"
+    },
+    {
+      "trigger": "cnGRADIENT-CONICAL-ASYMMETRIC",
+      "contents": "GRADIENT-CONICAL-ASYMMETRIC"
+    },
+    {
+      "trigger": "cnGRADIENT-SHAPEBURST-ANGULAR",
+      "contents": "GRADIENT-SHAPEBURST-ANGULAR"
+    },
+    {
+      "trigger": "cnGRADIENT-SHAPEBURST-SPHERICAL",
+      "contents": "GRADIENT-SHAPEBURST-SPHERICAL"
+    },
+    {
+      "trigger": "cnGRADIENT-SHAPEBURST-DIMPLED",
+      "contents": "GRADIENT-SHAPEBURST-DIMPLED"
+    },
+    {
+      "trigger": "cnGRADIENT-SPIRAL-CLOCKWISE",
+      "contents": "GRADIENT-SPIRAL-CLOCKWISE"
+    },
+    {
+      "trigger": "cnGRADIENT-SPIRAL-ANTICLOCKWISE",
+      "contents": "GRADIENT-SPIRAL-ANTICLOCKWISE"
+    },
+    {
+      "trigger": "cnLAYER-COLOR-SPACE-AUTO",
+      "contents": "LAYER-COLOR-SPACE-AUTO"
+    },
+    {
+      "trigger": "cnLAYER-COLOR-SPACE-RGB-LINEAR",
+      "contents": "LAYER-COLOR-SPACE-RGB-LINEAR"
+    },
+    {
+      "trigger": "cnLAYER-COLOR-SPACE-RGB-PERCEPTUAL",
+      "contents": "LAYER-COLOR-SPACE-RGB-PERCEPTUAL"
+    },
+    {
+      "trigger": "cnFILL-FOREGROUND",
+      "contents": "FILL-FOREGROUND"
+    },
+    {
+      "trigger": "cnFILL-BACKGROUND",
+      "contents": "FILL-BACKGROUND"
+    },
+    {
+      "trigger": "cnFILL-WHITE",
+      "contents": "FILL-WHITE"
+    },
+    {
+      "trigger": "cnFILL-TRANSPARENT",
+      "contents": "FILL-TRANSPARENT"
+    },
+    {
+      "trigger": "cnFILL-PATTERN",
+      "contents": "FILL-PATTERN"
+    },
+    {
+      "trigger": "cnHUE-RANGE-ALL",
+      "contents": "HUE-RANGE-ALL"
+    },
+    {
+      "trigger": "cnHUE-RANGE-RED",
+      "contents": "HUE-RANGE-RED"
+    },
+    {
+      "trigger": "cnHUE-RANGE-YELLOW",
+      "contents": "HUE-RANGE-YELLOW"
+    },
+    {
+      "trigger": "cnHUE-RANGE-GREEN",
+      "contents": "HUE-RANGE-GREEN"
+    },
+    {
+      "trigger": "cnHUE-RANGE-CYAN",
+      "contents": "HUE-RANGE-CYAN"
+    },
+    {
+      "trigger": "cnHUE-RANGE-BLUE",
+      "contents": "HUE-RANGE-BLUE"
+    },
+    {
+      "trigger": "cnHUE-RANGE-MAGENTA",
+      "contents": "HUE-RANGE-MAGENTA"
+    },
+    {
+      "trigger": "cnFALSE",
+      "contents": "FALSE"
+    },
+    {
+      "trigger": "cnTRUE",
+      "contents": "TRUE"
+    },
+    {
+      "trigger": "cnINK-BLOB-TYPE-CIRCLE",
+      "contents": "INK-BLOB-TYPE-CIRCLE"
+    },
+    {
+      "trigger": "cnINK-BLOB-TYPE-SQUARE",
+      "contents": "INK-BLOB-TYPE-SQUARE"
+    },
+    {
+      "trigger": "cnINK-BLOB-TYPE-DIAMOND",
+      "contents": "INK-BLOB-TYPE-DIAMOND"
+    },
+    {
+      "trigger": "cnEXPAND-AS-NECESSARY",
+      "contents": "EXPAND-AS-NECESSARY"
+    },
+    {
+      "trigger": "cnCLIP-TO-IMAGE",
+      "contents": "CLIP-TO-IMAGE"
+    },
+    {
+      "trigger": "cnCLIP-TO-BOTTOM-LAYER",
+      "contents": "CLIP-TO-BOTTOM-LAYER"
+    },
+    {
+      "trigger": "cnADD-MASK-WHITE",
+      "contents": "ADD-MASK-WHITE"
+    },
+    {
+      "trigger": "cnADD-MASK-BLACK",
+      "contents": "ADD-MASK-BLACK"
+    },
+    {
+      "trigger": "cnADD-MASK-ALPHA",
+      "contents": "ADD-MASK-ALPHA"
+    },
+    {
+      "trigger": "cnADD-MASK-ALPHA-TRANSFER",
+      "contents": "ADD-MASK-ALPHA-TRANSFER"
+    },
+    {
+      "trigger": "cnADD-MASK-SELECTION",
+      "contents": "ADD-MASK-SELECTION"
+    },
+    {
+      "trigger": "cnADD-MASK-COPY",
+      "contents": "ADD-MASK-COPY"
+    },
+    {
+      "trigger": "cnADD-MASK-CHANNEL",
+      "contents": "ADD-MASK-CHANNEL"
+    },
+    {
+      "trigger": "cnVECTORS-STROKE-TYPE-BEZIER",
+      "contents": "VECTORS-STROKE-TYPE-BEZIER"
+    },
+    {
+      "trigger": "cnGRADIENT-SEGMENT-RGB",
+      "contents": "GRADIENT-SEGMENT-RGB"
+    },
+    {
+      "trigger": "cnGRADIENT-SEGMENT-HSV-CCW",
+      "contents": "GRADIENT-SEGMENT-HSV-CCW"
+    },
+    {
+      "trigger": "cnGRADIENT-SEGMENT-HSV-CW",
+      "contents": "GRADIENT-SEGMENT-HSV-CW"
+    },
+    {
+      "trigger": "cnCLONE-IMAGE",
+      "contents": "CLONE-IMAGE"
+    },
+    {
+      "trigger": "cnCLONE-PATTERN",
+      "contents": "CLONE-PATTERN"
+    },
+    {
+      "trigger": "cnTRANSFER-SHADOWS",
+      "contents": "TRANSFER-SHADOWS"
+    },
+    {
+      "trigger": "cnTRANSFER-MIDTONES",
+      "contents": "TRANSFER-MIDTONES"
+    },
+    {
+      "trigger": "cnTRANSFER-HIGHLIGHTS",
+      "contents": "TRANSFER-HIGHLIGHTS"
+    },
+    {
+      "trigger": "cnOFFSET-BACKGROUND",
+      "contents": "OFFSET-BACKGROUND"
+    },
+    {
+      "trigger": "cnOFFSET-TRANSPARENT",
+      "contents": "OFFSET-TRANSPARENT"
+    },
+    {
+      "trigger": "cnOFFSET-WRAP-AROUND",
+      "contents": "OFFSET-WRAP-AROUND"
+    },
+    {
+      "trigger": "cnBRUSH-GENERATED-CIRCLE",
+      "contents": "BRUSH-GENERATED-CIRCLE"
+    },
+    {
+      "trigger": "cnBRUSH-GENERATED-SQUARE",
+      "contents": "BRUSH-GENERATED-SQUARE"
+    },
+    {
+      "trigger": "cnBRUSH-GENERATED-DIAMOND",
+      "contents": "BRUSH-GENERATED-DIAMOND"
+    },
+    {
+      "trigger": "cnGRID-DOTS",
+      "contents": "GRID-DOTS"
+    },
+    {
+      "trigger": "cnGRID-INTERSECTIONS",
+      "contents": "GRID-INTERSECTIONS"
+    },
+    {
+      "trigger": "cnGRID-ON-OFF-DASH",
+      "contents": "GRID-ON-OFF-DASH"
+    },
+    {
+      "trigger": "cnGRID-DOUBLE-DASH",
+      "contents": "GRID-DOUBLE-DASH"
+    },
+    {
+      "trigger": "cnGRID-SOLID",
+      "contents": "GRID-SOLID"
+    },
+    {
+      "trigger": "cnPIXELS",
+      "contents": "PIXELS"
+    },
+    {
+      "trigger": "cnPOINTS",
+      "contents": "POINTS"
+    },
+    {
+      "trigger": "cnREPEAT-NONE",
+      "contents": "REPEAT-NONE"
+    },
+    {
+      "trigger": "cnREPEAT-SAWTOOTH",
+      "contents": "REPEAT-SAWTOOTH"
+    },
+    {
+      "trigger": "cnREPEAT-TRIANGULAR",
+      "contents": "REPEAT-TRIANGULAR"
+    },
+    {
+      "trigger": "cnREPEAT-TRUNCATE",
+      "contents": "REPEAT-TRUNCATE"
+    },
+    {
+      "trigger": "cnPDB-INT32",
+      "contents": "PDB-INT32"
+    },
+    {
+      "trigger": "cnPDB-INT16",
+      "contents": "PDB-INT16"
+    },
+    {
+      "trigger": "cnPDB-INT8",
+      "contents": "PDB-INT8"
+    },
+    {
+      "trigger": "cnPDB-FLOAT",
+      "contents": "PDB-FLOAT"
+    },
+    {
+      "trigger": "cnPDB-STRING",
+      "contents": "PDB-STRING"
+    },
+    {
+      "trigger": "cnPDB-INT32ARRAY",
+      "contents": "PDB-INT32ARRAY"
+    },
+    {
+      "trigger": "cnPDB-INT16ARRAY",
+      "contents": "PDB-INT16ARRAY"
+    },
+    {
+      "trigger": "cnPDB-INT8ARRAY",
+      "contents": "PDB-INT8ARRAY"
+    },
+    {
+      "trigger": "cnPDB-FLOATARRAY",
+      "contents": "PDB-FLOATARRAY"
+    },
+    {
+      "trigger": "cnPDB-STRINGARRAY",
+      "contents": "PDB-STRINGARRAY"
+    },
+    {
+      "trigger": "cnPDB-COLOR",
+      "contents": "PDB-COLOR"
+    },
+    {
+      "trigger": "cnPDB-ITEM",
+      "contents": "PDB-ITEM"
+    },
+    {
+      "trigger": "cnPDB-DISPLAY",
+      "contents": "PDB-DISPLAY"
+    },
+    {
+      "trigger": "cnPDB-IMAGE",
+      "contents": "PDB-IMAGE"
+    },
+    {
+      "trigger": "cnPDB-LAYER",
+      "contents": "PDB-LAYER"
+    },
+    {
+      "trigger": "cnPDB-CHANNEL",
+      "contents": "PDB-CHANNEL"
+    },
+    {
+      "trigger": "cnPDB-DRAWABLE",
+      "contents": "PDB-DRAWABLE"
+    },
+    {
+      "trigger": "cnPDB-SELECTION",
+      "contents": "PDB-SELECTION"
+    },
+    {
+      "trigger": "cnPDB-COLORARRAY",
+      "contents": "PDB-COLORARRAY"
+    },
+    {
+      "trigger": "cnPDB-VECTORS",
+      "contents": "PDB-VECTORS"
+    },
+    {
+      "trigger": "cnPDB-PARASITE",
+      "contents": "PDB-PARASITE"
+    },
+    {
+      "trigger": "cnPDB-STATUS",
+      "contents": "PDB-STATUS"
+    },
+    {
+      "trigger": "cnMASK-APPLY",
+      "contents": "MASK-APPLY"
+    },
+    {
+      "trigger": "cnMASK-DISCARD",
+      "contents": "MASK-DISCARD"
+    },
+    {
+      "trigger": "cnICON-TYPE-ICON-NAME",
+      "contents": "ICON-TYPE-ICON-NAME"
+    },
+    {
+      "trigger": "cnICON-TYPE-INLINE-PIXBUF",
+      "contents": "ICON-TYPE-INLINE-PIXBUF"
+    },
+    {
+      "trigger": "cnICON-TYPE-IMAGE-FILE",
+      "contents": "ICON-TYPE-IMAGE-FILE"
+    },
+    {
+      "trigger": "cnBRUSH-HARD",
+      "contents": "BRUSH-HARD"
+    },
+    {
+      "trigger": "cnBRUSH-SOFT",
+      "contents": "BRUSH-SOFT"
+    },
+    {
+      "trigger": "cnPAINT-CONSTANT",
+      "contents": "PAINT-CONSTANT"
+    },
+    {
+      "trigger": "cnPAINT-INCREMENTAL",
+      "contents": "PAINT-INCREMENTAL"
+    },
+    {
+      "trigger": "cnMESSAGE-BOX",
+      "contents": "MESSAGE-BOX"
+    },
+    {
+      "trigger": "cnCONSOLE",
+      "contents": "CONSOLE"
+    },
+    {
+      "trigger": "cnERROR-CONSOLE",
+      "contents": "ERROR-CONSOLE"
+    },
+    {
+      "trigger": "cnCONVERT-DITHER-NONE",
+      "contents": "CONVERT-DITHER-NONE"
+    },
+    {
+      "trigger": "cnCONVERT-DITHER-FS",
+      "contents": "CONVERT-DITHER-FS"
+    },
+    {
+      "trigger": "cnCONVERT-DITHER-FS-LOWBLEED",
+      "contents": "CONVERT-DITHER-FS-LOWBLEED"
+    },
+    {
+      "trigger": "cnCONVERT-DITHER-FIXED",
+      "contents": "CONVERT-DITHER-FIXED"
+    },
+    {
+      "trigger": "cnCONVERT-PALETTE-GENERATE",
+      "contents": "CONVERT-PALETTE-GENERATE"
+    },
+    {
+      "trigger": "cnCONVERT-PALETTE-WEB",
+      "contents": "CONVERT-PALETTE-WEB"
+    },
+    {
+      "trigger": "cnCONVERT-PALETTE-MONO",
+      "contents": "CONVERT-PALETTE-MONO"
+    },
+    {
+      "trigger": "cnCONVERT-PALETTE-CUSTOM",
+      "contents": "CONVERT-PALETTE-CUSTOM"
+    },
+    {
+      "trigger": "cnTEXT-HINT-STYLE-NONE",
+      "contents": "TEXT-HINT-STYLE-NONE"
+    },
+    {
+      "trigger": "cnTEXT-HINT-STYLE-SLIGHT",
+      "contents": "TEXT-HINT-STYLE-SLIGHT"
+    },
+    {
+      "trigger": "cnTEXT-HINT-STYLE-MEDIUM",
+      "contents": "TEXT-HINT-STYLE-MEDIUM"
+    },
+    {
+      "trigger": "cnTEXT-HINT-STYLE-FULL",
+      "contents": "TEXT-HINT-STYLE-FULL"
+    },
+    {
+      "trigger": "cnINTERNAL",
+      "contents": "INTERNAL"
+    },
+    {
+      "trigger": "cnPLUGIN",
+      "contents": "PLUGIN"
+    },
+    {
+      "trigger": "cnEXTENSION",
+      "contents": "EXTENSION"
+    },
+    {
+      "trigger": "cnTEMPORARY",
+      "contents": "TEMPORARY"
+    },
+    {
+      "trigger": "cnBUCKET-FILL-FG",
+      "contents": "BUCKET-FILL-FG"
+    },
+    {
+      "trigger": "cnBUCKET-FILL-BG",
+      "contents": "BUCKET-FILL-BG"
+    },
+    {
+      "trigger": "cnBUCKET-FILL-PATTERN",
+      "contents": "BUCKET-FILL-PATTERN"
+    },
+    {
+      "trigger": "cnCAP-BUTT",
+      "contents": "CAP-BUTT"
+    },
+    {
+      "trigger": "cnCAP-ROUND",
+      "contents": "CAP-ROUND"
+    },
+    {
+      "trigger": "cnCAP-SQUARE",
+      "contents": "CAP-SQUARE"
+    },
+    {
+      "trigger": "cnDODGE-BURN-TYPE-DODGE",
+      "contents": "DODGE-BURN-TYPE-DODGE"
+    },
+    {
+      "trigger": "cnDODGE-BURN-TYPE-BURN",
+      "contents": "DODGE-BURN-TYPE-BURN"
+    },
+    {
+      "trigger": "cnTEXT-DIRECTION-LTR",
+      "contents": "TEXT-DIRECTION-LTR"
+    },
+    {
+      "trigger": "cnTEXT-DIRECTION-RTL",
+      "contents": "TEXT-DIRECTION-RTL"
+    },
+    {
+      "trigger": "cnTEXT-DIRECTION-TTB-RTL",
+      "contents": "TEXT-DIRECTION-TTB-RTL"
+    },
+    {
+      "trigger": "cnTEXT-DIRECTION-TTB-RTL-UPRIGHT",
+      "contents": "TEXT-DIRECTION-TTB-RTL-UPRIGHT"
+    },
+    {
+      "trigger": "cnTEXT-DIRECTION-TTB-LTR",
+      "contents": "TEXT-DIRECTION-TTB-LTR"
+    },
+    {
+      "trigger": "cnTEXT-DIRECTION-TTB-LTR-UPRIGHT",
+      "contents": "TEXT-DIRECTION-TTB-LTR-UPRIGHT"
+    },
+    {
+      "trigger": "cnDESATURATE-LIGHTNESS",
+      "contents": "DESATURATE-LIGHTNESS"
+    },
+    {
+      "trigger": "cnDESATURATE-LUMA",
+      "contents": "DESATURATE-LUMA"
+    },
+    {
+      "trigger": "cnDESATURATE-AVERAGE",
+      "contents": "DESATURATE-AVERAGE"
+    },
+    {
+      "trigger": "cnDESATURATE-LUMINANCE",
+      "contents": "DESATURATE-LUMINANCE"
+    },
+    {
+      "trigger": "cnDESATURATE-VALUE",
+      "contents": "DESATURATE-VALUE"
+    },
+    {
+      "trigger": "cnFOREGROUND-EXTRACT-SIOX",
+      "contents": "FOREGROUND-EXTRACT-SIOX"
+    },
+    {
+      "trigger": "cnFOREGROUND-EXTRACT-MATTING",
+      "contents": "FOREGROUND-EXTRACT-MATTING"
+    },
+    {
+      "trigger": "cnPDB-ERROR-HANDLER-INTERNAL",
+      "contents": "PDB-ERROR-HANDLER-INTERNAL"
+    },
+    {
+      "trigger": "cnPDB-ERROR-HANDLER-PLUGIN",
+      "contents": "PDB-ERROR-HANDLER-PLUGIN"
+    },
+    {
+      "trigger": "cnCONVOLVE-BLUR",
+      "contents": "CONVOLVE-BLUR"
+    },
+    {
+      "trigger": "cnCONVOLVE-SHARPEN",
+      "contents": "CONVOLVE-SHARPEN"
+    },
+    {
+      "trigger": "cnBLEND-FG-BG-RGB",
+      "contents": "BLEND-FG-BG-RGB"
+    },
+    {
+      "trigger": "cnBLEND-FG-BG-HSV",
+      "contents": "BLEND-FG-BG-HSV"
+    },
+    {
+      "trigger": "cnBLEND-FG-TRANSPARENT",
+      "contents": "BLEND-FG-TRANSPARENT"
+    },
+    {
+      "trigger": "cnBLEND-CUSTOM",
+      "contents": "BLEND-CUSTOM"
+    },
+    {
+      "trigger": "menu-register",
+      "contents": "(script-fu-menu-register \"${1:proc_name}\" \"<Image>/${2:menu}\")"
+    },
+    {
+      "trigger": "register",
+      "contents": "(script-fu-register\n\t\"${1:proc_name}\"\n\t\"${2:desc_short}\"\n\t\"${3:desc_long}\"\n\t\"${4:author}\"\n\t\"${5:copyright}\"\n\t\"${6:date}\"\n\t\"${7:image_type}\"\n\t${8:parameters}\n)"
+    },
+    {
+      "trigger": "image-set-colormap",
+      "contents": "(gimp-image-set-colormap ${1:image} ${2:num-bytes} ${3:colormap})"
+    },
+    {
+      "trigger": "context-get-transform-direction",
+      "contents": "(gimp-context-get-transform-direction)"
+    },
+    {
+      "trigger": "image-scale",
+      "contents": "(gimp-image-scale ${1:image} ${2:new-width} ${3:new-height})"
+    },
+    {
+      "trigger": "vectors-bezier-stroke-cubicto",
+      "contents": "(gimp-vectors-bezier-stroke-cubicto ${1:vectors} ${2:stroke-id} ${3:x0} ${4:y0} ${5:x1} ${6:y1} ${7:x2} ${8:y2})"
+    },
+    {
+      "trigger": "blinds",
+      "contents": "(plug-in-blinds ${1:run-mode} ${2:image} ${3:drawable} ${4:angle-dsp} ${5:num-segments} ${6:orientation} ${7:bg-transparent})"
+    },
+    {
+      "trigger": "floating-sel-remove",
+      "contents": "(gimp-floating-sel-remove ${1:floating-sel})"
+    },
+    {
+      "trigger": "gfig",
+      "contents": "(plug-in-gfig ${1:run-mode} ${2:image} ${3:drawable} ${4:dummy})"
+    },
+    {
+      "trigger": "file-raw-placeholder-mef-load",
+      "contents": "(file-raw-placeholder-mef-load ${1:run-mode} ${2:filename} ${3:raw-filename})"
+    },
+    {
+      "trigger": "image-pick-correlate-layer",
+      "contents": "(gimp-image-pick-correlate-layer ${1:image} ${2:x} ${3:y})"
+    },
+    {
+      "trigger": "palettes-popup",
+      "contents": "(gimp-palettes-popup ${1:palette-callback} ${2:popup-title} ${3:initial-palette})"
+    },
+    {
+      "trigger": "plugin-help-register",
+      "contents": "(gimp-plugin-help-register ${1:domain-name} ${2:domain-uri})"
+    },
+    {
+      "trigger": "unit-get-factor",
+      "contents": "(gimp-unit-get-factor ${1:unit-id})"
+    },
+    {
+      "trigger": "gradient-segment-set-right-color",
+      "contents": "(gimp-gradient-segment-set-right-color ${1:name} ${2:segment} ${3:color} ${4:opacity})"
+    },
+    {
+      "trigger": "make-brush-elliptical",
+      "contents": "(script-fu-make-brush-elliptical ${1:run-mode} ${2:string} ${3:value} ${4:value} ${5:value})"
+    },
+    {
+      "trigger": "file-raw-placeholder-raf-load",
+      "contents": "(file-raw-placeholder-raf-load ${1:run-mode} ${2:filename} ${3:raw-filename})"
+    },
+    {
+      "trigger": "file-png-set-defaults",
+      "contents": "(file-png-set-defaults ${1:interlace} ${2:compression} ${3:bkgd} ${4:gama} ${5:offs} ${6:phys} ${7:time} ${8:comment} ${9:svtrans})"
+    },
+    {
+      "trigger": "context-set-interpolation",
+      "contents": "(gimp-context-set-interpolation ${1:interpolation})"
+    },
+    {
+      "trigger": "context-list-paint-methods",
+      "contents": "(gimp-context-list-paint-methods)"
+    },
+    {
+      "trigger": "slice",
+      "contents": "(python-fu-slice ${1:run-mode} ${2:image} ${3:drawable} ${4:save-path} ${5:html-filename} ${6:image-basename} ${7:image-extension} ${8:separate-image-dir} ${9:relative-image-path} ${10:cellspacing} ${11:animate} ${12:skip-caps})"
+    },
+    {
+      "trigger": "image-get-item-position",
+      "contents": "(gimp-image-get-item-position ${1:image} ${2:item})"
+    },
+    {
+      "trigger": "gradient-segment-range-move",
+      "contents": "(gimp-gradient-segment-range-move ${1:name} ${2:start-segment} ${3:end-segment} ${4:delta} ${5:control-compress})"
+    },
+    {
+      "trigger": "selection-to-image",
+      "contents": "(script-fu-selection-to-image ${1:run-mode} ${2:image} ${3:drawable})"
+    },
+    {
+      "trigger": "borderaverage",
+      "contents": "(plug-in-borderaverage ${1:run-mode} ${2:image} ${3:drawable} ${4:thickness} ${5:bucket-exponent})"
+    },
+    {
+      "trigger": "test-sphere",
+      "contents": "(script-fu-test-sphere ${1:run-mode} ${2:value} ${3:value} ${4:toggle} ${5:color} ${6:color} ${7:brush} ${8:string} ${9:string} ${10:pattern} ${11:gradient} ${12:toggle} ${13:font} ${14:value} ${15:palette} ${16:filename} ${17:option} ${18:enum} ${19:dirname} ${20:image} ${21:layer} ${22:channel} ${23:drawable} ${24:vectors})"
+    },
+    {
+      "trigger": "console",
+      "contents": "(python-fu-console ${1:run-mode})"
+    },
+    {
+      "trigger": "image-undo-group-end",
+      "contents": "(gimp-image-undo-group-end ${1:image})"
+    },
+    {
+      "trigger": "item-get-lock-content",
+      "contents": "(gimp-item-get-lock-content ${1:item})"
+    },
+    {
+      "trigger": "item-get-name",
+      "contents": "(gimp-item-get-name ${1:item})"
+    },
+    {
+      "trigger": "gradient-get-uniform-samples",
+      "contents": "(gimp-gradient-get-uniform-samples ${1:name} ${2:num-samples} ${3:reverse})"
+    },
+    {
+      "trigger": "image-flatten",
+      "contents": "(gimp-image-flatten ${1:image})"
+    },
+    {
+      "trigger": "selection-translate",
+      "contents": "(gimp-selection-translate ${1:image} ${2:offx} ${3:offy})"
+    },
+    {
+      "trigger": "qbist",
+      "contents": "(plug-in-qbist ${1:run-mode} ${2:image} ${3:drawable})"
+    },
+    {
+      "trigger": "gradient-segment-range-flip",
+      "contents": "(gimp-gradient-segment-range-flip ${1:name} ${2:start-segment} ${3:end-segment})"
+    },
+    {
+      "trigger": "brush-get-spacing",
+      "contents": "(gimp-brush-get-spacing ${1:name})"
+    },
+    {
+      "trigger": "context-get-gradient-blend-color-space",
+      "contents": "(gimp-context-get-gradient-blend-color-space)"
+    },
+    {
+      "trigger": "vectors-bezier-stroke-new-ellipse",
+      "contents": "(gimp-vectors-bezier-stroke-new-ellipse ${1:vectors} ${2:x0} ${3:y0} ${4:radius-x} ${5:radius-y} ${6:angle})"
+    },
+    {
+      "trigger": "cml-explorer",
+      "contents": "(plug-in-cml-explorer ${1:ru--mode} ${2:image} ${3:drawable} ${4:parameter-filename})"
+    },
+    {
+      "trigger": "file-dds-load",
+      "contents": "(file-dds-load ${1:run-mode} ${2:filename} ${3:raw-filename} ${4:load-mipmaps} ${5:decode-images})"
+    },
+    {
+      "trigger": "image-convert-set-dither-matrix",
+      "contents": "(gimp-image-convert-set-dither-matrix ${1:width} ${2:height} ${3:matrix-length} ${4:matrix})"
+    },
+    {
+      "trigger": "register-thumbnail-loader",
+      "contents": "(gimp-register-thumbnail-loader ${1:load-proc} ${2:thumb-proc})"
+    },
+    {
+      "trigger": "text-layer-set-antialias",
+      "contents": "(gimp-text-layer-set-antialias ${1:layer} ${2:antialias})"
+    },
+    {
+      "trigger": "file-png-get-defaults",
+      "contents": "(file-png-get-defaults)"
+    },
+    {
+      "trigger": "edit-copy-visible",
+      "contents": "(gimp-edit-copy-visible ${1:image})"
+    },
+    {
+      "trigger": "file-sgi-load",
+      "contents": "(file-sgi-load ${1:run-mode} ${2:filename} ${3:raw-filename})"
+    },
+    {
+      "trigger": "brush-set-spikes",
+      "contents": "(gimp-brush-set-spikes ${1:name} ${2:spikes-in})"
+    },
+    {
+      "trigger": "file-gif-save",
+      "contents": "(file-gif-save ${1:run-mode} ${2:image} ${3:drawable} ${4:uri} ${5:raw-uri} ${6:interlace} ${7:loop} ${8:default-delay} ${9:default-dispose})"
+    },
+    {
+      "trigger": "max-rgb",
+      "contents": "(plug-in-max-rgb ${1:run-mode} ${2:image} ${3:drawable} ${4:max-p})"
+    },
+    {
+      "trigger": "file-heif-save",
+      "contents": "(file-heif-save ${1:run-mode} ${2:image} ${3:drawable} ${4:uri} ${5:raw-uri} ${6:quality} ${7:lossless})"
+    },
+    {
+      "trigger": "file-pcx-save",
+      "contents": "(file-pcx-save ${1:run-mode} ${2:image} ${3:drawable} ${4:filename} ${5:raw-filename})"
+    },
+    {
+      "trigger": "fuzzy-border",
+      "contents": "(script-fu-fuzzy-border ${1:run-mode} ${2:image} ${3:drawable} ${4:color} ${5:value} ${6:toggle} ${7:value} ${8:toggle} ${9:value} ${10:toggle} ${11:toggle})"
+    },
+    {
+      "trigger": "image-reorder-item",
+      "contents": "(gimp-image-reorder-item ${1:image} ${2:item} ${3:parent} ${4:position})"
+    },
+    {
+      "trigger": "file-raw-placeholder-erf-load",
+      "contents": "(file-raw-placeholder-erf-load ${1:run-mode} ${2:filename} ${3:raw-filename})"
+    },
+    {
+      "trigger": "file-csource-save",
+      "contents": "(file-csource-save ${1:run-mode} ${2:image} ${3:drawable} ${4:filename} ${5:raw-filename})"
+    },
+    {
+      "trigger": "image-pick-color",
+      "contents": "(gimp-image-pick-color ${1:image} ${2:drawable} ${3:x} ${4:y} ${5:sample-merged} ${6:sample-average} ${7:average-radius})"
+    },
+    {
+      "trigger": "layer-get-composite-mode",
+      "contents": "(gimp-layer-get-composite-mode ${1:layer})"
+    },
+    {
+      "trigger": "brush-set-spacing",
+      "contents": "(gimp-brush-set-spacing ${1:name} ${2:spacing})"
+    },
+    {
+      "trigger": "drawable-width",
+      "contents": "(gimp-drawable-width ${1:drawable})"
+    },
+    {
+      "trigger": "help-using-photography",
+      "contents": "(gimp-help-using-photography ${1:run-mode})"
+    },
+    {
+      "trigger": "context-set-ink-angle",
+      "contents": "(gimp-context-set-ink-angle ${1:angle})"
+    },
+    {
+      "trigger": "pixelize",
+      "contents": "(plug-in-pixelize ${1:run-mode} ${2:image} ${3:drawable} ${4:pixel-width})"
+    },
+    {
+      "trigger": "context-get-line-width-unit",
+      "contents": "(gimp-context-get-line-width-unit)"
+    },
+    {
+      "trigger": "channel-new-from-component",
+      "contents": "(gimp-channel-new-from-component ${1:image} ${2:component} ${3:name})"
+    },
+    {
+      "trigger": "patterns-close-popup",
+      "contents": "(gimp-patterns-close-popup ${1:pattern-callback})"
+    },
+    {
+      "trigger": "file-pfm-save",
+      "contents": "(file-pfm-save ${1:run-mode} ${2:image} ${3:drawable} ${4:filename} ${5:raw-filename})"
+    },
+    {
+      "trigger": "file-ps-load",
+      "contents": "(file-ps-load ${1:run-mode} ${2:filename} ${3:raw-filename})"
+    },
+    {
+      "trigger": "text-layer-resize",
+      "contents": "(gimp-text-layer-resize ${1:layer} ${2:width} ${3:height})"
+    },
+    {
+      "trigger": "gradient-new",
+      "contents": "(gimp-gradient-new ${1:name})"
+    },
+    {
+      "trigger": "gradient-segment-get-blending-function",
+      "contents": "(gimp-gradient-segment-get-blending-function ${1:name} ${2:segment})"
+    },
+    {
+      "trigger": "clone-default",
+      "contents": "(gimp-clone-default ${1:drawable} ${2:num-strokes} ${3:strokes})"
+    },
+    {
+      "trigger": "file-save-rgbe",
+      "contents": "(file-save-rgbe ${1:run-mode} ${2:image} ${3:drawable} ${4:filename} ${5:raw-filename})"
+    },
+    {
+      "trigger": "image-get-channels",
+      "contents": "(gimp-image-get-channels ${1:image})"
+    },
+    {
+      "trigger": "brush-duplicate",
+      "contents": "(gimp-brush-duplicate ${1:name})"
+    },
+    {
+      "trigger": "image-resize-to-layers",
+      "contents": "(gimp-image-resize-to-layers ${1:image})"
+    },
+    {
+      "trigger": "file-bmp-save",
+      "contents": "(file-bmp-save ${1:run-mode} ${2:image} ${3:drawable} ${4:filename} ${5:raw-filename})"
+    },
+    {
+      "trigger": "image-select-color",
+      "contents": "(gimp-image-select-color ${1:image} ${2:operation} ${3:drawable} ${4:color})"
+    },
+    {
+      "trigger": "drawable-type",
+      "contents": "(gimp-drawable-type ${1:drawable})"
+    },
+    {
+      "trigger": "get-parasite-list",
+      "contents": "(gimp-get-parasite-list)"
+    },
+    {
+      "trigger": "file-header-save",
+      "contents": "(file-header-save ${1:run-mode} ${2:image} ${3:drawable} ${4:filename} ${5:raw-filename})"
+    },
+    {
+      "trigger": "image-lower-item",
+      "contents": "(gimp-image-lower-item ${1:image} ${2:item})"
+    },
+    {
+      "trigger": "debug-timer-end",
+      "contents": "(gimp-debug-timer-end)"
+    },
+    {
+      "trigger": "image-set-metadata",
+      "contents": "(gimp-image-set-metadata ${1:image} ${2:metadata-string})"
+    },
+    {
+      "trigger": "file-raw-placeholder-bay-load",
+      "contents": "(file-raw-placeholder-bay-load ${1:run-mode} ${2:filename} ${3:raw-filename})"
+    },
+    {
+      "trigger": "file-fli-save",
+      "contents": "(file-fli-save ${1:run-mode} ${2:image} ${3:drawable} ${4:filename} ${5:raw-filename} ${6:from-frame} ${7:to-frame})"
+    },
+    {
+      "trigger": "smooth-palette",
+      "contents": "(plug-in-smooth-palette ${1:run-mode} ${2:image} ${3:drawable} ${4:width} ${5:height} ${6:ntries} ${7:show-image})"
+    },
+    {
+      "trigger": "context-get-line-join-style",
+      "contents": "(gimp-context-get-line-join-style)"
+    },
+    {
+      "trigger": "image-get-vectors-by-name",
+      "contents": "(gimp-image-get-vectors-by-name ${1:image} ${2:name})"
+    },
+    {
+      "trigger": "text-layer-get-justification",
+      "contents": "(gimp-text-layer-get-justification ${1:layer})"
+    },
+    {
+      "trigger": "gradients-close-popup",
+      "contents": "(gimp-gradients-close-popup ${1:gradient-callback})"
+    },
+    {
+      "trigger": "edit-named-cut",
+      "contents": "(gimp-edit-named-cut ${1:drawable} ${2:buffer-name})"
+    },
+    {
+      "trigger": "image-get-selection",
+      "contents": "(gimp-image-get-selection ${1:image})"
+    },
+    {
+      "trigger": "item-get-visible",
+      "contents": "(gimp-item-get-visible ${1:item})"
+    },
+    {
+      "trigger": "blur",
+      "contents": "(plug-in-blur ${1:run-mode} ${2:image} ${3:drawable})"
+    },
+    {
+      "trigger": "context-get-foreground",
+      "contents": "(gimp-context-get-foreground)"
+    },
+    {
+      "trigger": "vectors-stroke-rotate",
+      "contents": "(gimp-vectors-stroke-rotate ${1:vectors} ${2:stroke-id} ${3:center-x} ${4:center-y} ${5:angle})"
+    },
+    {
+      "trigger": "item-transform-rotate-simple",
+      "contents": "(gimp-item-transform-rotate-simple ${1:item} ${2:rotate-type} ${3:auto-center} ${4:center-x} ${5:center-y})"
+    },
+    {
+      "trigger": "register-file-handler-uri",
+      "contents": "(gimp-register-file-handler-uri ${1:procedure-name})"
+    },
+    {
+      "trigger": "image-get-metadata",
+      "contents": "(gimp-image-get-metadata ${1:image})"
+    },
+    {
+      "trigger": "context-set-ink-tilt-sensitivity",
+      "contents": "(gimp-context-set-ink-tilt-sensitivity ${1:tilt})"
+    },
+    {
+      "trigger": "fonts-refresh",
+      "contents": "(gimp-fonts-refresh)"
+    },
+    {
+      "trigger": "zealouscrop",
+      "contents": "(plug-in-zealouscrop ${1:run-mode} ${2:image} ${3:drawable})"
+    },
+    {
+      "trigger": "file-gif-save2",
+      "contents": "(file-gif-save2 ${1:run-mode} ${2:image} ${3:drawable} ${4:uri} ${5:raw-uri} ${6:interlace} ${7:loop} ${8:default-delay} ${9:default-dispose} ${10:as-animation} ${11:force-delay} ${12:force-dispose})"
+    },
+    {
+      "trigger": "plugin-menu-branch-register",
+      "contents": "(gimp-plugin-menu-branch-register ${1:menu-path} ${2:menu-name})"
+    },
+    {
+      "trigger": "item-set-visible",
+      "contents": "(gimp-item-set-visible ${1:item} ${2:visible})"
+    },
+    {
+      "trigger": "file-save-thumbnail",
+      "contents": "(gimp-file-save-thumbnail ${1:image} ${2:filename})"
+    },
+    {
+      "trigger": "icc-profile-apply-rgb",
+      "contents": "(plug-in-icc-profile-apply-rgb ${1:run-mode} ${2:image} ${3:intent} ${4:bpc})"
+    },
+    {
+      "trigger": "context-set-stroke-method",
+      "contents": "(gimp-context-set-stroke-method ${1:stroke-method})"
+    },
+    {
+      "trigger": "cubism",
+      "contents": "(plug-in-cubism ${1:run-mode} ${2:image} ${3:drawable} ${4:tile-size} ${5:tile-saturation} ${6:bg-color})"
+    },
+    {
+      "trigger": "item-get-children",
+      "contents": "(gimp-item-get-children ${1:item})"
+    },
+    {
+      "trigger": "lighting",
+      "contents": "(plug-in-lighting ${1:run-mode} ${2:image} ${3:drawable} ${4:bumpdrawable} ${5:envdrawable} ${6:dobumpmap} ${7:doenvmap} ${8:bumpmaptype} ${9:lighttype} ${10:lightcolor} ${11:lightposition-x} ${12:lightposition-y} ${13:lightposition-z} ${14:lightdirection-x} ${15:lightdirection-y} ${16:lightdirection-z} ${17:ambient-intensity} ${18:diffuse-intensity} ${19:diffuse-reflectivity} ${20:specular-reflectivity} ${21:highlight} ${22:antialiasing} ${23:newimage} ${24:transparentbackground})"
+    },
+    {
+      "trigger": "gauss-iir2",
+      "contents": "(plug-in-gauss-iir2 ${1:run-mode} ${2:image} ${3:drawable} ${4:horizontal} ${5:vertical})"
+    },
+    {
+      "trigger": "context-set-sample-threshold-int",
+      "contents": "(gimp-context-set-sample-threshold-int ${1:sample-threshold})"
+    },
+    {
+      "trigger": "layer-set-mode",
+      "contents": "(gimp-layer-set-mode ${1:layer} ${2:mode})"
+    },
+    {
+      "trigger": "register-file-handler-mime",
+      "contents": "(gimp-register-file-handler-mime ${1:procedure-name} ${2:mime-types})"
+    },
+    {
+      "trigger": "text-layer-get-antialias",
+      "contents": "(gimp-text-layer-get-antialias ${1:layer})"
+    },
+    {
+      "trigger": "image-select-contiguous-color",
+      "contents": "(gimp-image-select-contiguous-color ${1:image} ${2:operation} ${3:drawable} ${4:x} ${5:y})"
+    },
+    {
+      "trigger": "image-set-component-active",
+      "contents": "(gimp-image-set-component-active ${1:image} ${2:component} ${3:active})"
+    },
+    {
+      "trigger": "item-is-group",
+      "contents": "(gimp-item-is-group ${1:item})"
+    },
+    {
+      "trigger": "colormap-remap",
+      "contents": "(plug-in-colormap-remap ${1:run-mode} ${2:image} ${3:drawable} ${4:num-colors} ${5:map})"
+    },
+    {
+      "trigger": "item-set-color-tag",
+      "contents": "(gimp-item-set-color-tag ${1:item} ${2:color-tag})"
+    },
+    {
+      "trigger": "item-is-vectors",
+      "contents": "(gimp-item-is-vectors ${1:item})"
+    },
+    {
+      "trigger": "palette-add-entry",
+      "contents": "(gimp-palette-add-entry ${1:name} ${2:entry-name} ${3:color})"
+    },
+    {
+      "trigger": "file-raw-placeholder-minolta-load",
+      "contents": "(file-raw-placeholder-minolta-load ${1:run-mode} ${2:filename} ${3:raw-filename})"
+    },
+    {
+      "trigger": "message",
+      "contents": "(gimp-message ${1:message})"
+    },
+    {
+      "trigger": "ifscompose",
+      "contents": "(plug-in-ifscompose ${1:run-mode} ${2:image} ${3:drawable})"
+    },
+    {
+      "trigger": "image-select-item",
+      "contents": "(gimp-image-select-item ${1:image} ${2:operation} ${3:item})"
+    },
+    {
+      "trigger": "image-get-default-new-layer-mode",
+      "contents": "(gimp-image-get-default-new-layer-mode ${1:image})"
+    },
+    {
+      "trigger": "file-tiff-save2",
+      "contents": "(file-tiff-save2 ${1:run-mode} ${2:image} ${3:drawable} ${4:filename} ${5:raw-filename} ${6:compression} ${7:save-transp-pixels})"
+    },
+    {
+      "trigger": "file-load-layers",
+      "contents": "(gimp-file-load-layers ${1:run-mode} ${2:image} ${3:filename})"
+    },
+    {
+      "trigger": "difference-clouds",
+      "contents": "(script-fu-difference-clouds ${1:run-mode} ${2:image} ${3:drawable})"
+    },
+    {
+      "trigger": "context-set-brush",
+      "contents": "(gimp-context-set-brush ${1:name})"
+    },
+    {
+      "trigger": "randomize-hurl",
+      "contents": "(plug-in-randomize-hurl ${1:run-mode} ${2:image} ${3:drawable} ${4:rndm-pct} ${5:rndm-rcount} ${6:randomize} ${7:seed})"
+    },
+    {
+      "trigger": "image-merge-layer-group",
+      "contents": "(gimp-image-merge-layer-group ${1:image} ${2:layer-group})"
+    },
+    {
+      "trigger": "context-get-ink-angle",
+      "contents": "(gimp-context-get-ink-angle)"
+    },
+    {
+      "trigger": "context-set-line-miter-limit",
+      "contents": "(gimp-context-set-line-miter-limit ${1:miter-limit})"
+    },
+    {
+      "trigger": "image-get-parasite",
+      "contents": "(gimp-image-get-parasite ${1:image} ${2:name})"
+    },
+    {
+      "trigger": "context-get-mypaint-brush",
+      "contents": "(gimp-context-get-mypaint-brush)"
+    },
+    {
+      "trigger": "vectors-stroke-interpolate",
+      "contents": "(gimp-vectors-stroke-interpolate ${1:vectors} ${2:stroke-id} ${3:precision})"
+    },
+    {
+      "trigger": "fractal-trace",
+      "contents": "(plug-in-fractal-trace ${1:run-mode} ${2:image} ${3:drawable} ${4:xmin} ${5:xmax} ${6:ymin} ${7:ymax} ${8:depth} ${9:outside-type})"
+    },
+    {
+      "trigger": "register-magic-load-handler",
+      "contents": "(gimp-register-magic-load-handler ${1:procedure-name} ${2:extensions} ${3:prefixes} ${4:magics})"
+    },
+    {
+      "trigger": "file-raw-placeholder-dng-load",
+      "contents": "(file-raw-placeholder-dng-load ${1:run-mode} ${2:filename} ${3:raw-filename})"
+    },
+    {
+      "trigger": "palette-set-columns",
+      "contents": "(gimp-palette-set-columns ${1:name} ${2:columns})"
+    },
+    {
+      "trigger": "edge",
+      "contents": "(plug-in-edge ${1:run-mode} ${2:image} ${3:drawable} ${4:amount} ${5:warpmode} ${6:edgemode})"
+    },
+    {
+      "trigger": "file-psd-load",
+      "contents": "(file-psd-load ${1:run-mode} ${2:filename} ${3:raw-filename})"
+    },
+    {
+      "trigger": "image-get-floating-sel",
+      "contents": "(gimp-image-get-floating-sel ${1:image})"
+    },
+    {
+      "trigger": "goat-exercise",
+      "contents": "(plug-in-goat-exercise ${1:run-mode} ${2:image} ${3:drawable})"
+    },
+    {
+      "trigger": "text-console",
+      "contents": "(plug-in-script-fu-text-console ${1:run-mode})"
+    },
+    {
+      "trigger": "context-set-sample-criterion",
+      "contents": "(gimp-context-set-sample-criterion ${1:sample-criterion})"
+    },
+    {
+      "trigger": "image-new-with-precision",
+      "contents": "(gimp-image-new-with-precision ${1:width} ${2:height} ${3:type} ${4:precision})"
+    },
+    {
+      "trigger": "drawable-brightness-contrast",
+      "contents": "(gimp-drawable-brightness-contrast ${1:drawable} ${2:brightness} ${3:contrast})"
+    },
+    {
+      "trigger": "gradient-segment-get-left-color",
+      "contents": "(gimp-gradient-segment-get-left-color ${1:name} ${2:segment})"
+    },
+    {
+      "trigger": "file-pat-load",
+      "contents": "(file-pat-load ${1:dummy-param} ${2:uri} ${3:raw-uri})"
+    },
+    {
+      "trigger": "patterns-set-popup",
+      "contents": "(gimp-patterns-set-popup ${1:pattern-callback} ${2:pattern-name})"
+    },
+    {
+      "trigger": "selection-invert",
+      "contents": "(gimp-selection-invert ${1:image})"
+    },
+    {
+      "trigger": "file-png-load",
+      "contents": "(file-png-load ${1:run-mode} ${2:filename} ${3:raw-filename})"
+    },
+    {
+      "trigger": "file-pdf-load",
+      "contents": "(file-pdf-load ${1:run-mode} ${2:filename} ${3:raw-filename})"
+    },
+    {
+      "trigger": "normalize",
+      "contents": "(plug-in-normalize ${1:run-mode} ${2:image} ${3:drawable})"
+    },
+    {
+      "trigger": "progress-cancel",
+      "contents": "(gimp-progress-cancel ${1:progress-callback})"
+    },
+    {
+      "trigger": "layer-copy",
+      "contents": "(gimp-layer-copy ${1:layer} ${2:add-alpha})"
+    },
+    {
+      "trigger": "drawable-edit-gradient-fill",
+      "contents": "(gimp-drawable-edit-gradient-fill ${1:drawable} ${2:gradient-type} ${3:offset} ${4:supersample} ${5:supersample-max-depth} ${6:supersample-threshold} ${7:dither} ${8:x1} ${9:y1} ${10:x2} ${11:y2})"
+    },
+    {
+      "trigger": "layer-set-composite-space",
+      "contents": "(gimp-layer-set-composite-space ${1:layer} ${2:composite-space})"
+    },
+    {
+      "trigger": "selection-feather",
+      "contents": "(gimp-selection-feather ${1:image} ${2:radius})"
+    },
+    {
+      "trigger": "item-transform-shear",
+      "contents": "(gimp-item-transform-shear ${1:item} ${2:shear-type} ${3:magnitude})"
+    },
+    {
+      "trigger": "icc-profile-apply",
+      "contents": "(plug-in-icc-profile-apply ${1:run-mode} ${2:image} ${3:profile} ${4:intent} ${5:bpc})"
+    },
+    {
+      "trigger": "drawable-fill",
+      "contents": "(gimp-drawable-fill ${1:drawable} ${2:fill-type})"
+    },
+    {
+      "trigger": "gflare",
+      "contents": "(plug-in-gflare ${1:run-mode} ${2:image} ${3:drawable} ${4:gflare-name} ${5:xcenter} ${6:ycenter} ${7:radius} ${8:rotation} ${9:hue} ${10:vangle} ${11:vlength} ${12:use-asupsample} ${13:asupsample-max-depth} ${14:asupsample-threshold})"
+    },
+    {
+      "trigger": "drawable-edit-stroke-item",
+      "contents": "(gimp-drawable-edit-stroke-item ${1:drawable} ${2:item})"
+    },
+    {
+      "trigger": "drawable-colorize-hsl",
+      "contents": "(gimp-drawable-colorize-hsl ${1:drawable} ${2:hue} ${3:saturation} ${4:lightness})"
+    },
+    {
+      "trigger": "item-set-expanded",
+      "contents": "(gimp-item-set-expanded ${1:item} ${2:expanded})"
+    },
+    {
+      "trigger": "palette-export-text",
+      "contents": "(gimp-palette-export-text ${1:run-mode} ${2:dirname} ${3:string})"
+    },
+    {
+      "trigger": "file-pdf-load-thumb",
+      "contents": "(file-pdf-load-thumb ${1:filename} ${2:thumb-size})"
+    },
+    {
+      "trigger": "file-raw-placeholder-qtk-load",
+      "contents": "(file-raw-placeholder-qtk-load ${1:run-mode} ${2:filename} ${3:raw-filename})"
+    },
+    {
+      "trigger": "floating-sel-anchor",
+      "contents": "(gimp-floating-sel-anchor ${1:floating-sel})"
+    },
+    {
+      "trigger": "channel-get-opacity",
+      "contents": "(gimp-channel-get-opacity ${1:channel})"
+    },
+    {
+      "trigger": "layer-get-opacity",
+      "contents": "(gimp-layer-get-opacity ${1:layer})"
+    },
+    {
+      "trigger": "unit-editor",
+      "contents": "(plug-in-unit-editor ${1:run-mode})"
+    },
+    {
+      "trigger": "channel-get-color",
+      "contents": "(gimp-channel-get-color ${1:channel})"
+    },
+    {
+      "trigger": "image-set-active-channel",
+      "contents": "(gimp-image-set-active-channel ${1:image} ${2:active-channel})"
+    },
+    {
+      "trigger": "airbrush-default",
+      "contents": "(gimp-airbrush-default ${1:drawable} ${2:num-strokes} ${3:strokes})"
+    },
+    {
+      "trigger": "context-set-defaults",
+      "contents": "(gimp-context-set-defaults)"
+    },
+    {
+      "trigger": "file-pnm-load",
+      "contents": "(file-pnm-load ${1:run-mode} ${2:filename} ${3:raw-filename})"
+    },
+    {
+      "trigger": "context-set-sample-transparent",
+      "contents": "(gimp-context-set-sample-transparent ${1:sample-transparent})"
+    },
+    {
+      "trigger": "procedural-db-proc-exists",
+      "contents": "(gimp-procedural-db-proc-exists ${1:procedure-name})"
+    },
+    {
+      "trigger": "context-set-ink-speed-sensitivity",
+      "contents": "(gimp-context-set-ink-speed-sensitivity ${1:speed})"
+    },
+    {
+      "trigger": "displays-flush",
+      "contents": "(gimp-displays-flush)"
+    },
+    {
+      "trigger": "pagecurl",
+      "contents": "(plug-in-pagecurl ${1:run-mode} ${2:image} ${3:drawable} ${4:colors} ${5:edge} ${6:orientation} ${7:shade})"
+    },
+    {
+      "trigger": "item-transform-scale",
+      "contents": "(gimp-item-transform-scale ${1:item} ${2:x0} ${3:y0} ${4:x1} ${5:y1})"
+    },
+    {
+      "trigger": "item-get-color-tag",
+      "contents": "(gimp-item-get-color-tag ${1:item})"
+    },
+    {
+      "trigger": "file-pbm-save",
+      "contents": "(file-pbm-save ${1:run-mode} ${2:image} ${3:drawable} ${4:filename} ${5:raw-filename} ${6:raw})"
+    },
+    {
+      "trigger": "online-wiki",
+      "contents": "(gimp-online-wiki ${1:run-mode})"
+    },
+    {
+      "trigger": "context-set-gradient-fg-bg-rgb",
+      "contents": "(gimp-context-set-gradient-fg-bg-rgb)"
+    },
+    {
+      "trigger": "get-default-unit",
+      "contents": "(gimp-get-default-unit)"
+    },
+    {
+      "trigger": "file-pgm-save",
+      "contents": "(file-pgm-save ${1:run-mode} ${2:image} ${3:drawable} ${4:filename} ${5:raw-filename} ${6:raw})"
+    },
+    {
+      "trigger": "selection-flood",
+      "contents": "(gimp-selection-flood ${1:image})"
+    },
+    {
+      "trigger": "layer-set-opacity",
+      "contents": "(gimp-layer-set-opacity ${1:layer} ${2:opacity})"
+    },
+    {
+      "trigger": "channel-set-opacity",
+      "contents": "(gimp-channel-set-opacity ${1:channel} ${2:opacity})"
+    },
+    {
+      "trigger": "image-convert-color-profile",
+      "contents": "(gimp-image-convert-color-profile ${1:image} ${2:num-bytes} ${3:color-profile} ${4:intent} ${5:bpc})"
+    },
+    {
+      "trigger": "drawable-merge-shadow",
+      "contents": "(gimp-drawable-merge-shadow ${1:drawable} ${2:undo})"
+    },
+    {
+      "trigger": "context-get-font",
+      "contents": "(gimp-context-get-font)"
+    },
+    {
+      "trigger": "item-get-image",
+      "contents": "(gimp-item-get-image ${1:item})"
+    },
+    {
+      "trigger": "guide-new-percent",
+      "contents": "(script-fu-guide-new-percent ${1:run-mode} ${2:image} ${3:drawable} ${4:option} ${5:value})"
+    },
+    {
+      "trigger": "file-raw-placeholder-hasselblad-load",
+      "contents": "(file-raw-placeholder-hasselblad-load ${1:run-mode} ${2:filename} ${3:raw-filename})"
+    },
+    {
+      "trigger": "image-new",
+      "contents": "(gimp-image-new ${1:width} ${2:height} ${3:type})"
+    },
+    {
+      "trigger": "image-get-channel-by-name",
+      "contents": "(gimp-image-get-channel-by-name ${1:image} ${2:name})"
+    },
+    {
+      "trigger": "edit-paste-as-new-image",
+      "contents": "(gimp-edit-paste-as-new-image)"
+    },
+    {
+      "trigger": "item-set-name",
+      "contents": "(gimp-item-set-name ${1:item} ${2:name})"
+    },
+    {
+      "trigger": "file-xbm-save",
+      "contents": "(file-xbm-save ${1:run-mode} ${2:image} ${3:drawable} ${4:filename} ${5:raw-filename} ${6:comment} ${7:x10} ${8:x-hot} ${9:y-hot} ${10:prefix} ${11:write-mask} ${12:mask-extension})"
+    },
+    {
+      "trigger": "circuit",
+      "contents": "(script-fu-circuit ${1:run-mode} ${2:image} ${3:drawable} ${4:value} ${5:value} ${6:toggle} ${7:toggle} ${8:toggle})"
+    },
+    {
+      "trigger": "text-layer-set-justification",
+      "contents": "(gimp-text-layer-set-justification ${1:layer} ${2:justify})"
+    },
+    {
+      "trigger": "context-set-ink-size",
+      "contents": "(gimp-context-set-ink-size ${1:size})"
+    },
+    {
+      "trigger": "layer-get-composite-space",
+      "contents": "(gimp-layer-get-composite-space ${1:layer})"
+    },
+    {
+      "trigger": "file-raw-placeholder-ari-load",
+      "contents": "(file-raw-placeholder-ari-load ${1:run-mode} ${2:filename} ${3:raw-filename})"
+    },
+    {
+      "trigger": "file-ps-load-setargs",
+      "contents": "(file-ps-load-setargs ${1:resolution} ${2:width} ${3:height} ${4:check-bbox} ${5:pages} ${6:coloring} ${7:text-alpha-bits} ${8:graphic-alpha-bits})"
+    },
+    {
+      "trigger": "image-grid-get-offset",
+      "contents": "(gimp-image-grid-get-offset ${1:image})"
+    },
+    {
+      "trigger": "file-dicom-load",
+      "contents": "(file-dicom-load ${1:run-mode} ${2:filename} ${3:raw-filename})"
+    },
+    {
+      "trigger": "gradient-delete",
+      "contents": "(gimp-gradient-delete ${1:name})"
+    },
+    {
+      "trigger": "drawable-compose",
+      "contents": "(plug-in-drawable-compose ${1:run-mode} ${2:image1} ${3:drawable1} ${4:drawable2} ${5:drawable3} ${6:drawable4} ${7:compose-type})"
+    },
+    {
+      "trigger": "image-undo-thaw",
+      "contents": "(gimp-image-undo-thaw ${1:image})"
+    },
+    {
+      "trigger": "unit-get-singular",
+      "contents": "(gimp-unit-get-singular ${1:unit-id})"
+    },
+    {
+      "trigger": "display-is-valid",
+      "contents": "(gimp-display-is-valid ${1:display})"
+    },
+    {
+      "trigger": "context-set-gradient-reverse",
+      "contents": "(gimp-context-set-gradient-reverse ${1:reverse})"
+    },
+    {
+      "trigger": "edit-cut",
+      "contents": "(gimp-edit-cut ${1:drawable})"
+    },
+    {
+      "trigger": "file-gbr-load",
+      "contents": "(file-gbr-load ${1:dummy-param} ${2:uri} ${3:raw-uri})"
+    },
+    {
+      "trigger": "help",
+      "contents": "(gimp-help ${1:help-domain} ${2:help-id})"
+    },
+    {
+      "trigger": "curve-bend",
+      "contents": "(plug-in-curve-bend ${1:run-mode} ${2:image} ${3:drawable} ${4:rotation} ${5:smoothing} ${6:antialias} ${7:work-on-copy} ${8:curve-type} ${9:argc-upper-point-x} ${10:upper-point-x} ${11:argc-upper-point-y} ${12:upper-point-y} ${13:argc-lower-point-x} ${14:lower-point-x} ${15:argc-lower-point-y} ${16:lower-point-y} ${17:argc-upper-val-y} ${18:upper-val-y} ${19:argc-lower-val-y} ${20:lower-val-y})"
+    },
+    {
+      "trigger": "item-is-layer",
+      "contents": "(gimp-item-is-layer ${1:item})"
+    },
+    {
+      "trigger": "image-lower-item-to-bottom",
+      "contents": "(gimp-image-lower-item-to-bottom ${1:image} ${2:item})"
+    },
+    {
+      "trigger": "layer-resize-to-image-size",
+      "contents": "(gimp-layer-resize-to-image-size ${1:layer})"
+    },
+    {
+      "trigger": "file-webp-load",
+      "contents": "(file-webp-load ${1:run-mode} ${2:filename} ${3:raw-filename})"
+    },
+    {
+      "trigger": "item-transform-flip-simple",
+      "contents": "(gimp-item-transform-flip-simple ${1:item} ${2:flip-type} ${3:auto-center} ${4:axis})"
+    },
+    {
+      "trigger": "gimpressionist",
+      "contents": "(plug-in-gimpressionist ${1:run-mode} ${2:image} ${3:drawable} ${4:preset})"
+    },
+    {
+      "trigger": "palette-get-info",
+      "contents": "(gimp-palette-get-info ${1:name})"
+    },
+    {
+      "trigger": "palette-to-gradient",
+      "contents": "(python-fu-palette-to-gradient ${1:run-mode} ${2:palette})"
+    },
+    {
+      "trigger": "context-get-ink-size",
+      "contents": "(gimp-context-get-ink-size)"
+    },
+    {
+      "trigger": "image-flip",
+      "contents": "(gimp-image-flip ${1:image} ${2:flip-type})"
+    },
+    {
+      "trigger": "reverse-layers",
+      "contents": "(script-fu-reverse-layers ${1:run-mode} ${2:image} ${3:drawable})"
+    },
+    {
+      "trigger": "drawable-equalize",
+      "contents": "(gimp-drawable-equalize ${1:drawable} ${2:mask-only})"
+    },
+    {
+      "trigger": "image-floating-sel-attached-to",
+      "contents": "(gimp-image-floating-sel-attached-to ${1:image})"
+    },
+    {
+      "trigger": "palettes-close-popup",
+      "contents": "(gimp-palettes-close-popup ${1:palette-callback})"
+    },
+    {
+      "trigger": "context-set-gradient-fg-bg-hsv-ccw",
+      "contents": "(gimp-context-set-gradient-fg-bg-hsv-ccw)"
+    },
+    {
+      "trigger": "lic",
+      "contents": "(plug-in-lic ${1:run-mode} ${2:image} ${3:drawable})"
+    },
+    {
+      "trigger": "add-bevel",
+      "contents": "(script-fu-add-bevel ${1:run-mode} ${2:image} ${3:drawable} ${4:value} ${5:toggle} ${6:toggle})"
+    },
+    {
+      "trigger": "context-set-transform-direction",
+      "contents": "(gimp-context-set-transform-direction ${1:transform-direction})"
+    },
+    {
+      "trigger": "weave",
+      "contents": "(script-fu-weave ${1:run-mode} ${2:image} ${3:drawable} ${4:value} ${5:value} ${6:value} ${7:value} ${8:value} ${9:value} ${10:value})"
+    },
+    {
+      "trigger": "heal",
+      "contents": "(gimp-heal ${1:drawable} ${2:src-drawable} ${3:src-x} ${4:src-y} ${5:num-strokes} ${6:strokes})"
+    },
+    {
+      "trigger": "context-get-sample-threshold",
+      "contents": "(gimp-context-get-sample-threshold)"
+    },
+    {
+      "trigger": "vectors-get-strokes",
+      "contents": "(gimp-vectors-get-strokes ${1:vectors})"
+    },
+    {
+      "trigger": "gauss",
+      "contents": "(plug-in-gauss ${1:run-mode} ${2:image} ${3:drawable} ${4:horizontal} ${5:vertical} ${6:method})"
+    },
+    {
+      "trigger": "image-is-dirty",
+      "contents": "(gimp-image-is-dirty ${1:image})"
+    },
+    {
+      "trigger": "selection-border",
+      "contents": "(gimp-selection-border ${1:image} ${2:radius})"
+    },
+    {
+      "trigger": "lens-distortion",
+      "contents": "(plug-in-lens-distortion ${1:run-mode} ${2:image} ${3:drawable} ${4:offset-x} ${5:offset-y} ${6:main-adjust} ${7:edge-adjust} ${8:rescale} ${9:brighten})"
+    },
+    {
+      "trigger": "warp",
+      "contents": "(plug-in-warp ${1:run-mode} ${2:image} ${3:drawable} ${4:amount} ${5:warp-map} ${6:iter} ${7:dither} ${8:angle} ${9:wrap-type} ${10:mag-map} ${11:mag-use} ${12:substeps} ${13:grad-map} ${14:grad-scale} ${15:vector-map} ${16:vector-scale} ${17:vector-angle})"
+    },
+    {
+      "trigger": "image-undo-enable",
+      "contents": "(gimp-image-undo-enable ${1:image})"
+    },
+    {
+      "trigger": "context-get-sample-merged",
+      "contents": "(gimp-context-get-sample-merged)"
+    },
+    {
+      "trigger": "buffer-get-image-type",
+      "contents": "(gimp-buffer-get-image-type ${1:buffer-name})"
+    },
+    {
+      "trigger": "item-delete",
+      "contents": "(gimp-item-delete ${1:item})"
+    },
+    {
+      "trigger": "paste-as-pattern",
+      "contents": "(script-fu-paste-as-pattern ${1:run-mode} ${2:string} ${3:string})"
+    },
+    {
+      "trigger": "context-get-ink-blob-type",
+      "contents": "(gimp-context-get-ink-blob-type)"
+    },
+    {
+      "trigger": "channel-set-color",
+      "contents": "(gimp-channel-set-color ${1:channel} ${2:color})"
+    },
+    {
+      "trigger": "emboss",
+      "contents": "(plug-in-emboss ${1:run-mode} ${2:image} ${3:drawable} ${4:azimuth} ${5:elevation} ${6:depth} ${7:emboss})"
+    },
+    {
+      "trigger": "gradient-segment-range-split-midpoint",
+      "contents": "(gimp-gradient-segment-range-split-midpoint ${1:name} ${2:start-segment} ${3:end-segment})"
+    },
+    {
+      "trigger": "dbbrowser",
+      "contents": "(plug-in-dbbrowser ${1:run-mode})"
+    },
+    {
+      "trigger": "drawable-posterize",
+      "contents": "(gimp-drawable-posterize ${1:drawable} ${2:levels})"
+    },
+    {
+      "trigger": "image-get-tattoo-state",
+      "contents": "(gimp-image-get-tattoo-state ${1:image})"
+    },
+    {
+      "trigger": "file-gif-load-thumb",
+      "contents": "(file-gif-load-thumb ${1:filename} ${2:thumb-size})"
+    },
+    {
+      "trigger": "image-merge-down",
+      "contents": "(gimp-image-merge-down ${1:image} ${2:merge-layer} ${3:merge-type})"
+    },
+    {
+      "trigger": "procedural-db-get-data",
+      "contents": "(gimp-procedural-db-get-data ${1:identifier})"
+    },
+    {
+      "trigger": "gradient-rename",
+      "contents": "(gimp-gradient-rename ${1:name} ${2:new-name})"
+    },
+    {
+      "trigger": "oilify",
+      "contents": "(plug-in-oilify ${1:run-mode} ${2:image} ${3:drawable} ${4:mask-size} ${5:mode})"
+    },
+    {
+      "trigger": "c-astretch",
+      "contents": "(plug-in-c-astretch ${1:run-mode} ${2:image} ${3:drawable})"
+    },
+    {
+      "trigger": "dynamics-get-list",
+      "contents": "(gimp-dynamics-get-list ${1:filter})"
+    },
+    {
+      "trigger": "pattern-get-pixels",
+      "contents": "(gimp-pattern-get-pixels ${1:name})"
+    },
+    {
+      "trigger": "file-eps-save",
+      "contents": "(file-eps-save ${1:run-mode} ${2:image} ${3:drawable} ${4:filename} ${5:raw-filename} ${6:width} ${7:height} ${8:x-offset} ${9:y-offset} ${10:unit} ${11:keep-ratio} ${12:rotation} ${13:eps-flag} ${14:preview} ${15:level})"
+    },
+    {
+      "trigger": "file-raw-set-defaults",
+      "contents": "(file-raw-set-defaults ${1:image-type} ${2:palette-type})"
+    },
+    {
+      "trigger": "smudge-default",
+      "contents": "(gimp-smudge-default ${1:drawable} ${2:num-strokes} ${3:strokes})"
+    },
+    {
+      "trigger": "image-set-active-layer",
+      "contents": "(gimp-image-set-active-layer ${1:image} ${2:active-layer})"
+    },
+    {
+      "trigger": "gauss-rle2",
+      "contents": "(plug-in-gauss-rle2 ${1:run-mode} ${2:image} ${3:drawable} ${4:horizontal} ${5:vertical})"
+    },
+    {
+      "trigger": "make-brush-rectangular-feathered",
+      "contents": "(script-fu-make-brush-rectangular-feathered ${1:run-mode} ${2:string} ${3:value} ${4:value} ${5:value} ${6:value})"
+    },
+    {
+      "trigger": "nova",
+      "contents": "(plug-in-nova ${1:run-mode} ${2:image} ${3:drawable} ${4:xcenter} ${5:ycenter} ${6:color} ${7:radius} ${8:nspoke} ${9:randomhue})"
+    },
+    {
+      "trigger": "brush-get-pixels",
+      "contents": "(gimp-brush-get-pixels ${1:name})"
+    },
+    {
+      "trigger": "eraser-default",
+      "contents": "(gimp-eraser-default ${1:drawable} ${2:num-strokes} ${3:strokes})"
+    },
+    {
+      "trigger": "layer-create-mask",
+      "contents": "(gimp-layer-create-mask ${1:layer} ${2:mask-type})"
+    },
+    {
+      "trigger": "pattern-get-info",
+      "contents": "(gimp-pattern-get-info ${1:name})"
+    },
+    {
+      "trigger": "context-set-default-colors",
+      "contents": "(gimp-context-set-default-colors)"
+    },
+    {
+      "trigger": "help-concepts-usage",
+      "contents": "(gimp-help-concepts-usage ${1:run-mode})"
+    },
+    {
+      "trigger": "brush-is-editable",
+      "contents": "(gimp-brush-is-editable ${1:name})"
+    },
+    {
+      "trigger": "edit-named-copy-visible",
+      "contents": "(gimp-edit-named-copy-visible ${1:image} ${2:buffer-name})"
+    },
+    {
+      "trigger": "layer-scale",
+      "contents": "(gimp-layer-scale ${1:layer} ${2:new-width} ${3:new-height} ${4:local-origin})"
+    },
+    {
+      "trigger": "context-set-ink-size-sensitivity",
+      "contents": "(gimp-context-set-ink-size-sensitivity ${1:size})"
+    },
+    {
+      "trigger": "gradient-segment-range-blend-opacity",
+      "contents": "(gimp-gradient-segment-range-blend-opacity ${1:name} ${2:start-segment} ${3:end-segment})"
+    },
+    {
+      "trigger": "file-colorxhtml-save",
+      "contents": "(file-colorxhtml-save ${1:run-mode} ${2:image} ${3:drawable} ${4:filename} ${5:raw-filename} ${6:source} ${7:characters} ${8:font-size} ${9:separate})"
+    },
+    {
+      "trigger": "context-set-brush-force",
+      "contents": "(gimp-context-set-brush-force ${1:force})"
+    },
+    {
+      "trigger": "unsharp-mask",
+      "contents": "(plug-in-unsharp-mask ${1:run-mode} ${2:image} ${3:drawable} ${4:radius} ${5:amount} ${6:threshold})"
+    },
+    {
+      "trigger": "animationoptimize",
+      "contents": "(plug-in-animationoptimize ${1:run-mode} ${2:image} ${3:drawable})"
+    },
+    {
+      "trigger": "image-convert-precision",
+      "contents": "(gimp-image-convert-precision ${1:image} ${2:precision})"
+    },
+    {
+      "trigger": "layer-get-blend-space",
+      "contents": "(gimp-layer-get-blend-space ${1:layer})"
+    },
+    {
+      "trigger": "drawable-edit-fill",
+      "contents": "(gimp-drawable-edit-fill ${1:drawable} ${2:fill-type})"
+    },
+    {
+      "trigger": "video",
+      "contents": "(plug-in-video ${1:run-mode} ${2:image} ${3:drawable} ${4:pattern-number} ${5:additive} ${6:rotated})"
+    },
+    {
+      "trigger": "file-raw-placeholder-kodak-load",
+      "contents": "(file-raw-placeholder-kodak-load ${1:run-mode} ${2:filename} ${3:raw-filename})"
+    },
+    {
+      "trigger": "brushes-refresh",
+      "contents": "(gimp-brushes-refresh)"
+    },
+    {
+      "trigger": "context-set-feather",
+      "contents": "(gimp-context-set-feather ${1:feather})"
+    },
+    {
+      "trigger": "grid-system",
+      "contents": "(script-fu-grid-system ${1:run-mode} ${2:image} ${3:drawable} ${4:value} ${5:value})"
+    },
+    {
+      "trigger": "edit-named-copy",
+      "contents": "(gimp-edit-named-copy ${1:drawable} ${2:buffer-name})"
+    },
+    {
+      "trigger": "context-set-background",
+      "contents": "(gimp-context-set-background ${1:background})"
+    },
+    {
+      "trigger": "buffer-rename",
+      "contents": "(gimp-buffer-rename ${1:buffer-name} ${2:new-name})"
+    },
+    {
+      "trigger": "image-insert-vectors",
+      "contents": "(gimp-image-insert-vectors ${1:image} ${2:vectors} ${3:parent} ${4:position})"
+    },
+    {
+      "trigger": "vectors-stroke-new-from-points",
+      "contents": "(gimp-vectors-stroke-new-from-points ${1:vectors} ${2:type} ${3:num-points} ${4:controlpoints} ${5:closed})"
+    },
+    {
+      "trigger": "file-save",
+      "contents": "(gimp-file-save ${1:run-mode} ${2:image} ${3:drawable} ${4:filename} ${5:raw-filename})"
+    },
+    {
+      "trigger": "drawable-offsets",
+      "contents": "(gimp-drawable-offsets ${1:drawable})"
+    },
+    {
+      "trigger": "file-j2k-load",
+      "contents": "(file-j2k-load ${1:run-mode} ${2:filename} ${3:raw-filename} ${4:colorspace})"
+    },
+    {
+      "trigger": "gradient-segment-range-set-coloring-type",
+      "contents": "(gimp-gradient-segment-range-set-coloring-type ${1:name} ${2:start-segment} ${3:end-segment} ${4:coloring-type})"
+    },
+    {
+      "trigger": "context-get-stroke-method",
+      "contents": "(gimp-context-get-stroke-method)"
+    },
+    {
+      "trigger": "clone",
+      "contents": "(gimp-clone ${1:drawable} ${2:src-drawable} ${3:clone-type} ${4:src-x} ${5:src-y} ${6:num-strokes} ${7:strokes})"
+    },
+    {
+      "trigger": "alienmap2",
+      "contents": "(plug-in-alienmap2 ${1:run-mode} ${2:image} ${3:drawable} ${4:redfrequency} ${5:redangle} ${6:greenfrequency} ${7:greenangle} ${8:bluefrequency} ${9:blueangle} ${10:colormodel} ${11:redmode} ${12:greenmode} ${13:bluemode})"
+    },
+    {
+      "trigger": "file-raw-get-defaults",
+      "contents": "(file-raw-get-defaults)"
+    },
+    {
+      "trigger": "gradient-segment-range-split-uniform",
+      "contents": "(gimp-gradient-segment-range-split-uniform ${1:name} ${2:start-segment} ${3:end-segment} ${4:split-parts})"
+    },
+    {
+      "trigger": "drawable-curves-explicit",
+      "contents": "(gimp-drawable-curves-explicit ${1:drawable} ${2:channel} ${3:num-values} ${4:values})"
+    },
+    {
+      "trigger": "context-set-distance-metric",
+      "contents": "(gimp-context-set-distance-metric ${1:metric})"
+    },
+    {
+      "trigger": "mosaic",
+      "contents": "(plug-in-mosaic ${1:run-mode} ${2:image} ${3:drawable} ${4:tile-size} ${5:tile-height} ${6:tile-spacing} ${7:tile-neatness} ${8:tile-allow-split} ${9:light-dir} ${10:color-variation} ${11:antialiasing} ${12:color-averaging} ${13:tile-type} ${14:tile-surface} ${15:grout-color})"
+    },
+    {
+      "trigger": "online-roadmap",
+      "contents": "(gimp-online-roadmap ${1:run-mode})"
+    },
+    {
+      "trigger": "spyrogimp",
+      "contents": "(plug-in-spyrogimp ${1:run-mode} ${2:image} ${3:drawable} ${4:curve-type} ${5:shape} ${6:sides} ${7:morph} ${8:fixed-teeth} ${9:moving-teeth} ${10:hole-percent} ${11:margin} ${12:equal-w-h} ${13:pattern-rotation} ${14:shape-rotation} ${15:tool} ${16:long-gradient})"
+    },
+    {
+      "trigger": "drawable-color-balance",
+      "contents": "(gimp-drawable-color-balance ${1:drawable} ${2:transfer-mode} ${3:preserve-lum} ${4:cyan-red} ${5:magenta-green} ${6:yellow-blue})"
+    },
+    {
+      "trigger": "screenshot",
+      "contents": "(plug-in-screenshot ${1:run-mode} ${2:shoot-type} ${3:window-id} ${4:x1} ${5:y1} ${6:x2} ${7:y2})"
+    },
+    {
+      "trigger": "item-get-lock-position",
+      "contents": "(gimp-item-get-lock-position ${1:item})"
+    },
+    {
+      "trigger": "xcf-save",
+      "contents": "(gimp-xcf-save ${1:dummy-param} ${2:image} ${3:drawable} ${4:filename} ${5:raw-filename})"
+    },
+    {
+      "trigger": "file-raw-placeholder-rwl-load",
+      "contents": "(file-raw-placeholder-rwl-load ${1:run-mode} ${2:filename} ${3:raw-filename})"
+    },
+    {
+      "trigger": "round-corners",
+      "contents": "(script-fu-round-corners ${1:run-mode} ${2:image} ${3:drawable} ${4:value} ${5:toggle} ${6:value} ${7:value} ${8:value} ${9:toggle} ${10:toggle})"
+    },
+    {
+      "trigger": "file-mng-save",
+      "contents": "(file-mng-save ${1:run-mode} ${2:image} ${3:drawable} ${4:filename} ${5:raw-filename} ${6:interlace} ${7:compression} ${8:quality} ${9:smoothing} ${10:loop} ${11:default-delay} ${12:default-chunks} ${13:default-dispose} ${14:bkgd} ${15:gama} ${16:phys} ${17:time})"
+    },
+    {
+      "trigger": "gradient-segment-get-coloring-type",
+      "contents": "(gimp-gradient-segment-get-coloring-type ${1:name} ${2:segment})"
+    },
+    {
+      "trigger": "file-wmf-load-thumb",
+      "contents": "(file-wmf-load-thumb ${1:filename} ${2:thumb-size})"
+    },
+    {
+      "trigger": "busy-dialog",
+      "contents": "(plug-in-busy-dialog ${1:run-mode} ${2:read-fd} ${3:write-fd} ${4:message} ${5:cancelable})"
+    },
+    {
+      "trigger": "image-get-xcf-uri",
+      "contents": "(gimp-image-get-xcf-uri ${1:image})"
+    },
+    {
+      "trigger": "register-file-handler-priority",
+      "contents": "(gimp-register-file-handler-priority ${1:procedure-name} ${2:priority})"
+    },
+    {
+      "trigger": "gradients-get-list",
+      "contents": "(gimp-gradients-get-list ${1:filter})"
+    },
+    {
+      "trigger": "eval",
+      "contents": "(python-fu-eval ${1:run-mode} ${2:code})"
+    },
+    {
+      "trigger": "drawable-free-shadow",
+      "contents": "(gimp-drawable-free-shadow ${1:drawable})"
+    },
+    {
+      "trigger": "drawable-offset",
+      "contents": "(gimp-drawable-offset ${1:drawable} ${2:wrap-around} ${3:fill-type} ${4:offset-x} ${5:offset-y})"
+    },
+    {
+      "trigger": "metadata-editor",
+      "contents": "(plug-in-metadata-editor ${1:run-mode} ${2:image})"
+    },
+    {
+      "trigger": "gradients-popup",
+      "contents": "(gimp-gradients-popup ${1:gradient-callback} ${2:popup-title} ${3:initial-gradient} ${4:sample-size})"
+    },
+    {
+      "trigger": "floating-sel-to-layer",
+      "contents": "(gimp-floating-sel-to-layer ${1:floating-sel})"
+    },
+    {
+      "trigger": "sparkle",
+      "contents": "(plug-in-sparkle ${1:run-mode} ${2:image} ${3:drawable} ${4:lum-threshold} ${5:flare-inten} ${6:spike-len} ${7:spike-pts} ${8:spike-angle} ${9:density} ${10:transparency} ${11:random-hue} ${12:random-saturation} ${13:preserve-luminosity} ${14:inverse} ${15:border} ${16:color-type})"
+    },
+    {
+      "trigger": "image-set-component-visible",
+      "contents": "(gimp-image-set-component-visible ${1:image} ${2:component} ${3:visible})"
+    },
+    {
+      "trigger": "image-rotate",
+      "contents": "(gimp-image-rotate ${1:image} ${2:rotate-type})"
+    },
+    {
+      "trigger": "help-using-selections",
+      "contents": "(gimp-help-using-selections ${1:run-mode})"
+    },
+    {
+      "trigger": "drawable-curves-spline",
+      "contents": "(gimp-drawable-curves-spline ${1:drawable} ${2:channel} ${3:num-points} ${4:points})"
+    },
+    {
+      "trigger": "film",
+      "contents": "(plug-in-film ${1:run-mode} ${2:image} ${3:drawable} ${4:film-height} ${5:film-color} ${6:number-start} ${7:number-font} ${8:number-color} ${9:at-top} ${10:at-bottom} ${11:num-images} ${12:image-ids})"
+    },
+    {
+      "trigger": "guide-new",
+      "contents": "(script-fu-guide-new ${1:run-mode} ${2:image} ${3:drawable} ${4:option} ${5:value})"
+    },
+    {
+      "trigger": "context-set-line-dash-offset",
+      "contents": "(gimp-context-set-line-dash-offset ${1:dash-offset})"
+    },
+    {
+      "trigger": "context-set-line-width-unit",
+      "contents": "(gimp-context-set-line-width-unit ${1:line-width-unit})"
+    },
+    {
+      "trigger": "brush-get-shape",
+      "contents": "(gimp-brush-get-shape ${1:name})"
+    },
+    {
+      "trigger": "layer-add-alpha",
+      "contents": "(gimp-layer-add-alpha ${1:layer})"
+    },
+    {
+      "trigger": "file-exr-save",
+      "contents": "(file-exr-save ${1:run-mode} ${2:image} ${3:drawable} ${4:filename} ${5:raw-filename})"
+    },
+    {
+      "trigger": "gradient-segment-range-redistribute-handles",
+      "contents": "(gimp-gradient-segment-range-redistribute-handles ${1:name} ${2:start-segment} ${3:end-segment})"
+    },
+    {
+      "trigger": "dog",
+      "contents": "(plug-in-dog ${1:run-mode} ${2:image} ${3:drawable} ${4:inner} ${5:outer} ${6:normalize} ${7:invert})"
+    },
+    {
+      "trigger": "context-set-ink-blob-angle",
+      "contents": "(gimp-context-set-ink-blob-angle ${1:angle})"
+    },
+    {
+      "trigger": "palettes-refresh",
+      "contents": "(gimp-palettes-refresh)"
+    },
+    {
+      "trigger": "context-set-brush-default-size",
+      "contents": "(gimp-context-set-brush-default-size)"
+    },
+    {
+      "trigger": "sobel",
+      "contents": "(plug-in-sobel ${1:run-mode} ${2:image} ${3:drawable} ${4:horizontal} ${5:vertical} ${6:keep-sign})"
+    },
+    {
+      "trigger": "vectors-bezier-stroke-new-moveto",
+      "contents": "(gimp-vectors-bezier-stroke-new-moveto ${1:vectors} ${2:x0} ${3:y0})"
+    },
+    {
+      "trigger": "text-layer-get-line-spacing",
+      "contents": "(gimp-text-layer-get-line-spacing ${1:layer})"
+    },
+    {
+      "trigger": "fonts-get-list",
+      "contents": "(gimp-fonts-get-list ${1:filter})"
+    },
+    {
+      "trigger": "bump-map",
+      "contents": "(plug-in-bump-map ${1:run-mode} ${2:image} ${3:drawable} ${4:bumpmap} ${5:azimuth} ${6:elevation} ${7:depth} ${8:xofs} ${9:yofs} ${10:waterlevel} ${11:ambient} ${12:compensate} ${13:invert} ${14:type})"
+    },
+    {
+      "trigger": "context-get-distance-metric",
+      "contents": "(gimp-context-get-distance-metric)"
+    },
+    {
+      "trigger": "get-monitor-resolution",
+      "contents": "(gimp-get-monitor-resolution)"
+    },
+    {
+      "trigger": "image-grid-get-style",
+      "contents": "(gimp-image-grid-get-style ${1:image})"
+    },
+    {
+      "trigger": "unit-set-deletion-flag",
+      "contents": "(gimp-unit-set-deletion-flag ${1:unit-id} ${2:deletion-flag})"
+    },
+    {
+      "trigger": "engrave",
+      "contents": "(plug-in-engrave ${1:run-mode} ${2:image} ${3:drawable} ${4:height} ${5:limit})"
+    },
+    {
+      "trigger": "context-set-brush-angle",
+      "contents": "(gimp-context-set-brush-angle ${1:angle})"
+    },
+    {
+      "trigger": "old-photo",
+      "contents": "(script-fu-old-photo ${1:run-mode} ${2:image} ${3:drawable} ${4:toggle} ${5:value} ${6:toggle} ${7:toggle} ${8:toggle})"
+    },
+    {
+      "trigger": "file-svg-load",
+      "contents": "(file-svg-load ${1:run-mode} ${2:filename} ${3:raw-filename} ${4:resolution} ${5:width} ${6:height} ${7:paths})"
+    },
+    {
+      "trigger": "file-xwd-load",
+      "contents": "(file-xwd-load ${1:run-mode} ${2:filename} ${3:raw-filename})"
+    },
+    {
+      "trigger": "gradient-segment-get-middle-pos",
+      "contents": "(gimp-gradient-segment-get-middle-pos ${1:name} ${2:segment})"
+    },
+    {
+      "trigger": "palette-export-css",
+      "contents": "(gimp-palette-export-css ${1:run-mode} ${2:dirname} ${3:string})"
+    },
+    {
+      "trigger": "neon",
+      "contents": "(plug-in-neon ${1:run-mode} ${2:image} ${3:drawable} ${4:radius} ${5:amount})"
+    },
+    {
+      "trigger": "file-pdf-save2",
+      "contents": "(file-pdf-save2 ${1:run-mode} ${2:image} ${3:drawable} ${4:filename} ${5:raw-filename} ${6:vectorize} ${7:ignore-hidden} ${8:apply-masks} ${9:layers-as-pages} ${10:reverse-order})"
+    },
+    {
+      "trigger": "paste-as-brush",
+      "contents": "(script-fu-paste-as-brush ${1:run-mode} ${2:string} ${3:string} ${4:value})"
+    },
+    {
+      "trigger": "file-sunras-save",
+      "contents": "(file-sunras-save ${1:run-mode} ${2:image} ${3:drawable} ${4:filename} ${5:raw-filename} ${6:rle})"
+    },
+    {
+      "trigger": "file-raw-placeholder-pxn-load",
+      "contents": "(file-raw-placeholder-pxn-load ${1:run-mode} ${2:filename} ${3:raw-filename})"
+    },
+    {
+      "trigger": "image-remove-layer",
+      "contents": "(gimp-image-remove-layer ${1:image} ${2:layer})"
+    },
+    {
+      "trigger": "plugin-precision-enabled",
+      "contents": "(gimp-plugin-precision-enabled)"
+    },
+    {
+      "trigger": "vectors-stroke-flip-free",
+      "contents": "(gimp-vectors-stroke-flip-free ${1:vectors} ${2:stroke-id} ${3:x1} ${4:y1} ${5:x2} ${6:y2})"
+    },
+    {
+      "trigger": "context-set-line-join-style",
+      "contents": "(gimp-context-set-line-join-style ${1:join-style})"
+    },
+    {
+      "trigger": "set-cmap",
+      "contents": "(script-fu-set-cmap ${1:run-mode} ${2:image} ${3:drawable} ${4:palette})"
+    },
+    {
+      "trigger": "context-set-brush-size",
+      "contents": "(gimp-context-set-brush-size ${1:size})"
+    },
+    {
+      "trigger": "gradients-set-popup",
+      "contents": "(gimp-gradients-set-popup ${1:gradient-callback} ${2:gradient-name})"
+    },
+    {
+      "trigger": "palette-entry-get-name",
+      "contents": "(gimp-palette-entry-get-name ${1:name} ${2:entry-num})"
+    },
+    {
+      "trigger": "drawable-type-with-alpha",
+      "contents": "(gimp-drawable-type-with-alpha ${1:drawable})"
+    },
+    {
+      "trigger": "sel-gauss",
+      "contents": "(plug-in-sel-gauss ${1:run-mode} ${2:image} ${3:drawable} ${4:radius} ${5:max-delta})"
+    },
+    {
+      "trigger": "file-cel-save",
+      "contents": "(file-cel-save ${1:run-mode} ${2:image} ${3:drawable} ${4:filename} ${5:raw-filename} ${6:palette-filename})"
+    },
+    {
+      "trigger": "flarefx",
+      "contents": "(plug-in-flarefx ${1:run-mode} ${2:image} ${3:drawable} ${4:pos-x} ${5:pos-y})"
+    },
+    {
+      "trigger": "file-pdf-load2",
+      "contents": "(file-pdf-load2 ${1:run-mode} ${2:filename} ${3:raw-filename} ${4:pdf-password} ${5:n-pages} ${6:pages})"
+    },
+    {
+      "trigger": "file-ico-load-thumb",
+      "contents": "(file-ico-load-thumb ${1:filename} ${2:thumb-size})"
+    },
+    {
+      "trigger": "gradient-segment-get-right-pos",
+      "contents": "(gimp-gradient-segment-get-right-pos ${1:name} ${2:segment})"
+    },
+    {
+      "trigger": "paintbrush-default",
+      "contents": "(gimp-paintbrush-default ${1:drawable} ${2:num-strokes} ${3:strokes})"
+    },
+    {
+      "trigger": "waves-anim",
+      "contents": "(script-fu-waves-anim ${1:run-mode} ${2:image} ${3:drawable} ${4:value} ${5:value} ${6:value} ${7:toggle})"
+    },
+    {
+      "trigger": "drawable-is-gray",
+      "contents": "(gimp-drawable-is-gray ${1:drawable})"
+    },
+    {
+      "trigger": "text-get-extents-fontname",
+      "contents": "(gimp-text-get-extents-fontname ${1:text} ${2:size} ${3:size-type} ${4:fontname})"
+    },
+    {
+      "trigger": "drawable-get-thumbnail-format",
+      "contents": "(gimp-drawable-get-thumbnail-format ${1:drawable})"
+    },
+    {
+      "trigger": "photocopy",
+      "contents": "(plug-in-photocopy ${1:run-mode} ${2:image} ${3:drawable} ${4:mask-radius} ${5:sharpness} ${6:pct-black} ${7:pct-white})"
+    },
+    {
+      "trigger": "vectors-import-from-string",
+      "contents": "(gimp-vectors-import-from-string ${1:image} ${2:string} ${3:length} ${4:merge} ${5:scale})"
+    },
+    {
+      "trigger": "unit-new",
+      "contents": "(gimp-unit-new ${1:identifier} ${2:factor} ${3:digits} ${4:symbol} ${5:abbreviation} ${6:singular} ${7:plural})"
+    },
+    {
+      "trigger": "context-set-gradient-repeat-mode",
+      "contents": "(gimp-context-set-gradient-repeat-mode ${1:repeat-mode})"
+    },
+    {
+      "trigger": "procedural-db-proc-val",
+      "contents": "(gimp-procedural-db-proc-val ${1:procedure-name} ${2:val-num})"
+    },
+    {
+      "trigger": "palettes-get-list",
+      "contents": "(gimp-palettes-get-list ${1:filter})"
+    },
+    {
+      "trigger": "file-ico-save",
+      "contents": "(file-ico-save ${1:run-mode} ${2:image} ${3:drawable} ${4:filename} ${5:raw-filename})"
+    },
+    {
+      "trigger": "gradmap",
+      "contents": "(plug-in-gradmap ${1:run-mode} ${2:image} ${3:drawable})"
+    },
+    {
+      "trigger": "file-tga-load",
+      "contents": "(file-tga-load ${1:run-mode} ${2:filename} ${3:raw-filename})"
+    },
+    {
+      "trigger": "gimprc-set",
+      "contents": "(gimp-gimprc-set ${1:token} ${2:value})"
+    },
+    {
+      "trigger": "selection-to-brush",
+      "contents": "(script-fu-selection-to-brush ${1:run-mode} ${2:image} ${3:drawable} ${4:string} ${5:string} ${6:value})"
+    },
+    {
+      "trigger": "layer-get-mask",
+      "contents": "(gimp-layer-get-mask ${1:layer})"
+    },
+    {
+      "trigger": "brush-set-hardness",
+      "contents": "(gimp-brush-set-hardness ${1:name} ${2:hardness-in})"
+    },
+    {
+      "trigger": "patterns-refresh",
+      "contents": "(gimp-patterns-refresh)"
+    },
+    {
+      "trigger": "context-set-ink-blob-type",
+      "contents": "(gimp-context-set-ink-blob-type ${1:type})"
+    },
+    {
+      "trigger": "context-set-font",
+      "contents": "(gimp-context-set-font ${1:name})"
+    },
+    {
+      "trigger": "image-set-resolution",
+      "contents": "(gimp-image-set-resolution ${1:image} ${2:xresolution} ${3:yresolution})"
+    },
+    {
+      "trigger": "file-gih-save",
+      "contents": "(file-gih-save ${1:run-mode} ${2:image} ${3:drawable} ${4:uri} ${5:raw-uri} ${6:spacing} ${7:description} ${8:cell-width} ${9:cell-height} ${10:display-cols} ${11:display-rows} ${12:dimension} ${13:rank} ${14:dimension} ${15:sel})"
+    },
+    {
+      "trigger": "image-remove-channel",
+      "contents": "(gimp-image-remove-channel ${1:image} ${2:channel})"
+    },
+    {
+      "trigger": "newsprint",
+      "contents": "(plug-in-newsprint ${1:run-mode} ${2:image} ${3:drawable} ${4:cell-width} ${5:colorspace} ${6:k-pullout} ${7:gry-ang} ${8:gry-spotfn} ${9:red-ang} ${10:red-spotfn} ${11:grn-ang} ${12:grn-spotfn} ${13:blu-ang} ${14:blu-spotfn} ${15:oversample})"
+    },
+    {
+      "trigger": "unit-get-plural",
+      "contents": "(gimp-unit-get-plural ${1:unit-id})"
+    },
+    {
+      "trigger": "context-set-sample-merged",
+      "contents": "(gimp-context-set-sample-merged ${1:sample-merged})"
+    },
+    {
+      "trigger": "file-ppm-save",
+      "contents": "(file-ppm-save ${1:run-mode} ${2:image} ${3:drawable} ${4:filename} ${5:raw-filename} ${6:raw})"
+    },
+    {
+      "trigger": "item-transform-rotate",
+      "contents": "(gimp-item-transform-rotate ${1:item} ${2:angle} ${3:auto-center} ${4:center-x} ${5:center-y})"
+    },
+    {
+      "trigger": "selection-save",
+      "contents": "(gimp-selection-save ${1:image})"
+    },
+    {
+      "trigger": "image-attach-parasite",
+      "contents": "(gimp-image-attach-parasite ${1:image} ${2:parasite})"
+    },
+    {
+      "trigger": "extension-script-fu",
+      "contents": "(extension-script-fu)"
+    },
+    {
+      "trigger": "wavelet-decompose",
+      "contents": "(plug-in-wavelet-decompose ${1:run-mode} ${2:image} ${3:drawable} ${4:scales} ${5:create-group} ${6:create-masks})"
+    },
+    {
+      "trigger": "gimprc-query",
+      "contents": "(gimp-gimprc-query ${1:token})"
+    },
+    {
+      "trigger": "jigsaw",
+      "contents": "(plug-in-jigsaw ${1:run-mode} ${2:image} ${3:drawable} ${4:x} ${5:y} ${6:style} ${7:blend-lines} ${8:blend-amount})"
+    },
+    {
+      "trigger": "burn-in-anim",
+      "contents": "(script-fu-burn-in-anim ${1:run-mode} ${2:image} ${3:drawable} ${4:color} ${5:toggle} ${6:value} ${7:value} ${8:value} ${9:toggle} ${10:toggle} ${11:value})"
+    },
+    {
+      "trigger": "brush-get-info",
+      "contents": "(gimp-brush-get-info ${1:name})"
+    },
+    {
+      "trigger": "item-get-linked",
+      "contents": "(gimp-item-get-linked ${1:item})"
+    },
+    {
+      "trigger": "whirl-pinch",
+      "contents": "(plug-in-whirl-pinch ${1:run-mode} ${2:image} ${3:drawable} ${4:whirl} ${5:pinch} ${6:radius})"
+    },
+    {
+      "trigger": "context-set-line-width",
+      "contents": "(gimp-context-set-line-width ${1:line-width})"
+    },
+    {
+      "trigger": "semiflatten",
+      "contents": "(plug-in-semiflatten ${1:run-mode} ${2:image} ${3:drawable})"
+    },
+    {
+      "trigger": "layer-set-composite-mode",
+      "contents": "(gimp-layer-set-composite-mode ${1:layer} ${2:composite-mode})"
+    },
+    {
+      "trigger": "flame",
+      "contents": "(plug-in-flame ${1:run-mode} ${2:image} ${3:drawable})"
+    },
+    {
+      "trigger": "context-get-paint-method",
+      "contents": "(gimp-context-get-paint-method)"
+    },
+    {
+      "trigger": "brush-get-hardness",
+      "contents": "(gimp-brush-get-hardness ${1:name})"
+    },
+    {
+      "trigger": "image-grid-set-offset",
+      "contents": "(gimp-image-grid-set-offset ${1:image} ${2:xoffset} ${3:yoffset})"
+    },
+    {
+      "trigger": "file-xpm-save",
+      "contents": "(file-xpm-save ${1:run-mode} ${2:image} ${3:drawable} ${4:filename} ${5:raw-filename} ${6:threshold})"
+    },
+    {
+      "trigger": "layer-is-floating-sel",
+      "contents": "(gimp-layer-is-floating-sel ${1:layer})"
+    },
+    {
+      "trigger": "help-concepts-paths",
+      "contents": "(gimp-help-concepts-paths ${1:run-mode})"
+    },
+    {
+      "trigger": "foggify",
+      "contents": "(python-fu-foggify ${1:run-mode} ${2:image} ${3:drawable} ${4:name} ${5:colour} ${6:turbulence} ${7:opacity})"
+    },
+    {
+      "trigger": "image-get-effective-color-profile",
+      "contents": "(gimp-image-get-effective-color-profile ${1:image})"
+    },
+    {
+      "trigger": "brush-set-shape",
+      "contents": "(gimp-brush-set-shape ${1:name} ${2:shape-in})"
+    },
+    {
+      "trigger": "file-raw-placeholder-rdc-load",
+      "contents": "(file-raw-placeholder-rdc-load ${1:run-mode} ${2:filename} ${3:raw-filename})"
+    },
+    {
+      "trigger": "image-undo-group-start",
+      "contents": "(gimp-image-undo-group-start ${1:image})"
+    },
+    {
+      "trigger": "guides-from-selection",
+      "contents": "(script-fu-guides-from-selection ${1:run-mode} ${2:image} ${3:drawable})"
+    },
+    {
+      "trigger": "procedural-db-get-data-size",
+      "contents": "(gimp-procedural-db-get-data-size ${1:identifier})"
+    },
+    {
+      "trigger": "progress-install",
+      "contents": "(gimp-progress-install ${1:progress-callback})"
+    },
+    {
+      "trigger": "image-merge-visible-layers",
+      "contents": "(gimp-image-merge-visible-layers ${1:image} ${2:merge-type})"
+    },
+    {
+      "trigger": "item-set-lock-position",
+      "contents": "(gimp-item-set-lock-position ${1:item} ${2:lock-position})"
+    },
+    {
+      "trigger": "unit-get-symbol",
+      "contents": "(gimp-unit-get-symbol ${1:unit-id})"
+    },
+    {
+      "trigger": "drawable-is-rgb",
+      "contents": "(gimp-drawable-is-rgb ${1:drawable})"
+    },
+    {
+      "trigger": "erase-rows",
+      "contents": "(script-fu-erase-rows ${1:run-mode} ${2:image} ${3:drawable} ${4:option} ${5:option} ${6:option})"
+    },
+    {
+      "trigger": "vpropagate",
+      "contents": "(plug-in-vpropagate ${1:run-mode} ${2:image} ${3:drawable} ${4:propagate-mode} ${5:propagating-channel} ${6:propagating-rate} ${7:direction-mask} ${8:lower-limit} ${9:upper-limit})"
+    },
+    {
+      "trigger": "image-grid-set-style",
+      "contents": "(gimp-image-grid-set-style ${1:image} ${2:style})"
+    },
+    {
+      "trigger": "drawable-has-alpha",
+      "contents": "(gimp-drawable-has-alpha ${1:drawable})"
+    },
+    {
+      "trigger": "gradient-segment-get-right-color",
+      "contents": "(gimp-gradient-segment-get-right-color ${1:name} ${2:segment})"
+    },
+    {
+      "trigger": "image-get-active-vectors",
+      "contents": "(gimp-image-get-active-vectors ${1:image})"
+    },
+    {
+      "trigger": "layer-remove-mask",
+      "contents": "(gimp-layer-remove-mask ${1:layer} ${2:mode})"
+    },
+    {
+      "trigger": "image-get-vectors",
+      "contents": "(gimp-image-get-vectors ${1:image})"
+    },
+    {
+      "trigger": "context-get-line-miter-limit",
+      "contents": "(gimp-context-get-line-miter-limit)"
+    },
+    {
+      "trigger": "erase-nth-rows",
+      "contents": "(script-fu-erase-nth-rows ${1:run-mode} ${2:image} ${3:drawable} ${4:option} ${5:value} ${6:option} ${7:value})"
+    },
+    {
+      "trigger": "file-openraster-save",
+      "contents": "(file-openraster-save ${1:run-mode} ${2:image} ${3:drawable} ${4:filename} ${5:raw-filename})"
+    },
+    {
+      "trigger": "randomize-slur",
+      "contents": "(plug-in-randomize-slur ${1:run-mode} ${2:image} ${3:drawable} ${4:rndm-pct} ${5:rndm-rcount} ${6:randomize} ${7:seed})"
+    },
+    {
+      "trigger": "file-xz-save",
+      "contents": "(file-xz-save ${1:run-mode} ${2:image} ${3:drawable} ${4:filename} ${5:raw-filename})"
+    },
+    {
+      "trigger": "plugins-query",
+      "contents": "(gimp-plugins-query ${1:search-string})"
+    },
+    {
+      "trigger": "palette-to-gradient-repeating",
+      "contents": "(python-fu-palette-to-gradient-repeating ${1:run-mode} ${2:palette})"
+    },
+    {
+      "trigger": "file-print-gtk-page-setup",
+      "contents": "(file-print-gtk-page-setup ${1:run-mode} ${2:image})"
+    },
+    {
+      "trigger": "plugin-icon-register",
+      "contents": "(gimp-plugin-icon-register ${1:procedure-name} ${2:icon-type} ${3:icon-data-length} ${4:icon-data})"
+    },
+    {
+      "trigger": "xach-effect",
+      "contents": "(script-fu-xach-effect ${1:run-mode} ${2:image} ${3:drawable} ${4:value} ${5:value} ${6:color} ${7:value} ${8:color} ${9:value} ${10:value} ${11:value} ${12:value} ${13:toggle})"
+    },
+    {
+      "trigger": "image-get-parasite-list",
+      "contents": "(gimp-image-get-parasite-list ${1:image})"
+    },
+    {
+      "trigger": "clothify",
+      "contents": "(script-fu-clothify ${1:run-mode} ${2:image} ${3:drawable} ${4:value} ${5:value} ${6:value} ${7:value} ${8:value})"
+    },
+    {
+      "trigger": "animationplay",
+      "contents": "(plug-in-animationplay ${1:run-mode} ${2:image} ${3:drawable})"
+    },
+    {
+      "trigger": "context-get-sample-transparent",
+      "contents": "(gimp-context-get-sample-transparent)"
+    },
+    {
+      "trigger": "red-eye-removal",
+      "contents": "(plug-in-red-eye-removal ${1:run-mode} ${2:image} ${3:drawable} ${4:threshold})"
+    },
+    {
+      "trigger": "image-resize",
+      "contents": "(gimp-image-resize ${1:image} ${2:new-width} ${3:new-height} ${4:offx} ${5:offy})"
+    },
+    {
+      "trigger": "file-gif-load",
+      "contents": "(file-gif-load ${1:run-mode} ${2:filename} ${3:raw-filename})"
+    },
+    {
+      "trigger": "decompose-registered",
+      "contents": "(plug-in-decompose-registered ${1:run-mode} ${2:image} ${3:drawable} ${4:decompose-type} ${5:layers-mode})"
+    },
+    {
+      "trigger": "text-fontname",
+      "contents": "(gimp-text-fontname ${1:image} ${2:drawable} ${3:x} ${4:y} ${5:text} ${6:border} ${7:antialias} ${8:size} ${9:size-type} ${10:fontname})"
+    },
+    {
+      "trigger": "file-pcx-load",
+      "contents": "(file-pcx-load ${1:run-mode} ${2:filename} ${3:raw-filename})"
+    },
+    {
+      "trigger": "file-heif-load",
+      "contents": "(file-heif-load ${1:run-mode} ${2:uri} ${3:raw-uri})"
+    },
+    {
+      "trigger": "vectors-export-to-file",
+      "contents": "(gimp-vectors-export-to-file ${1:image} ${2:filename} ${3:vectors})"
+    },
+    {
+      "trigger": "image-raise-item",
+      "contents": "(gimp-image-raise-item ${1:image} ${2:item})"
+    },
+    {
+      "trigger": "context-get-sample-criterion",
+      "contents": "(gimp-context-get-sample-criterion)"
+    },
+    {
+      "trigger": "airbrush",
+      "contents": "(gimp-airbrush ${1:drawable} ${2:pressure} ${3:num-strokes} ${4:strokes})"
+    },
+    {
+      "trigger": "file-pdf-save-multi",
+      "contents": "(file-pdf-save-multi ${1:run-mode} ${2:count} ${3:images} ${4:vectorize} ${5:ignore-hidden} ${6:apply-masks} ${7:filename} ${8:raw-filename})"
+    },
+    {
+      "trigger": "vectors-new",
+      "contents": "(gimp-vectors-new ${1:image} ${2:name})"
+    },
+    {
+      "trigger": "make-seamless",
+      "contents": "(plug-in-make-seamless ${1:run-mode} ${2:image} ${3:drawable})"
+    },
+    {
+      "trigger": "deinterlace",
+      "contents": "(plug-in-deinterlace ${1:run-mode} ${2:image} ${3:drawable} ${4:evenodd})"
+    },
+    {
+      "trigger": "selection-bounds",
+      "contents": "(gimp-selection-bounds ${1:image})"
+    },
+    {
+      "trigger": "palette-get-columns",
+      "contents": "(gimp-palette-get-columns ${1:name})"
+    },
+    {
+      "trigger": "procedural-db-set-data",
+      "contents": "(gimp-procedural-db-set-data ${1:identifier} ${2:bytes} ${3:data})"
+    },
+    {
+      "trigger": "brushes-close-popup",
+      "contents": "(gimp-brushes-close-popup ${1:brush-callback})"
+    },
+    {
+      "trigger": "softglow",
+      "contents": "(plug-in-softglow ${1:run-mode} ${2:image} ${3:drawable} ${4:glow-radius} ${5:brightness} ${6:sharpness})"
+    },
+    {
+      "trigger": "image-grid-get-background-color",
+      "contents": "(gimp-image-grid-get-background-color ${1:image})"
+    },
+    {
+      "trigger": "retinex",
+      "contents": "(plug-in-retinex ${1:run-mode} ${2:image} ${3:drawable} ${4:scale} ${5:nscales} ${6:scales-mode} ${7:cvar})"
+    },
+    {
+      "trigger": "drawable-levels",
+      "contents": "(gimp-drawable-levels ${1:drawable} ${2:channel} ${3:low-input} ${4:high-input} ${5:clamp-input} ${6:gamma} ${7:low-output} ${8:high-output} ${9:clamp-output})"
+    },
+    {
+      "trigger": "eraser",
+      "contents": "(gimp-eraser ${1:drawable} ${2:num-strokes} ${3:strokes} ${4:hardness} ${5:method})"
+    },
+    {
+      "trigger": "text-layer-get-kerning",
+      "contents": "(gimp-text-layer-get-kerning ${1:layer})"
+    },
+    {
+      "trigger": "drawable-height",
+      "contents": "(gimp-drawable-height ${1:drawable})"
+    },
+    {
+      "trigger": "message-get-handler",
+      "contents": "(gimp-message-get-handler)"
+    },
+    {
+      "trigger": "palette-sort",
+      "contents": "(python-fu-palette-sort ${1:run-mode} ${2:palette} ${3:selections} ${4:slice-expr} ${5:channel1} ${6:ascending1} ${7:channel2} ${8:ascending2} ${9:quantize} ${10:pchannel} ${11:pquantize})"
+    },
+    {
+      "trigger": "file-raw-placeholder-pef-load",
+      "contents": "(file-raw-placeholder-pef-load ${1:run-mode} ${2:filename} ${3:raw-filename})"
+    },
+    {
+      "trigger": "file-bmp-load",
+      "contents": "(file-bmp-load ${1:run-mode} ${2:filename} ${3:raw-filename})"
+    },
+    {
+      "trigger": "context-get-feather-radius",
+      "contents": "(gimp-context-get-feather-radius)"
+    },
+    {
+      "trigger": "paintbrush",
+      "contents": "(gimp-paintbrush ${1:drawable} ${2:fade-out} ${3:num-strokes} ${4:strokes} ${5:method} ${6:gradient-length})"
+    },
+    {
+      "trigger": "displays-reconnect",
+      "contents": "(gimp-displays-reconnect ${1:old-image} ${2:new-image})"
+    },
+    {
+      "trigger": "image-select-rectangle",
+      "contents": "(gimp-image-select-rectangle ${1:image} ${2:operation} ${3:x} ${4:y} ${5:width} ${6:height})"
+    },
+    {
+      "trigger": "file-raw-placeholder-nikon-load",
+      "contents": "(file-raw-placeholder-nikon-load ${1:run-mode} ${2:filename} ${3:raw-filename})"
+    },
+    {
+      "trigger": "file-fli-load",
+      "contents": "(file-fli-load ${1:run-mode} ${2:filename} ${3:raw-filename})"
+    },
+    {
+      "trigger": "gradient-segment-range-blend-colors",
+      "contents": "(gimp-gradient-segment-range-blend-colors ${1:name} ${2:start-segment} ${3:end-segment})"
+    },
+    {
+      "trigger": "unit-get-number-of-units",
+      "contents": "(gimp-unit-get-number-of-units)"
+    },
+    {
+      "trigger": "unsharp-mask",
+      "contents": "(script-fu-unsharp-mask ${1:run-mode} ${2:image} ${3:drawable} ${4:value} ${5:value})"
+    },
+    {
+      "trigger": "image-select-polygon",
+      "contents": "(gimp-image-select-polygon ${1:image} ${2:operation} ${3:num-segs} ${4:segs})"
+    },
+    {
+      "trigger": "wind",
+      "contents": "(plug-in-wind ${1:run-mode} ${2:image} ${3:drawable} ${4:threshold} ${5:direction} ${6:strength} ${7:algorithm} ${8:edge})"
+    },
+    {
+      "trigger": "text-layer-set-kerning",
+      "contents": "(gimp-text-layer-set-kerning ${1:layer} ${2:kerning})"
+    },
+    {
+      "trigger": "selection-sharpen",
+      "contents": "(gimp-selection-sharpen ${1:image})"
+    },
+    {
+      "trigger": "brush-set-aspect-ratio",
+      "contents": "(gimp-brush-set-aspect-ratio ${1:name} ${2:aspect-ratio-in})"
+    },
+    {
+      "trigger": "message-set-handler",
+      "contents": "(gimp-message-set-handler ${1:handler})"
+    },
+    {
+      "trigger": "erode",
+      "contents": "(plug-in-erode ${1:run-mode} ${2:image} ${3:drawable} ${4:propagate-mode} ${5:propagating-channel} ${6:propagating-rate} ${7:direction-mask} ${8:lower-limit} ${9:upper-limit})"
+    },
+    {
+      "trigger": "guides-remove",
+      "contents": "(script-fu-guides-remove ${1:run-mode} ${2:image} ${3:drawable})"
+    },
+    {
+      "trigger": "context-get-brush-hardness",
+      "contents": "(gimp-context-get-brush-hardness)"
+    },
+    {
+      "trigger": "progress-end",
+      "contents": "(gimp-progress-end)"
+    },
+    {
+      "trigger": "text-layer-get-font",
+      "contents": "(gimp-text-layer-get-font ${1:layer})"
+    },
+    {
+      "trigger": "gmic-qt",
+      "contents": "(plug-in-gmic-qt ${1:run-mode} ${2:image} ${3:drawable} ${4:input} ${5:output} ${6:command})"
+    },
+    {
+      "trigger": "vectors-new-from-text-layer",
+      "contents": "(gimp-vectors-new-from-text-layer ${1:image} ${2:layer})"
+    },
+    {
+      "trigger": "text-layer-set-language",
+      "contents": "(gimp-text-layer-set-language ${1:layer} ${2:language})"
+    },
+    {
+      "trigger": "image-thaw-layers",
+      "contents": "(gimp-image-thaw-layers ${1:image})"
+    },
+    {
+      "trigger": "file-desktop-link-load",
+      "contents": "(file-desktop-link-load ${1:run-mode} ${2:filename} ${3:raw-filename})"
+    },
+    {
+      "trigger": "image-add-vguide",
+      "contents": "(gimp-image-add-vguide ${1:image} ${2:xposition})"
+    },
+    {
+      "trigger": "sinus",
+      "contents": "(plug-in-sinus ${1:run-mode} ${2:image} ${3:drawable} ${4:xscale} ${5:yscale} ${6:complex} ${7:seed} ${8:tiling} ${9:perturb} ${10:colors} ${11:col1} ${12:col2} ${13:alpha1} ${14:alpha2} ${15:blend} ${16:blend-power})"
+    },
+    {
+      "trigger": "dynamics-refresh",
+      "contents": "(gimp-dynamics-refresh)"
+    },
+    {
+      "trigger": "make-brush-elliptical-feathered",
+      "contents": "(script-fu-make-brush-elliptical-feathered ${1:run-mode} ${2:string} ${3:value} ${4:value} ${5:value} ${6:value})"
+    },
+    {
+      "trigger": "image-convert-indexed",
+      "contents": "(gimp-image-convert-indexed ${1:image} ${2:dither-type} ${3:palette-type} ${4:num-cols} ${5:alpha-dither} ${6:remove-unused} ${7:palette})"
+    },
+    {
+      "trigger": "context-set-brush-default-spacing",
+      "contents": "(gimp-context-set-brush-default-spacing)"
+    },
+    {
+      "trigger": "image-get-imported-uri",
+      "contents": "(gimp-image-get-imported-uri ${1:image})"
+    },
+    {
+      "trigger": "image-freeze-layers",
+      "contents": "(gimp-image-freeze-layers ${1:image})"
+    },
+    {
+      "trigger": "image-is-valid",
+      "contents": "(gimp-image-is-valid ${1:image})"
+    },
+    {
+      "trigger": "drawable-bpp",
+      "contents": "(gimp-drawable-bpp ${1:drawable})"
+    },
+    {
+      "trigger": "lava",
+      "contents": "(script-fu-lava ${1:run-mode} ${2:image} ${3:drawable} ${4:value} ${5:value} ${6:value} ${7:gradient} ${8:toggle} ${9:toggle} ${10:toggle})"
+    },
+    {
+      "trigger": "antialias",
+      "contents": "(plug-in-antialias ${1:run-mode} ${2:image} ${3:drawable})"
+    },
+    {
+      "trigger": "grid",
+      "contents": "(plug-in-grid ${1:run-mode} ${2:image} ${3:drawable} ${4:hwidth} ${5:hspace} ${6:hoffset} ${7:hcolor} ${8:hopacity} ${9:vwidth} ${10:vspace} ${11:voffset} ${12:vcolor} ${13:vopacity} ${14:iwidth} ${15:ispace} ${16:ioffset} ${17:icolor} ${18:iopacity})"
+    },
+    {
+      "trigger": "text-layer-set-hint-style",
+      "contents": "(gimp-text-layer-set-hint-style ${1:layer} ${2:style})"
+    },
+    {
+      "trigger": "heal-default",
+      "contents": "(gimp-heal-default ${1:drawable} ${2:num-strokes} ${3:strokes})"
+    },
+    {
+      "trigger": "file-pat-save-internal",
+      "contents": "(file-pat-save-internal ${1:dummy-param} ${2:image} ${3:drawable} ${4:uri} ${5:raw-uri} ${6:name})"
+    },
+    {
+      "trigger": "image-get-guide-position",
+      "contents": "(gimp-image-get-guide-position ${1:image} ${2:guide})"
+    },
+    {
+      "trigger": "palette-export-java",
+      "contents": "(gimp-palette-export-java ${1:run-mode} ${2:dirname} ${3:string})"
+    },
+    {
+      "trigger": "file-jpeg-save",
+      "contents": "(file-jpeg-save ${1:run-mode} ${2:image} ${3:drawable} ${4:filename} ${5:raw-filename} ${6:quality} ${7:smoothing} ${8:optimize} ${9:progressive} ${10:comment} ${11:subsmp} ${12:baseline} ${13:restart} ${14:dct})"
+    },
+    {
+      "trigger": "text-layer-get-language",
+      "contents": "(gimp-text-layer-get-language ${1:layer})"
+    },
+    {
+      "trigger": "detach-parasite",
+      "contents": "(gimp-detach-parasite ${1:name})"
+    },
+    {
+      "trigger": "gradient-duplicate",
+      "contents": "(gimp-gradient-duplicate ${1:name})"
+    },
+    {
+      "trigger": "file-gz-save",
+      "contents": "(file-gz-save ${1:run-mode} ${2:image} ${3:drawable} ${4:filename} ${5:raw-filename})"
+    },
+    {
+      "trigger": "animationoptimize-diff",
+      "contents": "(plug-in-animationoptimize-diff ${1:run-mode} ${2:image} ${3:drawable})"
+    },
+    {
+      "trigger": "file-pix-save",
+      "contents": "(file-pix-save ${1:run-mode} ${2:image} ${3:drawable} ${4:filename} ${5:raw-filename})"
+    },
+    {
+      "trigger": "tile",
+      "contents": "(plug-in-tile ${1:run-mode} ${2:image} ${3:drawable} ${4:new-width} ${5:new-height} ${6:new-image})"
+    },
+    {
+      "trigger": "selection-all",
+      "contents": "(gimp-selection-all ${1:image})"
+    },
+    {
+      "trigger": "procedural-db-proc-info",
+      "contents": "(gimp-procedural-db-proc-info ${1:procedure-name})"
+    },
+    {
+      "trigger": "fonts-close-popup",
+      "contents": "(gimp-fonts-close-popup ${1:font-callback})"
+    },
+    {
+      "trigger": "icc-profile-set",
+      "contents": "(plug-in-icc-profile-set ${1:run-mode} ${2:image} ${3:profile})"
+    },
+    {
+      "trigger": "layer-set-lock-alpha",
+      "contents": "(gimp-layer-set-lock-alpha ${1:layer} ${2:lock-alpha})"
+    },
+    {
+      "trigger": "layer-from-mask",
+      "contents": "(gimp-layer-from-mask ${1:mask})"
+    },
+    {
+      "trigger": "image-find-next-guide",
+      "contents": "(gimp-image-find-next-guide ${1:image} ${2:guide})"
+    },
+    {
+      "trigger": "oilify-enhanced",
+      "contents": "(plug-in-oilify-enhanced ${1:run-mode} ${2:image} ${3:drawable} ${4:mode} ${5:mask-size} ${6:mask-size-map} ${7:exponent} ${8:exponent-map})"
+    },
+    {
+      "trigger": "register-file-handler-raw",
+      "contents": "(gimp-register-file-handler-raw ${1:procedure-name})"
+    },
+    {
+      "trigger": "vectors-stroke-get-points",
+      "contents": "(gimp-vectors-stroke-get-points ${1:vectors} ${2:stroke-id})"
+    },
+    {
+      "trigger": "item-detach-parasite",
+      "contents": "(gimp-item-detach-parasite ${1:item} ${2:name})"
+    },
+    {
+      "trigger": "brushes-set-popup",
+      "contents": "(gimp-brushes-set-popup ${1:brush-callback} ${2:brush-name} ${3:opacity} ${4:spacing} ${5:paint-mode})"
+    },
+    {
+      "trigger": "unit-get-identifier",
+      "contents": "(gimp-unit-get-identifier ${1:unit-id})"
+    },
+    {
+      "trigger": "file-raw-save",
+      "contents": "(file-raw-save ${1:run-mode} ${2:image} ${3:drawable} ${4:filename} ${5:raw-filename})"
+    },
+    {
+      "trigger": "file-raw-placeholder-panasonic-load",
+      "contents": "(file-raw-placeholder-panasonic-load ${1:run-mode} ${2:filename} ${3:raw-filename})"
+    },
+    {
+      "trigger": "layer-group-new",
+      "contents": "(gimp-layer-group-new ${1:image})"
+    },
+    {
+      "trigger": "brushes-get-list",
+      "contents": "(gimp-brushes-get-list ${1:filter})"
+    },
+    {
+      "trigger": "context-set-brush-aspect-ratio",
+      "contents": "(gimp-context-set-brush-aspect-ratio ${1:aspect})"
+    },
+    {
+      "trigger": "file-psp-load",
+      "contents": "(file-psp-load ${1:run-mode} ${2:filename} ${3:raw-filename})"
+    },
+    {
+      "trigger": "file-gtm-save",
+      "contents": "(file-gtm-save ${1:run-mode} ${2:image} ${3:drawable} ${4:filename} ${5:raw-filename})"
+    },
+    {
+      "trigger": "context-get-line-cap-style",
+      "contents": "(gimp-context-get-line-cap-style)"
+    },
+    {
+      "trigger": "edit-named-paste-as-new-image",
+      "contents": "(gimp-edit-named-paste-as-new-image ${1:buffer-name})"
+    },
+    {
+      "trigger": "file-psd-load-merged",
+      "contents": "(file-psd-load-merged ${1:run-mode} ${2:filename} ${3:raw-filename})"
+    },
+    {
+      "trigger": "image-grid-get-foreground-color",
+      "contents": "(gimp-image-grid-get-foreground-color ${1:image})"
+    },
+    {
+      "trigger": "unit-get-deletion-flag",
+      "contents": "(gimp-unit-get-deletion-flag ${1:unit-id})"
+    },
+    {
+      "trigger": "ripply-anim",
+      "contents": "(script-fu-ripply-anim ${1:run-mode} ${2:image} ${3:drawable} ${4:value} ${5:value} ${6:option})"
+    },
+    {
+      "trigger": "laplace",
+      "contents": "(plug-in-laplace ${1:run-mode} ${2:image} ${3:drawable})"
+    },
+    {
+      "trigger": "context-set-brush-default-hardness",
+      "contents": "(gimp-context-set-brush-default-hardness)"
+    },
+    {
+      "trigger": "palettemap",
+      "contents": "(plug-in-palettemap ${1:run-mode} ${2:image} ${3:drawable})"
+    },
+    {
+      "trigger": "palette-entry-set-name",
+      "contents": "(gimp-palette-entry-set-name ${1:name} ${2:entry-num} ${3:entry-name})"
+    },
+    {
+      "trigger": "image-width",
+      "contents": "(gimp-image-width ${1:image})"
+    },
+    {
+      "trigger": "polar-coords",
+      "contents": "(plug-in-polar-coords ${1:run-mode} ${2:image} ${3:drawable} ${4:circle} ${5:angle} ${6:backwards} ${7:inverse} ${8:polrec})"
+    },
+    {
+      "trigger": "file-bz2-save",
+      "contents": "(file-bz2-save ${1:run-mode} ${2:image} ${3:drawable} ${4:filename} ${5:raw-filename})"
+    },
+    {
+      "trigger": "item-is-drawable",
+      "contents": "(gimp-item-is-drawable ${1:item})"
+    },
+    {
+      "trigger": "glasstile",
+      "contents": "(plug-in-glasstile ${1:run-mode} ${2:image} ${3:drawable} ${4:tilex} ${5:tiley})"
+    },
+    {
+      "trigger": "channel-copy",
+      "contents": "(gimp-channel-copy ${1:channel})"
+    },
+    {
+      "trigger": "item-get-parent",
+      "contents": "(gimp-item-get-parent ${1:item})"
+    },
+    {
+      "trigger": "file-raw-placeholder-sinar-load",
+      "contents": "(file-raw-placeholder-sinar-load ${1:run-mode} ${2:filename} ${3:raw-filename})"
+    },
+    {
+      "trigger": "image-thaw-vectors",
+      "contents": "(gimp-image-thaw-vectors ${1:image})"
+    },
+    {
+      "trigger": "file-fits-save",
+      "contents": "(file-fits-save ${1:run-mode} ${2:image} ${3:drawable} ${4:filename} ${5:raw-filename})"
+    },
+    {
+      "trigger": "context-set-paint-mode",
+      "contents": "(gimp-context-set-paint-mode ${1:paint-mode})"
+    },
+    {
+      "trigger": "vectors-stroke-scale",
+      "contents": "(gimp-vectors-stroke-scale ${1:vectors} ${2:stroke-id} ${3:scale-x} ${4:scale-y})"
+    },
+    {
+      "trigger": "file-print-gtk",
+      "contents": "(file-print-gtk ${1:run-mode} ${2:image})"
+    },
+    {
+      "trigger": "mblur-inward",
+      "contents": "(plug-in-mblur-inward ${1:run-mode} ${2:image} ${3:drawable} ${4:type} ${5:length} ${6:angle} ${7:center-x} ${8:center-y})"
+    },
+    {
+      "trigger": "floating-sel-attach",
+      "contents": "(gimp-floating-sel-attach ${1:layer} ${2:drawable})"
+    },
+    {
+      "trigger": "brush-get-angle",
+      "contents": "(gimp-brush-get-angle ${1:name})"
+    },
+    {
+      "trigger": "image-insert-layer",
+      "contents": "(gimp-image-insert-layer ${1:image} ${2:layer} ${3:parent} ${4:position})"
+    },
+    {
+      "trigger": "text-layer-get-markup",
+      "contents": "(gimp-text-layer-get-markup ${1:layer})"
+    },
+    {
+      "trigger": "compose",
+      "contents": "(plug-in-compose ${1:run-mode} ${2:image1} ${3:drawable} ${4:image2} ${5:image3} ${6:image4} ${7:compose-type})"
+    },
+    {
+      "trigger": "context-set-line-cap-style",
+      "contents": "(gimp-context-set-line-cap-style ${1:cap-style})"
+    },
+    {
+      "trigger": "palette-duplicate",
+      "contents": "(gimp-palette-duplicate ${1:name})"
+    },
+    {
+      "trigger": "edit-named-paste",
+      "contents": "(gimp-edit-named-paste ${1:drawable} ${2:buffer-name} ${3:paste-into})"
+    },
+    {
+      "trigger": "image-select-ellipse",
+      "contents": "(gimp-image-select-ellipse ${1:image} ${2:operation} ${3:x} ${4:y} ${5:width} ${6:height})"
+    },
+    {
+      "trigger": "item-is-text-layer",
+      "contents": "(gimp-item-is-text-layer ${1:item})"
+    },
+    {
+      "trigger": "drawable-sub-thumbnail",
+      "contents": "(gimp-drawable-sub-thumbnail ${1:drawable} ${2:src-x} ${3:src-y} ${4:src-width} ${5:src-height} ${6:dest-width} ${7:dest-height})"
+    },
+    {
+      "trigger": "buffer-delete",
+      "contents": "(gimp-buffer-delete ${1:buffer-name})"
+    },
+    {
+      "trigger": "image-get-component-visible",
+      "contents": "(gimp-image-get-component-visible ${1:image} ${2:component})"
+    },
+    {
+      "trigger": "context-get-ink-tilt-sensitivity",
+      "contents": "(gimp-context-get-ink-tilt-sensitivity)"
+    },
+    {
+      "trigger": "context-set-foreground",
+      "contents": "(gimp-context-set-foreground ${1:foreground})"
+    },
+    {
+      "trigger": "sota-chrome-it",
+      "contents": "(script-fu-sota-chrome-it ${1:run-mode} ${2:image} ${3:drawable} ${4:value} ${5:value} ${6:value} ${7:filename} ${8:color} ${9:color} ${10:toggle})"
+    },
+    {
+      "trigger": "quit",
+      "contents": "(gimp-quit ${1:force})"
+    },
+    {
+      "trigger": "image-convert-grayscale",
+      "contents": "(gimp-image-convert-grayscale ${1:image})"
+    },
+    {
+      "trigger": "dodgeburn",
+      "contents": "(gimp-dodgeburn ${1:drawable} ${2:exposure} ${3:dodgeburn-type} ${4:dodgeburn-mode} ${5:num-strokes} ${6:strokes})"
+    },
+    {
+      "trigger": "context-set-diagonal-neighbors",
+      "contents": "(gimp-context-set-diagonal-neighbors ${1:diagonal-neighbors})"
+    },
+    {
+      "trigger": "file-tiff-save",
+      "contents": "(file-tiff-save ${1:run-mode} ${2:image} ${3:drawable} ${4:filename} ${5:raw-filename} ${6:compression})"
+    },
+    {
+      "trigger": "item-is-valid",
+      "contents": "(gimp-item-is-valid ${1:item})"
+    },
+    {
+      "trigger": "online-docs-web-site",
+      "contents": "(gimp-online-docs-web-site ${1:run-mode})"
+    },
+    {
+      "trigger": "shift",
+      "contents": "(plug-in-shift ${1:run-mode} ${2:image} ${3:drawable} ${4:shift-amount} ${5:orientation})"
+    },
+    {
+      "trigger": "context-get-sample-threshold-int",
+      "contents": "(gimp-context-get-sample-threshold-int)"
+    },
+    {
+      "trigger": "buffer-get-width",
+      "contents": "(gimp-buffer-get-width ${1:buffer-name})"
+    },
+    {
+      "trigger": "channel-combine-masks",
+      "contents": "(gimp-channel-combine-masks ${1:channel1} ${2:channel2} ${3:operation} ${4:offx} ${5:offy})"
+    },
+    {
+      "trigger": "layer-set-show-mask",
+      "contents": "(gimp-layer-set-show-mask ${1:layer} ${2:show-mask})"
+    },
+    {
+      "trigger": "file-load-rgbe",
+      "contents": "(file-load-rgbe ${1:run-mode} ${2:filename} ${3:raw-filename})"
+    },
+    {
+      "trigger": "item-get-tattoo",
+      "contents": "(gimp-item-get-tattoo ${1:item})"
+    },
+    {
+      "trigger": "file-load-thumbnail",
+      "contents": "(gimp-file-load-thumbnail ${1:filename})"
+    },
+    {
+      "trigger": "item-set-linked",
+      "contents": "(gimp-item-set-linked ${1:item} ${2:linked})"
+    },
+    {
+      "trigger": "layer-add-mask",
+      "contents": "(gimp-layer-add-mask ${1:layer} ${2:mask})"
+    },
+    {
+      "trigger": "progress-init",
+      "contents": "(gimp-progress-init ${1:message} ${2:gdisplay})"
+    },
+    {
+      "trigger": "gradient-is-editable",
+      "contents": "(gimp-gradient-is-editable ${1:name})"
+    },
+    {
+      "trigger": "temp-name",
+      "contents": "(gimp-temp-name ${1:extension})"
+    },
+    {
+      "trigger": "image-get-resolution",
+      "contents": "(gimp-image-get-resolution ${1:image})"
+    },
+    {
+      "trigger": "curve-bend-Iterator",
+      "contents": "(plug-in-curve-bend-Iterator ${1:run-mode} ${2:total-steps} ${3:current-step} ${4:len-struct})"
+    },
+    {
+      "trigger": "image-get-sample-point-position",
+      "contents": "(gimp-image-get-sample-point-position ${1:image} ${2:sample-point})"
+    },
+    {
+      "trigger": "image-freeze-vectors",
+      "contents": "(gimp-image-freeze-vectors ${1:image})"
+    },
+    {
+      "trigger": "channel-set-show-masked",
+      "contents": "(gimp-channel-set-show-masked ${1:channel} ${2:show-masked})"
+    },
+    {
+      "trigger": "animationunoptimize",
+      "contents": "(plug-in-animationunoptimize ${1:run-mode} ${2:image} ${3:drawable})"
+    },
+    {
+      "trigger": "context-get-feather",
+      "contents": "(gimp-context-get-feather)"
+    },
+    {
+      "trigger": "web-page",
+      "contents": "(plug-in-web-page ${1:run-mode} ${2:url} ${3:width} ${4:font-size})"
+    },
+    {
+      "trigger": "context-get-line-width",
+      "contents": "(gimp-context-get-line-width)"
+    },
+    {
+      "trigger": "selection-shrink",
+      "contents": "(gimp-selection-shrink ${1:image} ${2:steps})"
+    },
+    {
+      "trigger": "help-using-web",
+      "contents": "(gimp-help-using-web ${1:run-mode})"
+    },
+    {
+      "trigger": "spheredesigner",
+      "contents": "(plug-in-spheredesigner ${1:run-mode} ${2:image} ${3:drawable})"
+    },
+    {
+      "trigger": "text-layer-get-letter-spacing",
+      "contents": "(gimp-text-layer-get-letter-spacing ${1:layer})"
+    },
+    {
+      "trigger": "context-set-transform-resize",
+      "contents": "(gimp-context-set-transform-resize ${1:transform-resize})"
+    },
+    {
+      "trigger": "applylens",
+      "contents": "(plug-in-applylens ${1:run-mode} ${2:image} ${3:drawable} ${4:refraction} ${5:keep-surroundings} ${6:set-background} ${7:set-transparent})"
+    },
+    {
+      "trigger": "blend-anim",
+      "contents": "(script-fu-blend-anim ${1:run-mode} ${2:image} ${3:drawable} ${4:value} ${5:value} ${6:toggle})"
+    },
+    {
+      "trigger": "palette-delete-entry",
+      "contents": "(gimp-palette-delete-entry ${1:name} ${2:entry-num})"
+    },
+    {
+      "trigger": "file-hgt-load",
+      "contents": "(file-hgt-load ${1:run-mode} ${2:filename} ${3:raw-filename} ${4:samplespacing})"
+    },
+    {
+      "trigger": "file-xbm-load",
+      "contents": "(file-xbm-load ${1:run-mode} ${2:filename} ${3:raw-filename})"
+    },
+    {
+      "trigger": "gauss-iir",
+      "contents": "(plug-in-gauss-iir ${1:run-mode} ${2:image} ${3:drawable} ${4:radius} ${5:horizontal} ${6:vertical})"
+    },
+    {
+      "trigger": "vectors-stroke-get-length",
+      "contents": "(gimp-vectors-stroke-get-length ${1:vectors} ${2:stroke-id} ${3:precision})"
+    },
+    {
+      "trigger": "image-undo-is-enabled",
+      "contents": "(gimp-image-undo-is-enabled ${1:image})"
+    },
+    {
+      "trigger": "hsv-noise",
+      "contents": "(plug-in-hsv-noise ${1:run-mode} ${2:image} ${3:drawable} ${4:holdness} ${5:hue-distance} ${6:saturation-distance} ${7:value-distance})"
+    },
+    {
+      "trigger": "file-png-save-defaults",
+      "contents": "(file-png-save-defaults ${1:run-mode} ${2:image} ${3:drawable} ${4:filename} ${5:raw-filename})"
+    },
+    {
+      "trigger": "progress-pulse",
+      "contents": "(gimp-progress-pulse)"
+    },
+    {
+      "trigger": "despeckle",
+      "contents": "(plug-in-despeckle ${1:run-mode} ${2:image} ${3:drawable} ${4:radius} ${5:type} ${6:black} ${7:white})"
+    },
+    {
+      "trigger": "context-get-line-dash-offset",
+      "contents": "(gimp-context-get-line-dash-offset)"
+    },
+    {
+      "trigger": "palettes-set-popup",
+      "contents": "(gimp-palettes-set-popup ${1:palette-callback} ${2:palette-name})"
+    },
+    {
+      "trigger": "image-get-exported-uri",
+      "contents": "(gimp-image-get-exported-uri ${1:image})"
+    },
+    {
+      "trigger": "file-jp2-load",
+      "contents": "(file-jp2-load ${1:run-mode} ${2:filename} ${3:raw-filename})"
+    },
+    {
+      "trigger": "coffee-stain",
+      "contents": "(script-fu-coffee-stain ${1:run-mode} ${2:image} ${3:drawable} ${4:value} ${5:toggle})"
+    },
+    {
+      "trigger": "vectors-import-from-file",
+      "contents": "(gimp-vectors-import-from-file ${1:image} ${2:filename} ${3:merge} ${4:scale})"
+    },
+    {
+      "trigger": "depth-merge",
+      "contents": "(plug-in-depth-merge ${1:run-mode} ${2:image} ${3:result} ${4:source1} ${5:source2} ${6:depthMap1} ${7:depthMap2} ${8:overlap} ${9:offset} ${10:scale1} ${11:scale2})"
+    },
+    {
+      "trigger": "text-layer-get-base-direction",
+      "contents": "(gimp-text-layer-get-base-direction ${1:layer})"
+    },
+    {
+      "trigger": "extension-gimp-help-browser",
+      "contents": "(extension-gimp-help-browser ${1:run-mode} ${2:num-domain-names} ${3:GIMP_PDB_STRINGARRAY} ${4:domain-uris})"
+    },
+    {
+      "trigger": "plasma",
+      "contents": "(plug-in-plasma ${1:run-mode} ${2:image} ${3:drawable} ${4:seed} ${5:turbulence})"
+    },
+    {
+      "trigger": "image-grid-get-spacing",
+      "contents": "(gimp-image-grid-get-spacing ${1:image})"
+    },
+    {
+      "trigger": "drawable-mask-intersect",
+      "contents": "(gimp-drawable-mask-intersect ${1:drawable})"
+    },
+    {
+      "trigger": "gradient-get-custom-samples",
+      "contents": "(gimp-gradient-get-custom-samples ${1:name} ${2:num-samples} ${3:positions} ${4:reverse})"
+    },
+    {
+      "trigger": "edit-copy",
+      "contents": "(gimp-edit-copy ${1:drawable})"
+    },
+    {
+      "trigger": "brush-set-angle",
+      "contents": "(gimp-brush-set-angle ${1:name} ${2:angle-in})"
+    },
+    {
+      "trigger": "layer-set-offsets",
+      "contents": "(gimp-layer-set-offsets ${1:layer} ${2:offx} ${3:offy})"
+    },
+    {
+      "trigger": "palette-rename",
+      "contents": "(gimp-palette-rename ${1:name} ${2:new-name})"
+    },
+    {
+      "trigger": "file-dds-save",
+      "contents": "(file-dds-save ${1:run-mode} ${2:image} ${3:drawable} ${4:filename} ${5:raw-filename} ${6:compression-format} ${7:mipmaps} ${8:savetype} ${9:format} ${10:transparent-index} ${11:mipmap-filter} ${12:mipmap-wrap} ${13:gamma-correct} ${14:srgb} ${15:gamma} ${16:perceptual-metric} ${17:preserve-alpha-coverage} ${18:alpha-test-threshold})"
+    },
+    {
+      "trigger": "histogram-export",
+      "contents": "(python-fu-histogram-export ${1:run-mode} ${2:img} ${3:drw} ${4:filename} ${5:bucket-size} ${6:sample-average} ${7:output-format})"
+    },
+    {
+      "trigger": "selection-grow",
+      "contents": "(gimp-selection-grow ${1:image} ${2:steps})"
+    },
+    {
+      "trigger": "selection-is-empty",
+      "contents": "(gimp-selection-is-empty ${1:image})"
+    },
+    {
+      "trigger": "file-psd-load-thumb",
+      "contents": "(file-psd-load-thumb ${1:filename} ${2:thumb-size})"
+    },
+    {
+      "trigger": "context-set-brush-spacing",
+      "contents": "(gimp-context-set-brush-spacing ${1:spacing})"
+    },
+    {
+      "trigger": "filter-pack",
+      "contents": "(plug-in-filter-pack ${1:run-mode} ${2:image} ${3:drawable})"
+    },
+    {
+      "trigger": "file-sgi-save",
+      "contents": "(file-sgi-save ${1:run-mode} ${2:image} ${3:drawable} ${4:filename} ${5:raw-filename} ${6:compression})"
+    },
+    {
+      "trigger": "gradients-refresh",
+      "contents": "(gimp-gradients-refresh)"
+    },
+    {
+      "trigger": "pixelize2",
+      "contents": "(plug-in-pixelize2 ${1:run-mode} ${2:image} ${3:drawable} ${4:pixel-width} ${5:pixel-height})"
+    },
+    {
+      "trigger": "image-grid-set-spacing",
+      "contents": "(gimp-image-grid-set-spacing ${1:image} ${2:xspacing} ${3:yspacing})"
+    },
+    {
+      "trigger": "image-list",
+      "contents": "(gimp-image-list)"
+    },
+    {
+      "trigger": "image-remove-vectors",
+      "contents": "(gimp-image-remove-vectors ${1:image} ${2:vectors})"
+    },
+    {
+      "trigger": "plug-in-details",
+      "contents": "(plug-in-plug-in-details ${1:run-mode})"
+    },
+    {
+      "trigger": "image-thaw-channels",
+      "contents": "(gimp-image-thaw-channels ${1:image})"
+    },
+    {
+      "trigger": "sel2path-advanced",
+      "contents": "(plug-in-sel2path-advanced ${1:run-mode} ${2:image} ${3:drawable} ${4:align-threshold} ${5:corner-always-threshold} ${6:corner-surround} ${7:corner-threshold} ${8:error-threshold} ${9:filter-alternative-surround} ${10:filter-epsilon} ${11:filter-iteration-count} ${12:filter-percent} ${13:filter-secondary-surround} ${14:filter-surround} ${15:keep-knees} ${16:line-reversion-threshold} ${17:line-threshold} ${18:reparameterize-improvement} ${19:reparameterize-threshold} ${20:subdivide-search} ${21:subdivide-surround} ${22:subdivide-threshold} ${23:tangent-surround})"
+    },
+    {
+      "trigger": "file-wmf-load",
+      "contents": "(file-wmf-load ${1:run-mode} ${2:filename} ${3:raw-filename} ${4:resolution} ${5:width} ${6:height})"
+    },
+    {
+      "trigger": "layer-get-show-mask",
+      "contents": "(gimp-layer-get-show-mask ${1:layer})"
+    },
+    {
+      "trigger": "drawable-get-pixel",
+      "contents": "(gimp-drawable-get-pixel ${1:drawable} ${2:x-coord} ${3:y-coord})"
+    },
+    {
+      "trigger": "twain-acquire",
+      "contents": "(twain-acquire ${1:run-mode})"
+    },
+    {
+      "trigger": "help-using-simpleobjects",
+      "contents": "(gimp-help-using-simpleobjects ${1:run-mode})"
+    },
+    {
+      "trigger": "text-layer-set-font",
+      "contents": "(gimp-text-layer-set-font ${1:layer} ${2:font})"
+    },
+    {
+      "trigger": "fractalexplorer",
+      "contents": "(plug-in-fractalexplorer ${1:run-mode} ${2:image} ${3:drawable} ${4:fractaltype} ${5:xmin} ${6:xmax} ${7:ymin} ${8:ymax} ${9:iter} ${10:cx} ${11:cy} ${12:colormode} ${13:redstretch} ${14:greenstretch} ${15:bluestretch} ${16:redmode} ${17:greenmode} ${18:bluemode} ${19:redinvert} ${20:greeninvert} ${21:blueinvert} ${22:ncolors})"
+    },
+    {
+      "trigger": "buffers-get-list",
+      "contents": "(gimp-buffers-get-list ${1:filter})"
+    },
+    {
+      "trigger": "layer-resize",
+      "contents": "(gimp-layer-resize ${1:layer} ${2:new-width} ${3:new-height} ${4:offx} ${5:offy})"
+    },
+    {
+      "trigger": "fonts-set-popup",
+      "contents": "(gimp-fonts-set-popup ${1:font-callback} ${2:font-name})"
+    },
+    {
+      "trigger": "fonts-popup",
+      "contents": "(gimp-fonts-popup ${1:font-callback} ${2:popup-title} ${3:initial-font})"
+    },
+    {
+      "trigger": "palette-is-editable",
+      "contents": "(gimp-palette-is-editable ${1:name})"
+    },
+    {
+      "trigger": "plugin-domain-register",
+      "contents": "(gimp-plugin-domain-register ${1:domain-name} ${2:domain-path})"
+    },
+    {
+      "trigger": "item-transform-flip",
+      "contents": "(gimp-item-transform-flip ${1:item} ${2:x0} ${3:y0} ${4:x1} ${5:y1})"
+    },
+    {
+      "trigger": "brush-is-generated",
+      "contents": "(gimp-brush-is-generated ${1:name})"
+    },
+    {
+      "trigger": "drawable-foreground-extract",
+      "contents": "(gimp-drawable-foreground-extract ${1:drawable} ${2:mode} ${3:mask})"
+    },
+    {
+      "trigger": "file-ps-save",
+      "contents": "(file-ps-save ${1:run-mode} ${2:image} ${3:drawable} ${4:filename} ${5:raw-filename} ${6:width} ${7:height} ${8:x-offset} ${9:y-offset} ${10:unit} ${11:keep-ratio} ${12:rotation} ${13:eps-flag} ${14:preview} ${15:level})"
+    },
+    {
+      "trigger": "spread",
+      "contents": "(plug-in-spread ${1:run-mode} ${2:image} ${3:drawable} ${4:spread-amount-x} ${5:spread-amount-y})"
+    },
+    {
+      "trigger": "file-eps-load",
+      "contents": "(file-eps-load ${1:run-mode} ${2:filename} ${3:raw-filename})"
+    },
+    {
+      "trigger": "vectors-bezier-stroke-conicto",
+      "contents": "(gimp-vectors-bezier-stroke-conicto ${1:vectors} ${2:stroke-id} ${3:x0} ${4:y0} ${5:x1} ${6:y1})"
+    },
+    {
+      "trigger": "rgb-noise",
+      "contents": "(plug-in-rgb-noise ${1:run-mode} ${2:image} ${3:drawable} ${4:independent} ${5:correlated} ${6:noise-1} ${7:noise-2} ${8:noise-3} ${9:noise-4})"
+    },
+    {
+      "trigger": "make-brush-rectangular",
+      "contents": "(script-fu-make-brush-rectangular ${1:run-mode} ${2:string} ${3:value} ${4:value} ${5:value})"
+    },
+    {
+      "trigger": "context-set-line-dash-pattern",
+      "contents": "(gimp-context-set-line-dash-pattern ${1:num-dashes} ${2:dashes})"
+    },
+    {
+      "trigger": "plugin-menu-register",
+      "contents": "(gimp-plugin-menu-register ${1:procedure-name} ${2:menu-path})"
+    },
+    {
+      "trigger": "progress-set-text",
+      "contents": "(gimp-progress-set-text ${1:message})"
+    },
+    {
+      "trigger": "layer-set-edit-mask",
+      "contents": "(gimp-layer-set-edit-mask ${1:layer} ${2:edit-mask})"
+    },
+    {
+      "trigger": "channel-new",
+      "contents": "(gimp-channel-new ${1:image} ${2:width} ${3:height} ${4:name} ${5:opacity} ${6:color})"
+    },
+    {
+      "trigger": "solid-noise",
+      "contents": "(plug-in-solid-noise ${1:run-mode} ${2:image} ${3:drawable} ${4:tileable} ${5:turbulent} ${6:seed} ${7:detail} ${8:xsize} ${9:ysize})"
+    },
+    {
+      "trigger": "image-set-filename",
+      "contents": "(gimp-image-set-filename ${1:image} ${2:filename})"
+    },
+    {
+      "trigger": "image-get-layers",
+      "contents": "(gimp-image-get-layers ${1:image})"
+    },
+    {
+      "trigger": "image-base-type",
+      "contents": "(gimp-image-base-type ${1:image})"
+    },
+    {
+      "trigger": "colors-channel-mixer",
+      "contents": "(plug-in-colors-channel-mixer ${1:run-mode} ${2:image} ${3:drawable} ${4:monochrome} ${5:rr-gain} ${6:rg-gain} ${7:rb-gain} ${8:gr-gain} ${9:gg-gain} ${10:gb-gain} ${11:br-gain} ${12:bg-gain} ${13:bb-gain})"
+    },
+    {
+      "trigger": "text-layer-get-indent",
+      "contents": "(gimp-text-layer-get-indent ${1:layer})"
+    },
+    {
+      "trigger": "icc-profile-info",
+      "contents": "(plug-in-icc-profile-info ${1:image})"
+    },
+    {
+      "trigger": "bump-map-tiled",
+      "contents": "(plug-in-bump-map-tiled ${1:run-mode} ${2:image} ${3:drawable} ${4:bumpmap} ${5:azimuth} ${6:elevation} ${7:depth} ${8:xofs} ${9:yofs} ${10:waterlevel} ${11:ambient} ${12:compensate} ${13:invert} ${14:type})"
+    },
+    {
+      "trigger": "text-layer-new",
+      "contents": "(gimp-text-layer-new ${1:image} ${2:text} ${3:fontname} ${4:size} ${5:unit})"
+    },
+    {
+      "trigger": "drawable-mask-bounds",
+      "contents": "(gimp-drawable-mask-bounds ${1:drawable})"
+    },
+    {
+      "trigger": "online-bugs-features",
+      "contents": "(gimp-online-bugs-features ${1:run-mode})"
+    },
+    {
+      "trigger": "context-get-brush-force",
+      "contents": "(gimp-context-get-brush-force)"
+    },
+    {
+      "trigger": "file-load",
+      "contents": "(gimp-file-load ${1:run-mode} ${2:filename} ${3:raw-filename})"
+    },
+    {
+      "trigger": "get-module-load-inhibit",
+      "contents": "(gimp-get-module-load-inhibit)"
+    },
+    {
+      "trigger": "extension-gimp-help",
+      "contents": "(extension-gimp-help ${1:num-domain-names} ${2:GIMP_PDB_STRINGARRAY} ${3:domain-uris})"
+    },
+    {
+      "trigger": "image-set-color-profile-from-file",
+      "contents": "(gimp-image-set-color-profile-from-file ${1:image} ${2:uri})"
+    },
+    {
+      "trigger": "procedural-db-dump",
+      "contents": "(gimp-procedural-db-dump ${1:filename})"
+    },
+    {
+      "trigger": "help-using-fileformats",
+      "contents": "(gimp-help-using-fileformats ${1:run-mode})"
+    },
+    {
+      "trigger": "pencil",
+      "contents": "(gimp-pencil ${1:drawable} ${2:num-strokes} ${3:strokes})"
+    },
+    {
+      "trigger": "text-layer-get-hint-style",
+      "contents": "(gimp-text-layer-get-hint-style ${1:layer})"
+    },
+    {
+      "trigger": "selection-to-pattern",
+      "contents": "(script-fu-selection-to-pattern ${1:run-mode} ${2:image} ${3:drawable} ${4:string} ${5:string})"
+    },
+    {
+      "trigger": "drawable-edit-stroke-selection",
+      "contents": "(gimp-drawable-edit-stroke-selection ${1:drawable})"
+    },
+    {
+      "trigger": "file-raw-placeholder-cine-load",
+      "contents": "(file-raw-placeholder-cine-load ${1:run-mode} ${2:filename} ${3:raw-filename})"
+    },
+    {
+      "trigger": "image-get-filename",
+      "contents": "(gimp-image-get-filename ${1:image})"
+    },
+    {
+      "trigger": "xcf-load",
+      "contents": "(gimp-xcf-load ${1:dummy-param} ${2:filename} ${3:raw-filename})"
+    },
+    {
+      "trigger": "image-get-colormap",
+      "contents": "(gimp-image-get-colormap ${1:image})"
+    },
+    {
+      "trigger": "displace-polar",
+      "contents": "(plug-in-displace-polar ${1:run-mode} ${2:image} ${3:drawable} ${4:amount-x} ${5:amount-y} ${6:do-x} ${7:do-y} ${8:displace-map-x} ${9:displace-map-y} ${10:displace-type})"
+    },
+    {
+      "trigger": "cartoon",
+      "contents": "(plug-in-cartoon ${1:run-mode} ${2:image} ${3:drawable} ${4:mask-radius} ${5:pct-black})"
+    },
+    {
+      "trigger": "icc-profile-file-info",
+      "contents": "(plug-in-icc-profile-file-info ${1:profile})"
+    },
+    {
+      "trigger": "file-faxg3-load",
+      "contents": "(file-faxg3-load ${1:run-mode} ${2:filename} ${3:raw-filename})"
+    },
+    {
+      "trigger": "image-delete",
+      "contents": "(gimp-image-delete ${1:image})"
+    },
+    {
+      "trigger": "file-raw-placeholder-mos-load",
+      "contents": "(file-raw-placeholder-mos-load ${1:run-mode} ${2:filename} ${3:raw-filename})"
+    },
+    {
+      "trigger": "image-detach-parasite",
+      "contents": "(gimp-image-detach-parasite ${1:image} ${2:name})"
+    },
+    {
+      "trigger": "layer-get-lock-alpha",
+      "contents": "(gimp-layer-get-lock-alpha ${1:layer})"
+    },
+    {
+      "trigger": "image-insert-channel",
+      "contents": "(gimp-image-insert-channel ${1:image} ${2:channel} ${3:parent} ${4:position})"
+    },
+    {
+      "trigger": "unit-get-number-of-built-in-units",
+      "contents": "(gimp-unit-get-number-of-built-in-units)"
+    },
+    {
+      "trigger": "image-get-layer-by-tattoo",
+      "contents": "(gimp-image-get-layer-by-tattoo ${1:image} ${2:tattoo})"
+    },
+    {
+      "trigger": "brushes-popup",
+      "contents": "(gimp-brushes-popup ${1:brush-callback} ${2:popup-title} ${3:initial-brush} ${4:opacity} ${5:spacing} ${6:paint-mode})"
+    },
+    {
+      "trigger": "decompose",
+      "contents": "(plug-in-decompose ${1:run-mode} ${2:image} ${3:drawable} ${4:decompose-type} ${5:layers-mode})"
+    },
+    {
+      "trigger": "file-raw-placeholder-srw-load",
+      "contents": "(file-raw-placeholder-srw-load ${1:run-mode} ${2:filename} ${3:raw-filename})"
+    },
+    {
+      "trigger": "progress-get-window-handle",
+      "contents": "(gimp-progress-get-window-handle)"
+    },
+    {
+      "trigger": "image-duplicate",
+      "contents": "(gimp-image-duplicate ${1:image})"
+    },
+    {
+      "trigger": "drop-shadow",
+      "contents": "(script-fu-drop-shadow ${1:run-mode} ${2:image} ${3:drawable} ${4:value} ${5:value} ${6:value} ${7:color} ${8:value} ${9:toggle})"
+    },
+    {
+      "trigger": "item-get-parasite",
+      "contents": "(gimp-item-get-parasite ${1:item} ${2:name})"
+    },
+    {
+      "trigger": "image-get-component-active",
+      "contents": "(gimp-image-get-component-active ${1:image} ${2:component})"
+    },
+    {
+      "trigger": "file-exr-load",
+      "contents": "(file-exr-load ${1:run-mode} ${2:filename} ${3:raw-filename})"
+    },
+    {
+      "trigger": "web-browser",
+      "contents": "(plug-in-web-browser ${1:url})"
+    },
+    {
+      "trigger": "item-transform-2d",
+      "contents": "(gimp-item-transform-2d ${1:item} ${2:source-x} ${3:source-y} ${4:scale-x} ${5:scale-y} ${6:angle} ${7:dest-x} ${8:dest-y})"
+    },
+    {
+      "trigger": "image-get-active-layer",
+      "contents": "(gimp-image-get-active-layer ${1:image})"
+    },
+    {
+      "trigger": "context-set-gradient-blend-color-space",
+      "contents": "(gimp-context-set-gradient-blend-color-space ${1:blend-color-space})"
+    },
+    {
+      "trigger": "text-layer-get-text",
+      "contents": "(gimp-text-layer-get-text ${1:layer})"
+    },
+    {
+      "trigger": "context-get-brush",
+      "contents": "(gimp-context-get-brush)"
+    },
+    {
+      "trigger": "drawable-levels-stretch",
+      "contents": "(gimp-drawable-levels-stretch ${1:drawable})"
+    },
+    {
+      "trigger": "item-transform-matrix",
+      "contents": "(gimp-item-transform-matrix ${1:item} ${2:coeff-0-0} ${3:coeff-0-1} ${4:coeff-0-2} ${5:coeff-1-0} ${6:coeff-1-1} ${7:coeff-1-2} ${8:coeff-2-0} ${9:coeff-2-1} ${10:coeff-2-2})"
+    },
+    {
+      "trigger": "plugin-set-pdb-error-handler",
+      "contents": "(gimp-plugin-set-pdb-error-handler ${1:handler})"
+    },
+    {
+      "trigger": "drawable-set-pixel",
+      "contents": "(gimp-drawable-set-pixel ${1:drawable} ${2:x-coord} ${3:y-coord} ${4:num-channels} ${5:pixel})"
+    },
+    {
+      "trigger": "vectors-stroke-translate",
+      "contents": "(gimp-vectors-stroke-translate ${1:vectors} ${2:stroke-id} ${3:off-x} ${4:off-y})"
+    },
+    {
+      "trigger": "brush-delete",
+      "contents": "(gimp-brush-delete ${1:name})"
+    },
+    {
+      "trigger": "ccanalyze",
+      "contents": "(plug-in-ccanalyze ${1:run-mode} ${2:image} ${3:drawable})"
+    },
+    {
+      "trigger": "plugin-enable-precision",
+      "contents": "(gimp-plugin-enable-precision)"
+    },
+    {
+      "trigger": "progress-uninstall",
+      "contents": "(gimp-progress-uninstall ${1:progress-callback})"
+    },
+    {
+      "trigger": "image-get-precision",
+      "contents": "(gimp-image-get-precision ${1:image})"
+    },
+    {
+      "trigger": "icc-profile-set-rgb",
+      "contents": "(plug-in-icc-profile-set-rgb ${1:run-mode} ${2:image})"
+    },
+    {
+      "trigger": "file-sunras-load",
+      "contents": "(file-sunras-load ${1:run-mode} ${2:filename} ${3:raw-filename})"
+    },
+    {
+      "trigger": "trials-trials",
+      "contents": "(trials-trials ${1:run-mode} ${2:image} ${3:drawable} ${4:string})"
+    },
+    {
+      "trigger": "palette-export-php",
+      "contents": "(gimp-palette-export-php ${1:run-mode} ${2:dirname} ${3:string})"
+    },
+    {
+      "trigger": "context-get-ink-size-sensitivity",
+      "contents": "(gimp-context-get-ink-size-sensitivity)"
+    },
+    {
+      "trigger": "file-psd-save",
+      "contents": "(file-psd-save ${1:run-mode} ${2:image} ${3:drawable} ${4:filename} ${5:raw-filename} ${6:compression} ${7:fill-order})"
+    },
+    {
+      "trigger": "image-add-hguide",
+      "contents": "(gimp-image-add-hguide ${1:image} ${2:yposition})"
+    },
+    {
+      "trigger": "context-get-brush-angle",
+      "contents": "(gimp-context-get-brush-angle)"
+    },
+    {
+      "trigger": "image-convert-rgb",
+      "contents": "(gimp-image-convert-rgb ${1:image})"
+    },
+    {
+      "trigger": "context-get-paint-mode",
+      "contents": "(gimp-context-get-paint-mode)"
+    },
+    {
+      "trigger": "file-cel-load",
+      "contents": "(file-cel-load ${1:run-mode} ${2:filename} ${3:raw-filename} ${4:palette-filename})"
+    },
+    {
+      "trigger": "layer-get-edit-mask",
+      "contents": "(gimp-layer-get-edit-mask ${1:layer})"
+    },
+    {
+      "trigger": "image-get-guide-orientation",
+      "contents": "(gimp-image-get-guide-orientation ${1:image} ${2:guide})"
+    },
+    {
+      "trigger": "get-parasite",
+      "contents": "(gimp-get-parasite ${1:name})"
+    },
+    {
+      "trigger": "file-gbr-save-internal",
+      "contents": "(file-gbr-save-internal ${1:dummy-param} ${2:image} ${3:drawable} ${4:uri} ${5:raw-uri} ${6:spacing} ${7:name})"
+    },
+    {
+      "trigger": "file-pat-save",
+      "contents": "(file-pat-save ${1:run-mode} ${2:image} ${3:drawable} ${4:uri} ${5:raw-uri} ${6:description})"
+    },
+    {
+      "trigger": "item-set-tattoo",
+      "contents": "(gimp-item-set-tattoo ${1:item} ${2:tattoo})"
+    },
+    {
+      "trigger": "image-unset-active-channel",
+      "contents": "(gimp-image-unset-active-channel ${1:image})"
+    },
+    {
+      "trigger": "file-png-save",
+      "contents": "(file-png-save ${1:run-mode} ${2:image} ${3:drawable} ${4:filename} ${5:raw-filename} ${6:interlace} ${7:compression} ${8:bkgd} ${9:gama} ${10:offs} ${11:phys} ${12:time})"
+    },
+    {
+      "trigger": "smudge",
+      "contents": "(gimp-smudge ${1:drawable} ${2:pressure} ${3:num-strokes} ${4:strokes})"
+    },
+    {
+      "trigger": "file-pdf-save",
+      "contents": "(file-pdf-save ${1:run-mode} ${2:image} ${3:drawable} ${4:filename} ${5:raw-filename} ${6:vectorize} ${7:ignore-hidden} ${8:apply-masks})"
+    },
+    {
+      "trigger": "image-raise-item-to-top",
+      "contents": "(gimp-image-raise-item-to-top ${1:image} ${2:item})"
+    },
+    {
+      "trigger": "file-ico-load",
+      "contents": "(file-ico-load ${1:run-mode} ${2:filename} ${3:raw-filename})"
+    },
+    {
+      "trigger": "mblur",
+      "contents": "(plug-in-mblur ${1:run-mode} ${2:image} ${3:drawable} ${4:type} ${5:length} ${6:angle} ${7:center-x} ${8:center-y})"
+    },
+    {
+      "trigger": "vectors-remove-stroke",
+      "contents": "(gimp-vectors-remove-stroke ${1:vectors} ${2:stroke-id})"
+    },
+    {
+      "trigger": "file-openraster-load-thumb",
+      "contents": "(file-openraster-load-thumb ${1:run-mode} ${2:filename} ${3:thumb-size})"
+    },
+    {
+      "trigger": "image-undo-freeze",
+      "contents": "(gimp-image-undo-freeze ${1:image})"
+    },
+    {
+      "trigger": "perspective-shadow",
+      "contents": "(script-fu-perspective-shadow ${1:run-mode} ${2:image} ${3:drawable} ${4:value} ${5:value} ${6:value} ${7:value} ${8:color} ${9:value} ${10:enum} ${11:toggle})"
+    },
+    {
+      "trigger": "image-set-active-vectors",
+      "contents": "(gimp-image-set-active-vectors ${1:image} ${2:active-vectors})"
+    },
+    {
+      "trigger": "palette-new",
+      "contents": "(gimp-palette-new ${1:name})"
+    },
+    {
+      "trigger": "console",
+      "contents": "(plug-in-script-fu-console ${1:run-mode})"
+    },
+    {
+      "trigger": "context-get-brush-aspect-ratio",
+      "contents": "(gimp-context-get-brush-aspect-ratio)"
+    },
+    {
+      "trigger": "diffraction",
+      "contents": "(plug-in-diffraction ${1:run-mode} ${2:image} ${3:drawable} ${4:lam-r} ${5:lam-g} ${6:lam-b} ${7:contour-r} ${8:contour-g} ${9:contour-b} ${10:edges-r} ${11:edges-g} ${12:edges-b} ${13:brightness} ${14:scattering} ${15:polarization})"
+    },
+    {
+      "trigger": "context-push",
+      "contents": "(gimp-context-push)"
+    },
+    {
+      "trigger": "layer-set-apply-mask",
+      "contents": "(gimp-layer-set-apply-mask ${1:layer} ${2:apply-mask})"
+    },
+    {
+      "trigger": "online-developer-web-site",
+      "contents": "(gimp-online-developer-web-site ${1:run-mode})"
+    },
+    {
+      "trigger": "convolve-default",
+      "contents": "(gimp-convolve-default ${1:drawable} ${2:num-strokes} ${3:strokes})"
+    },
+    {
+      "trigger": "metadata-viewer",
+      "contents": "(plug-in-metadata-viewer ${1:run-mode} ${2:image})"
+    },
+    {
+      "trigger": "small-tiles",
+      "contents": "(plug-in-small-tiles ${1:run-mode} ${2:image} ${3:drawable} ${4:num-tiles})"
+    },
+    {
+      "trigger": "unit-get-abbreviation",
+      "contents": "(gimp-unit-get-abbreviation ${1:unit-id})"
+    },
+    {
+      "trigger": "colormap-swap",
+      "contents": "(plug-in-colormap-swap ${1:run-mode} ${2:image} ${3:drawable} ${4:index1} ${5:index2})"
+    },
+    {
+      "trigger": "file-gih-load",
+      "contents": "(file-gih-load ${1:dummy-param} ${2:uri} ${3:raw-uri})"
+    },
+    {
+      "trigger": "distress-selection",
+      "contents": "(script-fu-distress-selection ${1:run-mode} ${2:image} ${3:drawable} ${4:value} ${5:value} ${6:value} ${7:value} ${8:toggle} ${9:toggle})"
+    },
+    {
+      "trigger": "context-set-gradient",
+      "contents": "(gimp-context-set-gradient ${1:name})"
+    },
+    {
+      "trigger": "colorify",
+      "contents": "(plug-in-colorify ${1:run-mode} ${2:image} ${3:drawable} ${4:color})"
+    },
+    {
+      "trigger": "drawable-invert",
+      "contents": "(gimp-drawable-invert ${1:drawable} ${2:linear})"
+    },
+    {
+      "trigger": "display-get-window-handle",
+      "contents": "(gimp-display-get-window-handle ${1:display})"
+    },
+    {
+      "trigger": "brush-rename",
+      "contents": "(gimp-brush-rename ${1:name} ${2:new-name})"
+    },
+    {
+      "trigger": "image-freeze-channels",
+      "contents": "(gimp-image-freeze-channels ${1:image})"
+    },
+    {
+      "trigger": "align-layers",
+      "contents": "(plug-in-align-layers ${1:run-mode} ${2:image} ${3:drawable} ${4:link-after-alignment} ${5:use-bottom})"
+    },
+    {
+      "trigger": "image-get-channel-by-tattoo",
+      "contents": "(gimp-image-get-channel-by-tattoo ${1:image} ${2:tattoo})"
+    },
+    {
+      "trigger": "context-get-ink-blob-aspect-ratio",
+      "contents": "(gimp-context-get-ink-blob-aspect-ratio)"
+    },
+    {
+      "trigger": "image-add-sample-point",
+      "contents": "(gimp-image-add-sample-point ${1:image} ${2:position-x} ${3:position-y})"
+    },
+    {
+      "trigger": "gradient-segment-range-set-blending-function",
+      "contents": "(gimp-gradient-segment-range-set-blending-function ${1:name} ${2:start-segment} ${3:end-segment} ${4:blending-function})"
+    },
+    {
+      "trigger": "tile-blur",
+      "contents": "(script-fu-tile-blur ${1:run-mode} ${2:image} ${3:drawable} ${4:value} ${5:toggle} ${6:toggle} ${7:option})"
+    },
+    {
+      "trigger": "image-height",
+      "contents": "(gimp-image-height ${1:image})"
+    },
+    {
+      "trigger": "selection-float",
+      "contents": "(gimp-selection-float ${1:drawable} ${2:offx} ${3:offy})"
+    },
+    {
+      "trigger": "gradient-example",
+      "contents": "(script-fu-gradient-example ${1:run-mode} ${2:value} ${3:value} ${4:toggle})"
+    },
+    {
+      "trigger": "file-pnm-save",
+      "contents": "(file-pnm-save ${1:run-mode} ${2:image} ${3:drawable} ${4:filename} ${5:raw-filename} ${6:raw})"
+    },
+    {
+      "trigger": "brush-get-radius",
+      "contents": "(gimp-brush-get-radius ${1:name})"
+    },
+    {
+      "trigger": "file-xpm-load",
+      "contents": "(file-xpm-load ${1:run-mode} ${2:filename} ${3:raw-filename})"
+    },
+    {
+      "trigger": "drawable-threshold",
+      "contents": "(gimp-drawable-threshold ${1:drawable} ${2:channel} ${3:low-threshold} ${4:high-threshold})"
+    },
+    {
+      "trigger": "item-transform-translate",
+      "contents": "(gimp-item-transform-translate ${1:item} ${2:off-x} ${3:off-y})"
+    },
+    {
+      "trigger": "image-get-unit",
+      "contents": "(gimp-image-get-unit ${1:image})"
+    },
+    {
+      "trigger": "image-get-active-drawable",
+      "contents": "(gimp-image-get-active-drawable ${1:image})"
+    },
+    {
+      "trigger": "context-get-gradient",
+      "contents": "(gimp-context-get-gradient)"
+    },
+    {
+      "trigger": "image-get-layer-by-name",
+      "contents": "(gimp-image-get-layer-by-name ${1:image} ${2:name})"
+    },
+    {
+      "trigger": "file-raw-placeholder-sony-load",
+      "contents": "(file-raw-placeholder-sony-load ${1:run-mode} ${2:filename} ${3:raw-filename})"
+    },
+    {
+      "trigger": "file-raw-placeholder-orf-load",
+      "contents": "(file-raw-placeholder-orf-load ${1:run-mode} ${2:filename} ${3:raw-filename})"
+    },
+    {
+      "trigger": "sharpen",
+      "contents": "(plug-in-sharpen ${1:run-mode} ${2:image} ${3:drawable} ${4:percent})"
+    },
+    {
+      "trigger": "get-color-configuration",
+      "contents": "(gimp-get-color-configuration)"
+    },
+    {
+      "trigger": "context-get-background",
+      "contents": "(gimp-context-get-background)"
+    },
+    {
+      "trigger": "context-get-palette",
+      "contents": "(gimp-context-get-palette)"
+    },
+    {
+      "trigger": "autocrop-layer",
+      "contents": "(plug-in-autocrop-layer ${1:run-mode} ${2:image} ${3:drawable})"
+    },
+    {
+      "trigger": "image-set-tattoo-state",
+      "contents": "(gimp-image-set-tattoo-state ${1:image} ${2:tattoo-state})"
+    },
+    {
+      "trigger": "file-svg-load-thumb",
+      "contents": "(file-svg-load-thumb ${1:filename} ${2:thumb-size})"
+    },
+    {
+      "trigger": "context-get-diagonal-neighbors",
+      "contents": "(gimp-context-get-diagonal-neighbors)"
+    },
+    {
+      "trigger": "context-set-feather-radius",
+      "contents": "(gimp-context-set-feather-radius ${1:feather-radius-x} ${2:feather-radius-y})"
+    },
+    {
+      "trigger": "vectors-copy",
+      "contents": "(gimp-vectors-copy ${1:vectors})"
+    },
+    {
+      "trigger": "imagemap",
+      "contents": "(plug-in-imagemap ${1:run-mode} ${2:image} ${3:drawable})"
+    },
+    {
+      "trigger": "display-delete",
+      "contents": "(gimp-display-delete ${1:display})"
+    },
+    {
+      "trigger": "file-openraster-load",
+      "contents": "(file-openraster-load ${1:run-mode} ${2:filename} ${3:raw-filename})"
+    },
+    {
+      "trigger": "file-xz-load",
+      "contents": "(file-xz-load ${1:run-mode} ${2:filename} ${3:raw-filename})"
+    },
+    {
+      "trigger": "help-using-docks",
+      "contents": "(gimp-help-using-docks ${1:run-mode})"
+    },
+    {
+      "trigger": "gradient-get-number-of-segments",
+      "contents": "(gimp-gradient-get-number-of-segments ${1:name})"
+    },
+    {
+      "trigger": "image-get-vectors-by-tattoo",
+      "contents": "(gimp-image-get-vectors-by-tattoo ${1:image} ${2:tattoo})"
+    },
+    {
+      "trigger": "rotate",
+      "contents": "(plug-in-rotate ${1:run-mode} ${2:image} ${3:drawable} ${4:angle} ${5:everything})"
+    },
+    {
+      "trigger": "vectors-stroke-flip",
+      "contents": "(gimp-vectors-stroke-flip ${1:vectors} ${2:stroke-id} ${3:flip-type} ${4:axis})"
+    },
+    {
+      "trigger": "context-set-palette",
+      "contents": "(gimp-context-set-palette ${1:name})"
+    },
+    {
+      "trigger": "file-ps-load-thumb",
+      "contents": "(file-ps-load-thumb ${1:filename} ${2:thumb-size})"
+    },
+    {
+      "trigger": "colortoalpha",
+      "contents": "(plug-in-colortoalpha ${1:run-mode} ${2:image} ${3:drawable} ${4:color})"
+    },
+    {
+      "trigger": "nlfilt",
+      "contents": "(plug-in-nlfilt ${1:run-mode} ${2:img} ${3:drw} ${4:alpha} ${5:radius} ${6:filter})"
+    },
+    {
+      "trigger": "context-set-brush-hardness",
+      "contents": "(gimp-context-set-brush-hardness ${1:hardness})"
+    },
+    {
+      "trigger": "convolve",
+      "contents": "(gimp-convolve ${1:drawable} ${2:pressure} ${3:convolve-type} ${4:num-strokes} ${5:strokes})"
+    },
+    {
+      "trigger": "gradient-segment-set-middle-pos",
+      "contents": "(gimp-gradient-segment-set-middle-pos ${1:name} ${2:segment} ${3:pos})"
+    },
+    {
+      "trigger": "context-get-ink-speed-sensitivity",
+      "contents": "(gimp-context-get-ink-speed-sensitivity)"
+    },
+    {
+      "trigger": "file-gbr-save",
+      "contents": "(file-gbr-save ${1:run-mode} ${2:image} ${3:drawable} ${4:uri} ${5:raw-uri} ${6:spacing} ${7:description})"
+    },
+    {
+      "trigger": "image-delete-guide",
+      "contents": "(gimp-image-delete-guide ${1:image} ${2:guide})"
+    },
+    {
+      "trigger": "context-set-ink-blob-aspect-ratio",
+      "contents": "(gimp-context-set-ink-blob-aspect-ratio ${1:aspect})"
+    },
+    {
+      "trigger": "file-dicom-save",
+      "contents": "(file-dicom-save ${1:run-mode} ${2:image} ${3:drawable} ${4:filename} ${5:raw-filename})"
+    },
+    {
+      "trigger": "context-get-gradient-reverse",
+      "contents": "(gimp-context-get-gradient-reverse)"
+    },
+    {
+      "trigger": "file-webp-save",
+      "contents": "(file-webp-save ${1:run-mode} ${2:image} ${3:drawable} ${4:filename} ${5:raw-filename} ${6:preset} ${7:lossless} ${8:quality} ${9:alpha-quality} ${10:animation} ${11:anim-loop} ${12:minimize-size} ${13:kf-distance} ${14:exif} ${15:iptc} ${16:xmp} ${17:delay} ${18:force-delay})"
+    },
+    {
+      "trigger": "procedural-db-query",
+      "contents": "(gimp-procedural-db-query ${1:name} ${2:blurb} ${3:help} ${4:author} ${5:copyright} ${6:date} ${7:proc-type})"
+    },
+    {
+      "trigger": "context-get-brush-spacing",
+      "contents": "(gimp-context-get-brush-spacing)"
+    },
+    {
+      "trigger": "image-get-active-channel",
+      "contents": "(gimp-image-get-active-channel ${1:image})"
+    },
+    {
+      "trigger": "file-raw-placeholder-x3f-load",
+      "contents": "(file-raw-placeholder-x3f-load ${1:run-mode} ${2:filename} ${3:raw-filename})"
+    },
+    {
+      "trigger": "context-get-gradient-repeat-mode",
+      "contents": "(gimp-context-get-gradient-repeat-mode)"
+    },
+    {
+      "trigger": "sel2path",
+      "contents": "(plug-in-sel2path ${1:run-mode} ${2:image} ${3:drawable})"
+    },
+    {
+      "trigger": "image-grid-set-background-color",
+      "contents": "(gimp-image-grid-set-background-color ${1:image} ${2:bgcolor})"
+    },
+    {
+      "trigger": "checkerboard",
+      "contents": "(plug-in-checkerboard ${1:run-mode} ${2:image} ${3:drawable} ${4:check-mode} ${5:check-size})"
+    },
+    {
+      "trigger": "drawable-get-format",
+      "contents": "(gimp-drawable-get-format ${1:drawable})"
+    },
+    {
+      "trigger": "gradient-segment-range-replicate",
+      "contents": "(gimp-gradient-segment-range-replicate ${1:name} ${2:start-segment} ${3:end-segment} ${4:replicate-times})"
+    },
+    {
+      "trigger": "drawable-update",
+      "contents": "(gimp-drawable-update ${1:drawable} ${2:x} ${3:y} ${4:width} ${5:height})"
+    },
+    {
+      "trigger": "autostretch-hsv",
+      "contents": "(plug-in-autostretch-hsv ${1:run-mode} ${2:image} ${3:drawable})"
+    },
+    {
+      "trigger": "file-load-layer",
+      "contents": "(gimp-file-load-layer ${1:run-mode} ${2:image} ${3:filename})"
+    },
+    {
+      "trigger": "selection-none",
+      "contents": "(gimp-selection-none ${1:image})"
+    },
+    {
+      "trigger": "autocrop",
+      "contents": "(plug-in-autocrop ${1:run-mode} ${2:image} ${3:drawable})"
+    },
+    {
+      "trigger": "image-delete-sample-point",
+      "contents": "(gimp-image-delete-sample-point ${1:image} ${2:sample-point})"
+    },
+    {
+      "trigger": "line-nova",
+      "contents": "(script-fu-line-nova ${1:run-mode} ${2:image} ${3:drawable} ${4:value} ${5:value} ${6:value} ${7:value})"
+    },
+    {
+      "trigger": "vectors-stroke-get-point-at-dist",
+      "contents": "(gimp-vectors-stroke-get-point-at-dist ${1:vectors} ${2:stroke-id} ${3:dist} ${4:precision})"
+    },
+    {
+      "trigger": "drawable-desaturate",
+      "contents": "(gimp-drawable-desaturate ${1:drawable} ${2:desaturate-mode})"
+    },
+    {
+      "trigger": "item-is-channel",
+      "contents": "(gimp-item-is-channel ${1:item})"
+    },
+    {
+      "trigger": "progress-update",
+      "contents": "(gimp-progress-update ${1:percentage})"
+    },
+    {
+      "trigger": "brush-get-spikes",
+      "contents": "(gimp-brush-get-spikes ${1:name})"
+    },
+    {
+      "trigger": "attach-parasite",
+      "contents": "(gimp-attach-parasite ${1:parasite})"
+    },
+    {
+      "trigger": "ripple",
+      "contents": "(plug-in-ripple ${1:run-mode} ${2:image} ${3:drawable} ${4:period} ${5:amplitude} ${6:orientation} ${7:edges} ${8:waveform} ${9:antialias} ${10:tile})"
+    },
+    {
+      "trigger": "drawable-edit-bucket-fill",
+      "contents": "(gimp-drawable-edit-bucket-fill ${1:drawable} ${2:fill-type} ${3:x} ${4:y})"
+    },
+    {
+      "trigger": "layer-new-from-visible",
+      "contents": "(gimp-layer-new-from-visible ${1:image} ${2:dest-image} ${3:name})"
+    },
+    {
+      "trigger": "text-layer-set-indent",
+      "contents": "(gimp-text-layer-set-indent ${1:layer} ${2:indent})"
+    },
+    {
+      "trigger": "palette-get-colors",
+      "contents": "(gimp-palette-get-colors ${1:name})"
+    },
+    {
+      "trigger": "item-is-layer-mask",
+      "contents": "(gimp-item-is-layer-mask ${1:item})"
+    },
+    {
+      "trigger": "image-get-color-profile",
+      "contents": "(gimp-image-get-color-profile ${1:image})"
+    },
+    {
+      "trigger": "convmatrix",
+      "contents": "(plug-in-convmatrix ${1:run-mode} ${2:image} ${3:drawable} ${4:argc-matrix} ${5:matrix} ${6:alpha-alg} ${7:divisor} ${8:offset} ${9:argc-channels} ${10:channels} ${11:bmode})"
+    },
+    {
+      "trigger": "register-save-handler",
+      "contents": "(gimp-register-save-handler ${1:procedure-name} ${2:extensions} ${3:prefixes})"
+    },
+    {
+      "trigger": "gradient-segment-set-left-pos",
+      "contents": "(gimp-gradient-segment-set-left-pos ${1:name} ${2:segment} ${3:pos})"
+    },
+    {
+      "trigger": "get-default-comment",
+      "contents": "(gimp-get-default-comment)"
+    },
+    {
+      "trigger": "item-transform-perspective",
+      "contents": "(gimp-item-transform-perspective ${1:item} ${2:x0} ${3:y0} ${4:x1} ${5:y1} ${6:x2} ${7:y2} ${8:x3} ${9:y3})"
+    },
+    {
+      "trigger": "item-get-expanded",
+      "contents": "(gimp-item-get-expanded ${1:item})"
+    },
+    {
+      "trigger": "context-get-brush-size",
+      "contents": "(gimp-context-get-brush-size)"
+    },
+    {
+      "trigger": "text-layer-set-line-spacing",
+      "contents": "(gimp-text-layer-set-line-spacing ${1:layer} ${2:line-spacing})"
+    },
+    {
+      "trigger": "layer-set-blend-space",
+      "contents": "(gimp-layer-set-blend-space ${1:layer} ${2:blend-space})"
+    },
+    {
+      "trigger": "item-attach-parasite",
+      "contents": "(gimp-item-attach-parasite ${1:item} ${2:parasite})"
+    },
+    {
+      "trigger": "waves",
+      "contents": "(plug-in-waves ${1:run-mode} ${2:image} ${3:drawable} ${4:amplitude} ${5:phase} ${6:wavelength} ${7:type} ${8:reflective})"
+    },
+    {
+      "trigger": "maze",
+      "contents": "(plug-in-maze ${1:run-mode} ${2:image} ${3:drawable} ${4:width} ${5:height} ${6:tileable} ${7:algorithm} ${8:seed} ${9:multiple} ${10:offset})"
+    },
+    {
+      "trigger": "context-get-transform-resize",
+      "contents": "(gimp-context-get-transform-resize)"
+    },
+    {
+      "trigger": "context-set-antialias",
+      "contents": "(gimp-context-set-antialias ${1:antialias})"
+    },
+    {
+      "trigger": "threshold-alpha",
+      "contents": "(plug-in-threshold-alpha ${1:run-mode} ${2:image} ${3:drawable} ${4:threshold})"
+    },
+    {
+      "trigger": "context-get-interpolation",
+      "contents": "(gimp-context-get-interpolation)"
+    },
+    {
+      "trigger": "item-set-lock-content",
+      "contents": "(gimp-item-set-lock-content ${1:item} ${2:lock-content})"
+    },
+    {
+      "trigger": "getpid",
+      "contents": "(gimp-getpid)"
+    },
+    {
+      "trigger": "file-jpeg-load",
+      "contents": "(file-jpeg-load ${1:run-mode} ${2:filename} ${3:raw-filename})"
+    },
+    {
+      "trigger": "sample-colorize",
+      "contents": "(plug-in-sample-colorize ${1:run-mode} ${2:image} ${3:dst-drawable} ${4:sample-drawable} ${5:hold-inten} ${6:orig-inten} ${7:rnd-subcolors} ${8:guess-missing} ${9:in-low} ${10:in-high} ${11:gamma} ${12:out-low} ${13:out-high})"
+    },
+    {
+      "trigger": "gradient-segment-get-left-pos",
+      "contents": "(gimp-gradient-segment-get-left-pos ${1:name} ${2:segment})"
+    },
+    {
+      "trigger": "display-new",
+      "contents": "(gimp-display-new ${1:image})"
+    },
+    {
+      "trigger": "predator",
+      "contents": "(script-fu-predator ${1:run-mode} ${2:image} ${3:drawable} ${4:value} ${5:toggle} ${6:value} ${7:toggle} ${8:toggle})"
+    },
+    {
+      "trigger": "image-undo-disable",
+      "contents": "(gimp-image-undo-disable ${1:image})"
+    },
+    {
+      "trigger": "item-get-parasite-list",
+      "contents": "(gimp-item-get-parasite-list ${1:item})"
+    },
+    {
+      "trigger": "file-gz-load",
+      "contents": "(file-gz-load ${1:run-mode} ${2:filename} ${3:raw-filename})"
+    },
+    {
+      "trigger": "file-pix-load",
+      "contents": "(file-pix-load ${1:run-mode} ${2:filename} ${3:raw-filename})"
+    },
+    {
+      "trigger": "unit-get-digits",
+      "contents": "(gimp-unit-get-digits ${1:unit-id})"
+    },
+    {
+      "trigger": "drawable-histogram",
+      "contents": "(gimp-drawable-histogram ${1:drawable} ${2:channel} ${3:start-range} ${4:end-range})"
+    },
+    {
+      "trigger": "drawable-hue-saturation",
+      "contents": "(gimp-drawable-hue-saturation ${1:drawable} ${2:hue-range} ${3:hue-offset} ${4:lightness} ${5:saturation} ${6:overlap})"
+    },
+    {
+      "trigger": "spinning-globe",
+      "contents": "(script-fu-spinning-globe ${1:run-mode} ${2:image} ${3:drawable} ${4:value} ${5:toggle} ${6:toggle} ${7:value} ${8:toggle})"
+    },
+    {
+      "trigger": "text-layer-set-font-size",
+      "contents": "(gimp-text-layer-set-font-size ${1:layer} ${2:font-size} ${3:unit})"
+    },
+    {
+      "trigger": "hot",
+      "contents": "(plug-in-hot ${1:run-mode} ${2:image} ${3:drawable} ${4:mode} ${5:action} ${6:new-layer})"
+    },
+    {
+      "trigger": "layer-new-from-drawable",
+      "contents": "(gimp-layer-new-from-drawable ${1:drawable} ${2:dest-image})"
+    },
+    {
+      "trigger": "text-layer-get-color",
+      "contents": "(gimp-text-layer-get-color ${1:layer})"
+    },
+    {
+      "trigger": "edit-paste",
+      "contents": "(gimp-edit-paste ${1:drawable} ${2:paste-into})"
+    },
+    {
+      "trigger": "item-is-selection",
+      "contents": "(gimp-item-is-selection ${1:item})"
+    },
+    {
+      "trigger": "palette-entry-get-color",
+      "contents": "(gimp-palette-entry-get-color ${1:name} ${2:entry-num})"
+    },
+    {
+      "trigger": "context-set-dynamics",
+      "contents": "(gimp-context-set-dynamics ${1:name})"
+    },
+    {
+      "trigger": "palette-offset",
+      "contents": "(python-fu-palette-offset ${1:run-mode} ${2:palette} ${3:amount})"
+    },
+    {
+      "trigger": "palette-delete",
+      "contents": "(gimp-palette-delete ${1:name})"
+    },
+    {
+      "trigger": "illusion",
+      "contents": "(plug-in-illusion ${1:run-mode} ${2:image} ${3:drawable} ${4:division} ${5:type})"
+    },
+    {
+      "trigger": "image-find-next-sample-point",
+      "contents": "(gimp-image-find-next-sample-point ${1:image} ${2:sample-point})"
+    },
+    {
+      "trigger": "destripe",
+      "contents": "(plug-in-destripe ${1:run-mode} ${2:image} ${3:drawable} ${4:avg-width})"
+    },
+    {
+      "trigger": "text-layer-set-text",
+      "contents": "(gimp-text-layer-set-text ${1:layer} ${2:text})"
+    },
+    {
+      "trigger": "gradient-segment-range-delete",
+      "contents": "(gimp-gradient-segment-range-delete ${1:name} ${2:start-segment} ${3:end-segment})"
+    },
+    {
+      "trigger": "vectors-bezier-stroke-lineto",
+      "contents": "(gimp-vectors-bezier-stroke-lineto ${1:vectors} ${2:stroke-id} ${3:x0} ${4:y0})"
+    },
+    {
+      "trigger": "file-raw-load",
+      "contents": "(file-raw-load ${1:run-mode} ${2:filename} ${3:raw-filename})"
+    },
+    {
+      "trigger": "context-get-line-dash-pattern",
+      "contents": "(gimp-context-get-line-dash-pattern)"
+    },
+    {
+      "trigger": "slide",
+      "contents": "(script-fu-slide ${1:run-mode} ${2:image} ${3:drawable} ${4:string} ${5:string} ${6:font} ${7:color} ${8:toggle})"
+    },
+    {
+      "trigger": "context-get-opacity",
+      "contents": "(gimp-context-get-opacity)"
+    },
+    {
+      "trigger": "image-clean-all",
+      "contents": "(gimp-image-clean-all ${1:image})"
+    },
+    {
+      "trigger": "map-object",
+      "contents": "(plug-in-map-object ${1:run-mode} ${2:image} ${3:drawable} ${4:maptype} ${5:viewpoint-x} ${6:viewpoint-y} ${7:viewpoint-z} ${8:position-x} ${9:position-y} ${10:position-z} ${11:firstaxis-x} ${12:firstaxis-y} ${13:firstaxis-z} ${14:secondaxis-x} ${15:secondaxis-y} ${16:secondaxis-z} ${17:rotationangle-x} ${18:rotationangle-y} ${19:rotationangle-z} ${20:lighttype} ${21:lightcolor} ${22:lightposition-x} ${23:lightposition-y} ${24:lightposition-z} ${25:lightdirection-x} ${26:lightdirection-y} ${27:lightdirection-z} ${28:ambient-intensity} ${29:diffuse-intensity} ${30:diffuse-reflectivity} ${31:specular-reflectivity} ${32:highlight} ${33:antialiasing} ${34:tiled} ${35:newimage} ${36:transparentbackground} ${37:radius} ${38:x-scale} ${39:y-scale} ${40:z-scale} ${41:cylinder-length} ${42:box-front-drawable} ${43:box-back-drawable} ${44:box-top-drawable} ${45:box-bottom-drawable} ${46:box-left-drawable} ${47:box-right-drawable} ${48:cyl-top-drawable} ${49:cyl-bottom-drawable})"
+    },
+    {
+      "trigger": "addborder",
+      "contents": "(script-fu-addborder ${1:run-mode} ${2:image} ${3:drawable} ${4:value} ${5:value} ${6:color} ${7:value})"
+    },
+    {
+      "trigger": "brush-new",
+      "contents": "(gimp-brush-new ${1:name})"
+    },
+    {
+      "trigger": "image-grid-set-foreground-color",
+      "contents": "(gimp-image-grid-set-foreground-color ${1:image} ${2:fgcolor})"
+    },
+    {
+      "trigger": "file-png-save2",
+      "contents": "(file-png-save2 ${1:run-mode} ${2:image} ${3:drawable} ${4:filename} ${5:raw-filename} ${6:interlace} ${7:compression} ${8:bkgd} ${9:gama} ${10:offs} ${11:phys} ${12:time} ${13:comment} ${14:svtrans})"
+    },
+    {
+      "trigger": "context-get-dynamics",
+      "contents": "(gimp-context-get-dynamics)"
+    },
+    {
+      "trigger": "buffer-get-height",
+      "contents": "(gimp-buffer-get-height ${1:buffer-name})"
+    },
+    {
+      "trigger": "layer-get-mode",
+      "contents": "(gimp-layer-get-mode ${1:layer})"
+    },
+    {
+      "trigger": "vinvert",
+      "contents": "(plug-in-vinvert ${1:run-mode} ${2:image} ${3:drawable})"
+    },
+    {
+      "trigger": "selection-rounded-rectangle",
+      "contents": "(script-fu-selection-rounded-rectangle ${1:run-mode} ${2:image} ${3:drawable} ${4:value} ${5:toggle})"
+    },
+    {
+      "trigger": "file-fli-info",
+      "contents": "(file-fli-info ${1:filename})"
+    },
+    {
+      "trigger": "guillotine",
+      "contents": "(plug-in-guillotine ${1:run-mode} ${2:image} ${3:drawable})"
+    },
+    {
+      "trigger": "server",
+      "contents": "(plug-in-script-fu-server ${1:run-mode} ${2:ip} ${3:port} ${4:logfile})"
+    },
+    {
+      "trigger": "brush-get-aspect-ratio",
+      "contents": "(gimp-brush-get-aspect-ratio ${1:name})"
+    },
+    {
+      "trigger": "image-crop",
+      "contents": "(gimp-image-crop ${1:image} ${2:new-width} ${3:new-height} ${4:offx} ${5:offy})"
+    },
+    {
+      "trigger": "drawable-edit-clear",
+      "contents": "(gimp-drawable-edit-clear ${1:drawable})"
+    },
+    {
+      "trigger": "context-set-opacity",
+      "contents": "(gimp-context-set-opacity ${1:opacity})"
+    },
+    {
+      "trigger": "file-bz2-load",
+      "contents": "(file-bz2-load ${1:run-mode} ${2:filename} ${3:raw-filename})"
+    },
+    {
+      "trigger": "dodgeburn-default",
+      "contents": "(gimp-dodgeburn-default ${1:drawable} ${2:num-strokes} ${3:strokes})"
+    },
+    {
+      "trigger": "context-get-pattern",
+      "contents": "(gimp-context-get-pattern)"
+    },
+    {
+      "trigger": "patterns-get-list",
+      "contents": "(gimp-patterns-get-list ${1:filter})"
+    },
+    {
+      "trigger": "randomize-pick",
+      "contents": "(plug-in-randomize-pick ${1:run-mode} ${2:image} ${3:drawable} ${4:rndm-pct} ${5:rndm-rcount} ${6:randomize} ${7:seed})"
+    },
+    {
+      "trigger": "patterns-popup",
+      "contents": "(gimp-patterns-popup ${1:pattern-callback} ${2:popup-title} ${3:initial-pattern})"
+    },
+    {
+      "trigger": "procedural-db-temp-name",
+      "contents": "(gimp-procedural-db-temp-name)"
+    },
+    {
+      "trigger": "register-load-handler",
+      "contents": "(gimp-register-load-handler ${1:procedure-name} ${2:extensions} ${3:prefixes})"
+    },
+    {
+      "trigger": "color-enhance",
+      "contents": "(plug-in-color-enhance ${1:run-mode} ${2:image} ${3:drawable})"
+    },
+    {
+      "trigger": "dilate",
+      "contents": "(plug-in-dilate ${1:run-mode} ${2:image} ${3:drawable} ${4:propagate-mode} ${5:propagating-channel} ${6:propagating-rate} ${7:direction-mask} ${8:lower-limit} ${9:upper-limit})"
+    },
+    {
+      "trigger": "context-set-mypaint-brush",
+      "contents": "(gimp-context-set-mypaint-brush ${1:name})"
+    },
+    {
+      "trigger": "context-set-paint-method",
+      "contents": "(gimp-context-set-paint-method ${1:name})"
+    },
+    {
+      "trigger": "gauss-rle",
+      "contents": "(plug-in-gauss-rle ${1:run-mode} ${2:image} ${3:drawable} ${4:radius} ${5:horizontal} ${6:vertical})"
+    },
+    {
+      "trigger": "file-fits-load",
+      "contents": "(file-fits-load ${1:run-mode} ${2:filename} ${3:raw-filename})"
+    },
+    {
+      "trigger": "image-convert-color-profile-from-file",
+      "contents": "(gimp-image-convert-color-profile-from-file ${1:image} ${2:uri} ${3:intent} ${4:bpc})"
+    },
+    {
+      "trigger": "vectors-export-to-string",
+      "contents": "(gimp-vectors-export-to-string ${1:image} ${2:vectors})"
+    },
+    {
+      "trigger": "debug-timer-start",
+      "contents": "(gimp-debug-timer-start)"
+    },
+    {
+      "trigger": "text-layer-set-letter-spacing",
+      "contents": "(gimp-text-layer-set-letter-spacing ${1:layer} ${2:letter-spacing})"
+    },
+    {
+      "trigger": "image-get-name",
+      "contents": "(gimp-image-get-name ${1:image})"
+    },
+    {
+      "trigger": "context-swap-colors",
+      "contents": "(gimp-context-swap-colors)"
+    },
+    {
+      "trigger": "image-select-round-rectangle",
+      "contents": "(gimp-image-select-round-rectangle ${1:image} ${2:operation} ${3:x} ${4:y} ${5:width} ${6:height} ${7:corner-radius-x} ${8:corner-radius-y})"
+    },
+    {
+      "trigger": "file-raw-placeholder-phaseone-load",
+      "contents": "(file-raw-placeholder-phaseone-load ${1:run-mode} ${2:filename} ${3:raw-filename})"
+    },
+    {
+      "trigger": "noisify",
+      "contents": "(plug-in-noisify ${1:run-mode} ${2:image} ${3:drawable} ${4:independent} ${5:noise-1} ${6:noise-2} ${7:noise-3} ${8:noise-4})"
+    },
+    {
+      "trigger": "file-tiff-load",
+      "contents": "(file-tiff-load ${1:run-mode} ${2:filename} ${3:raw-filename})"
+    },
+    {
+      "trigger": "context-set-pattern",
+      "contents": "(gimp-context-set-pattern ${1:name})"
+    },
+    {
+      "trigger": "file-xwd-save",
+      "contents": "(file-xwd-save ${1:run-mode} ${2:image} ${3:drawable} ${4:filename} ${5:raw-filename})"
+    },
+    {
+      "trigger": "drawable-is-indexed",
+      "contents": "(gimp-drawable-is-indexed ${1:drawable})"
+    },
+    {
+      "trigger": "gradient-segment-set-left-color",
+      "contents": "(gimp-gradient-segment-set-left-color ${1:name} ${2:segment} ${3:color} ${4:opacity})"
+    },
+    {
+      "trigger": "buffer-get-bytes",
+      "contents": "(gimp-buffer-get-bytes ${1:buffer-name})"
+    },
+    {
+      "trigger": "context-set-sample-threshold",
+      "contents": "(gimp-context-set-sample-threshold ${1:sample-threshold})"
+    },
+    {
+      "trigger": "image-thumbnail",
+      "contents": "(gimp-image-thumbnail ${1:image} ${2:width} ${3:height})"
+    },
+    {
+      "trigger": "palette-export-python",
+      "contents": "(gimp-palette-export-python ${1:run-mode} ${2:dirname} ${3:string})"
+    },
+    {
+      "trigger": "context-get-antialias",
+      "contents": "(gimp-context-get-antialias)"
+    },
+    {
+      "trigger": "refresh",
+      "contents": "(script-fu-refresh ${1:run-mode})"
+    },
+    {
+      "trigger": "gradient-segment-set-right-pos",
+      "contents": "(gimp-gradient-segment-set-right-pos ${1:name} ${2:segment} ${3:pos})"
+    },
+    {
+      "trigger": "recompose",
+      "contents": "(plug-in-recompose ${1:run-mode} ${2:image} ${3:drawable})"
+    },
+    {
+      "trigger": "online-main-web-site",
+      "contents": "(gimp-online-main-web-site ${1:run-mode})"
+    },
+    {
+      "trigger": "layer-get-apply-mask",
+      "contents": "(gimp-layer-get-apply-mask ${1:layer})"
+    },
+    {
+      "trigger": "layer-flatten",
+      "contents": "(gimp-layer-flatten ${1:layer})"
+    },
+    {
+      "trigger": "text-layer-set-base-direction",
+      "contents": "(gimp-text-layer-set-base-direction ${1:layer} ${2:direction})"
+    },
+    {
+      "trigger": "apply-canvas",
+      "contents": "(plug-in-apply-canvas ${1:run-mode} ${2:image} ${3:drawable} ${4:direction} ${5:depth})"
+    },
+    {
+      "trigger": "version",
+      "contents": "(gimp-version)"
+    },
+    {
+      "trigger": "selection-value",
+      "contents": "(gimp-selection-value ${1:image} ${2:x} ${3:y})"
+    },
+    {
+      "trigger": "exchange",
+      "contents": "(plug-in-exchange ${1:run-mode} ${2:image} ${3:drawable} ${4:from-red} ${5:from-green} ${6:from-blue} ${7:to-red} ${8:to-green} ${9:to-blue} ${10:red-threshold} ${11:green-threshold} ${12:blue-threshold})"
+    },
+    {
+      "trigger": "plugin-get-pdb-error-handler",
+      "contents": "(gimp-plugin-get-pdb-error-handler)"
+    },
+    {
+      "trigger": "vectors-stroke-close",
+      "contents": "(gimp-vectors-stroke-close ${1:vectors} ${2:stroke-id})"
+    },
+    {
+      "trigger": "layer-new",
+      "contents": "(gimp-layer-new ${1:image} ${2:width} ${3:height} ${4:type} ${5:name} ${6:opacity} ${7:mode})"
+    },
+    {
+      "trigger": "brush-set-radius",
+      "contents": "(gimp-brush-set-radius ${1:name} ${2:radius-in})"
+    },
+    {
+      "trigger": "text-layer-get-font-size",
+      "contents": "(gimp-text-layer-get-font-size ${1:layer})"
+    },
+    {
+      "trigger": "text-layer-set-color",
+      "contents": "(gimp-text-layer-set-color ${1:layer} ${2:color})"
+    },
+    {
+      "trigger": "file-jpeg-load-thumb",
+      "contents": "(file-jpeg-load-thumb ${1:filename} ${2:thumb-size})"
+    },
+    {
+      "trigger": "image-set-unit",
+      "contents": "(gimp-image-set-unit ${1:image} ${2:unit})"
+    },
+    {
+      "trigger": "gradient-save-as-css",
+      "contents": "(python-fu-gradient-save-as-css ${1:run-mode} ${2:gradient} ${3:file-name})"
+    },
+    {
+      "trigger": "context-get-ink-blob-angle",
+      "contents": "(gimp-context-get-ink-blob-angle)"
+    },
+    {
+      "trigger": "drawable-thumbnail",
+      "contents": "(gimp-drawable-thumbnail ${1:drawable} ${2:width} ${3:height})"
+    },
+    {
+      "trigger": "palette-entry-set-color",
+      "contents": "(gimp-palette-entry-set-color ${1:name} ${2:entry-num} ${3:color})"
+    },
+    {
+      "trigger": "file-raw-placeholder-canon-load",
+      "contents": "(file-raw-placeholder-canon-load ${1:run-mode} ${2:filename} ${3:raw-filename})"
+    },
+    {
+      "trigger": "file-tga-save",
+      "contents": "(file-tga-save ${1:run-mode} ${2:image} ${3:drawable} ${4:filename} ${5:raw-filename} ${6:rle} ${7:origin})"
+    },
+    {
+      "trigger": "context-pop",
+      "contents": "(gimp-context-pop)"
+    },
+    {
+      "trigger": "displace",
+      "contents": "(plug-in-displace ${1:run-mode} ${2:image} ${3:drawable} ${4:amount-x} ${5:amount-y} ${6:do-x} ${7:do-y} ${8:displace-map-x} ${9:displace-map-y} ${10:displace-type})"
+    },
+    {
+      "trigger": "file-gih-save-internal",
+      "contents": "(file-gih-save-internal ${1:dummy-param} ${2:image} ${3:drawable} ${4:uri} ${5:raw-uri} ${6:spacing} ${7:name} ${8:params})"
+    },
+    {
+      "trigger": "carve-it",
+      "contents": "(script-fu-carve-it ${1:run-mode} ${2:image} ${3:drawable} ${4:drawable} ${5:toggle})"
+    },
+    {
+      "trigger": "eval",
+      "contents": "(plug-in-script-fu-eval ${1:run-mode} ${2:code})"
+    },
+    {
+      "trigger": "channel-get-show-masked",
+      "contents": "(gimp-channel-get-show-masked ${1:channel})"
+    },
+    {
+      "trigger": "context-set-gradient-fg-bg-hsv-cw",
+      "contents": "(gimp-context-set-gradient-fg-bg-hsv-cw)"
+    },
+    {
+      "trigger": "file-raw-save2",
+      "contents": "(file-raw-save2 ${1:run-mode} ${2:image} ${3:drawable} ${4:filename} ${5:raw-filename} ${6:image-type} ${7:palette-type})"
+    },
+    {
+      "trigger": "procedural-db-proc-arg",
+      "contents": "(gimp-procedural-db-proc-arg ${1:procedure-name} ${2:arg-num})"
+    },
+    {
+      "trigger": "context-set-gradient-fg-transparent",
+      "contents": "(gimp-context-set-gradient-fg-transparent)"
+    },
+    {
+      "trigger": "papertile",
+      "contents": "(plug-in-papertile ${1:run-mode} ${2:image} ${3:drawable} ${4:tile-size} ${5:move-max} ${6:fractional-type} ${7:wrap-around} ${8:centering} ${9:background-type} ${10:background-color} ${11:background-alpha})"
+    },
+    {
+      "trigger": "image-get-uri",
+      "contents": "(gimp-image-get-uri ${1:image})"
+    },
+    {
+      "trigger": "image-set-color-profile",
+      "contents": "(gimp-image-set-color-profile ${1:image} ${2:num-bytes} ${3:color-profile})"
+    },
+    {
+      "trigger": "file-glob",
+      "contents": "(file-glob ${1:pattern} ${2:encoding})"
+    },
+    {
+      "trigger": "font-map",
+      "contents": "(script-fu-font-map ${1:run-mode} ${2:string} ${3:toggle} ${4:toggle} ${5:string} ${6:value} ${7:value} ${8:option})"
+    }
+  ]
+}
+
+// Author ... civAnimal ... 2020
