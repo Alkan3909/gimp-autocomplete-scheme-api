@@ -1,9 +1,9 @@
-##GIMP Auto-Complete Scheme API for Sublime Text
+## GIMP Auto-Complete Scheme API for Sublime Text
 
-This auto-complete package covers _1000+_ Procedures and Constants available in GIMP's Plugin API. Yes, all these procedures and constants are now just a few keys away. Simply type some letters of the procedure you want to use in your code. When you press the`Enter`key, the procedure, together with parenthesis and arguments(if any) shall appear at cursor location. You could cycle through the arguments by pressing the`Tab`key.
+This auto-complete package covers __1000+__ Procedures and Constants available in GIMP's Plugin API. Yes, all these procedures and constants are now just a few keys away. Simply type some letters of the procedure you want to use in your code. When you press the `Enter` key, the procedure, together with parenthesis and arguments(if any) shall appear at cursor location. You could cycle through the arguments by pressing the `Tab` key.
 
 
-###Examples
+### Examples
 
 
  Text Entered   |  Result
@@ -21,16 +21,16 @@ This auto-complete package covers _1000+_ Procedures and Constants available in 
  `cnno`         |   `RUN-NONINTERACTIVE`
 
 
-###Installation
+### Installation
 
 Download the package: https://github.com/civAnimal/gimp-autocomplete-scheme-api/archive/master.zip
-After extraction, copy`gimp-autocomplete-scheme-api`folder to Sublime Text's installed packages folder. You can locate this folder from Sublime Text by using the menu command: _Preferences_ → _Browse Packages_.
+After extraction, copy `gimp-autocomplete-scheme-api` folder to Sublime Text's installed packages folder. You can locate this folder from Sublime Text by using the menu command: _Preferences_ → _Browse Packages_.
 
 
-###Notes
+### Notes
 
 The data is based upon GIMP 2.10.20.01.
-This package has been shared in good faith. It is a _gift_ to my fellow Scheme programmers who are bravely exploring the wonderful world of GIMP. I hope it will make their coding-experience a bit more pleasant.
+This package has been shared in good faith. It is a __gift__ to my fellow Scheme programmers who are bravely exploring the wonderful world of GIMP. I hope it will make their coding-experience a bit more pleasant.
 Happy car-ing.
 
 Copyright © 2020 civAnimal ... civanimal@gmail.com ...`civAnimal Twitter`
