@@ -24,7 +24,7 @@ This auto-complete package covers __1000+__ Procedures and Constants available i
 ### Installation
 
 Download the package: https://github.com/civAnimal/gimp-autocomplete-scheme-api/archive/master.zip
-After extraction, copy `gimp-autocomplete-scheme-api` folder to Sublime Text's installed packages folder. You can locate this folder from Sublime Text by using the menu command: _Preferences_ → _Browse Packages_.
+After extraction, copy `gimp-autocomplete-scheme-api` folder to Sublime Text's _Packages_ folder. You can locate this folder from Sublime Text by using the menu command: _Preferences_ → _Browse Packages_.
 
 
 ### Notes
