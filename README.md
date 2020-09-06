@@ -1,3 +1,5 @@
+A new & improved version is available here: https://github.com/civAnimal/gimp_autocomplete_scheme
+
 ## GIMP Auto-Complete Scheme API for Sublime Text
 
 This auto-complete package covers __1000+__ Procedures and Constants available in GIMP's Plugin API. Yes, all these procedures and constants are now just a few keys away. Simply type some letters of the procedure you want to use in your code. When you press the `Enter` key, the procedure, together with parenthesis and arguments(if any) shall appear at cursor location. You could cycle through the arguments by pressing the `Tab` key.
